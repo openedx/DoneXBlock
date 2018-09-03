@@ -54,6 +54,7 @@ class DoneXBlock(XBlock):
 
         return {'state': self.done}
 
+    @XBlock.supports("multi_device")
     def student_view(self, context=None):  # pylint: disable=unused-argument
         """
         The primary view of the DoneXBlock, shown to students
