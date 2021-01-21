@@ -1,6 +1,5 @@
 """ Show a toggle which lets students mark things as done."""
 
-from __future__ import absolute_import
 
 import uuid
 
