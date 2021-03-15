@@ -31,6 +31,10 @@ def load_requirements(*requirements_paths):
     return list(requirements)
 
 
+with open('README.md') as readme:
+    long_description = readme.read()
+
+
 def is_requirement(line):
     """
     Return True if the requirement line is a package requirement;
@@ -41,7 +45,7 @@ def is_requirement(line):
 
 setup(
     name='done-xblock',
-    version='2.0.3',
+    version='2.0.4',
     description='done XBlock',   # TODO: write a better description.
     classifiers=[
         'Programming Language :: Python :: 2',
@@ -57,4 +61,6 @@ setup(
         ]
     },
     package_data=package_data("done", "static"),
+    long_description=long_description,
+    long_description_content_type='text/markdown'
 )
