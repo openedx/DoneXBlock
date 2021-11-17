@@ -87,9 +87,25 @@ def is_requirement(line):
     return line and line.strip() and not line.startswith(('-r', '#', '-e', 'git+', '-c'))
 
 
+def get_version(file_path):
+    """
+    Extract the version string from the file at the given relative path fragments.
+    """
+    filename = os.path.join(os.path.dirname(__file__), file_path)
+    with open(filename, encoding='utf-8') as opened_file:
+        version_file = opened_file.read()
+        version_match = re.search(r"(?m)^__version__ = ['\"]([^'\"]+)['\"]", version_file)
+    if version_match:
+        return version_match.group(1)
+    raise RuntimeError('Unable to find version string.')
+
+
+VERSION = get_version("done/__init__.py")
+
+
 setup(
     name='done-xblock',
-    version='2.0.4',
+    version=VERSION,
     description='done XBlock',   # TODO: write a better description.
     classifiers=[
         'Programming Language :: Python :: 2',
