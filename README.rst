@@ -4,13 +4,13 @@ DoneXBlock
 | |License: AGPL v3| |Python CI| |Publish package to PyPi|
 
 .. |License: AGPL v3| image:: https://img.shields.io/badge/License-AGPL_v3-blue.svg
-:target: https://www.gnu.org/licenses/agpl-3.0
+  :target: https://www.gnu.org/licenses/agpl-3.0
 
 .. |Python CI| image:: https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml/badge.svg
-:target: https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml
+  :target: https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml
 
 .. |Publish package to PyPi| image:: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
-:target: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
+  :target: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
 
 Purpose
 =======
