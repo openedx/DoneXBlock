@@ -9,7 +9,7 @@ DoneXBlock
 .. |Python CI| image:: https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml/badge.svg
 :target: https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml
 
-..|Publish package to PyPi| image:: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
+.. |Publish package to PyPi| image:: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
 :target: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
 
 Purpose
