@@ -41,7 +41,7 @@ People
 
 The assigned maintainers for this component and other project details
 may be found in
-(Backstage)[https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock],
+[Backstage](https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock),
 or groked from inspecting catalog-info.yaml.
 
 History
