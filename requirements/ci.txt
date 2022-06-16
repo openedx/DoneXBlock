@@ -21,6 +21,10 @@ astroid==2.11.6
     #   -r requirements/test.txt
     #   pylint
     #   pylint-celery
+attrs==21.4.0
+    # via
+    #   -r requirements/test.txt
+    #   pytest
 binaryornot==0.4.4
     # via
     #   -r requirements/test.txt
@@ -145,6 +149,10 @@ importlib-metadata==4.11.4
     # via
     #   -r requirements/test.txt
     #   twine
+iniconfig==1.1.1
+    # via
+    #   -r requirements/test.txt
+    #   pytest
 isort==5.10.1
     # via
     #   -r requirements/test.txt
@@ -199,7 +207,9 @@ mock==4.0.3
     # via -r requirements/test.txt
 packaging==21.3
     # via
+    #   -r requirements/test.txt
     #   -r requirements/tox.txt
+    #   pytest
     #   tox
 pbr==5.9.0
     # via
@@ -217,11 +227,15 @@ platformdirs==2.5.2
     #   virtualenv
 pluggy==1.0.0
     # via
+    #   -r requirements/test.txt
     #   -r requirements/tox.txt
+    #   pytest
     #   tox
 py==1.11.0
     # via
+    #   -r requirements/test.txt
     #   -r requirements/tox.txt
+    #   pytest
     #   tox
 pycodestyle==2.8.0
     # via -r requirements/test.txt
@@ -256,12 +270,15 @@ pylint-plugin-utils==0.7
     #   pylint-django
 pyparsing==3.0.9
     # via
+    #   -r requirements/test.txt
     #   -r requirements/tox.txt
     #   packaging
 pypng==0.0.21
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
+pytest==7.1.2
+    # via -r requirements/test.txt
 python-dateutil==2.8.2
     # via
     #   -r requirements/test.txt
@@ -351,6 +368,7 @@ tomli==2.0.1
     # via
     #   -r requirements/test.txt
     #   pylint
+    #   pytest
 tomlkit==0.11.0
     # via
     #   -r requirements/test.txt
