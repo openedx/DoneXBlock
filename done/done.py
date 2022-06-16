@@ -78,7 +78,7 @@ class DoneXBlock(XBlock):
                                           'align': self.align.lower()})
         return frag
 
-    def studio_view(self, _context=None):  # pylint: disable=unused-argument
+    def studio_view(self, _context=None):
         '''
         Minimal view with no configuration options giving some help text.
         '''
