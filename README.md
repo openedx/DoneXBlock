@@ -1,6 +1,7 @@
 DoneXBlock
 ==============
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Publish package to PyPi](https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg)](https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml)
 
 Lets a student mark they've finished an activity. The student can
 click through two states of the XBlock, shown below:
