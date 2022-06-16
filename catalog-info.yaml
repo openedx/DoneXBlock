@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: DoneXBlock
+  annotations:
+    github.com/project-slug: openedx/DoneXBlock
+spec:
+  type: XBlock
+  lifecycle: production
+  owner: tcril-engineering
