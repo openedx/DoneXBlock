@@ -1,12 +1,17 @@
 ##########
 DoneXBlock
 ##########
-|License: AGPL v3| image:: https://img.shields.io/badge/License-AGPL_v3-blue.svg
+|License AGPL v3|
+|Python CI|
+|Publish package to PyPi|
+
+.. |License: AGPL v3| image:: https://img.shields.io/badge/License-AGPL_v3-blue.svg
 :target: https://www.gnu.org/licenses/agpl-3.0
 
-|Python CI| image::https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml/badge.svg
+.. |Python CI| image::https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml/badge.svg
 :target: https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml
-|Publish package to PyPi| image::https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
+
+..|Publish package to PyPi| image::https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
 :target: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
 
 Purpose
@@ -42,22 +47,24 @@ How to Contribute
 =================
 
 Details about how to become a contributor to the Open edX project may
-be found
-.. _here: https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base.
+be found in the wiki at `How to contribute`_
+
+.. _How to contribute: https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base
 
 The Open edX Code of Conduct
 ----------------------------
 
-All community members should familarize themselves with the .. _Open edX
-Code of Conduct: https://openedx.org/code-of-conduct/.
+All community members should familarize themselves with the `Open edX Code of Conduct`_.
+
+.. _Open edX Code of Conduct: https://openedx.org/code-of-conduct/
 
 People
 ======
 
 The assigned maintainers for this component and other project details
-may be found in
-..Backstage: https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock,
-or groked from inspecting catalog-info.yaml.
+may be found in `Backstage`_ or groked from inspecting catalog-info.yaml.
+
+.. _Backstage: https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock,
 
 Reporting Security Issues
 =========================
