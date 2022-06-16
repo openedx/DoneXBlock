@@ -3,8 +3,6 @@
 
 import uuid
 
-import six
-
 import pkg_resources
 from xblock.core import XBlock
 from xblock.fields import Boolean, DateTime, Float, Scope, String
