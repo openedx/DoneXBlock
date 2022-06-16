@@ -6,10 +6,10 @@ DoneXBlock
 .. |License: AGPL v3| image:: https://img.shields.io/badge/License-AGPL_v3-blue.svg
 :target: https://www.gnu.org/licenses/agpl-3.0
 
-.. |Python CI| image::https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml/badge.svg
+.. |Python CI| image:: https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml/badge.svg
 :target: https://github.com/openedx/DoneXBlock/actions/workflows/ci.yml
 
-..|Publish package to PyPi| image::https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
+..|Publish package to PyPi| image:: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
 :target: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
 
 Purpose
