@@ -34,3 +34,31 @@ upgrade: $(COMMON_CONSTRAINTS_TXT)  ## update the requirements/*.txt files with 
 	pip-compile --upgrade -o requirements/dev.txt requirements/dev.in
 	pip-compile --upgrade -o requirements/test.txt requirements/test.in
 
+## Localization targets
+
+WORKING_DIR := done
+EXTRACT_DIR := $(WORKING_DIR)/translations/en/LC_MESSAGES
+EXTRACTED_DJANGO := $(EXTRACT_DIR)/django-partial.po
+EXTRACTED_DJANGOJS := $(EXTRACT_DIR)/djangojs-partial.po
+EXTRACTED_TEXT := $(EXTRACT_DIR)/text.po
+
+extract_translations: ## extract strings to be translated, outputting .po files
+	cd $(WORKING_DIR) && i18n_tool extract
+	mv $(EXTRACTED_DJANGO) $(EXTRACTED_TEXT)
+	tail -n +20 $(EXTRACTED_DJANGOJS) >> $(EXTRACTED_TEXT)
+	rm $(EXTRACTED_DJANGOJS)
+	sed -i'' -e 's/nplurals=INTEGER/nplurals=2/' $(EXTRACTED_TEXT)
+	sed -i'' -e 's/plural=EXPRESSION/plural=\(n != 1\)/' $(EXTRACTED_TEXT)
+
+compile_translations: ## compile translation files, outputting .mo files for each supported language
+	cd $(WORKING_DIR) && i18n_tool generate
+
+detect_changed_source_translations:
+	cd $(WORKING_DIR) && i18n_tool changed
+
+dummy_translations: ## generate dummy translation (.po) files
+	cd $(WORKING_DIR) && i18n_tool dummy
+
+build_dummy_translations: dummy_translations compile_translations ## generate and compile dummy translation files
+
+validate_translations: build_dummy_translations detect_changed_source_translations ## validate translations
