@@ -18,9 +18,11 @@ Purpose
 Lets a student mark they've finished an activity. The student can
 click through two states of the XBlock, shown below:
 
-![Done screenshot](completionxblock_mark.png)
+| |mark|
+| |undo|
 
-![Done screenshot](completionxblock_undo.png)
+.. |mark| image:: completionxblock_mark.png
+.. |undo| image:: completionxblock_undo.png
 
 Status
 ======
