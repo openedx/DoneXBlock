@@ -1,7 +1,7 @@
 ##########
 DoneXBlock
 ##########
-| |License AGPL v3| |Python CI|| Publish package to PyPi|
+| |License AGPL v3| |Python CI| | Publish package to PyPi|
 
 .. |License: AGPL v3| image:: https://img.shields.io/badge/License-AGPL_v3-blue.svg
 :target: https://www.gnu.org/licenses/agpl-3.0
