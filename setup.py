@@ -70,7 +70,7 @@ def load_requirements(*requirements_paths):
     return constrained_requirements
 
 
-with open('README.md') as readme:
+with open('README.rst') as readme:
     long_description = readme.read()
 
 

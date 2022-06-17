@@ -3,8 +3,6 @@
 
 import uuid
 
-import six
-
 import pkg_resources
 from xblock.core import XBlock
 from xblock.fields import Boolean, DateTime, Float, Scope, String
@@ -80,7 +78,7 @@ class DoneXBlock(XBlock):
                                           'align': self.align.lower()})
         return frag
 
-    def studio_view(self, _context=None):  # pylint: disable=unused-argument
+    def studio_view(self, _context=None):
         '''
         Minimal view with no configuration options giving some help text.
         '''
