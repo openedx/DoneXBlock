@@ -35,6 +35,22 @@ Status
 
 Maintained
 
+Getting Started
+===============
+
+You can see the DoneXBlock in action in the XBlock Workbench.  Running the Workbench requires having docker running.
+
+.. code:: bash
+	  git clone git@github.com:openedx/DoneXBlock
+	  make install
+	  make dev.run
+
+You can interact with the DoneXBlock in the Workbench by navigating to http://localhost:8000
+
+For details regarding how to deploy this or any other XBlock in the lms instance, see the `installing-the-xblock`_ documentation.
+
+.. _installing-the-xblock: https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/edx_platform/devstack.html#installing-the-xblock
+
 Getting Help
 ============
 
