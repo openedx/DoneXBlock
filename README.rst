@@ -18,7 +18,7 @@ Purpose
 `XBlock`_ is the Open edX component architecture for building custom
 learning interactives.
 
-.. _XBlock: https://openedx.org/xblock
+.. _XBlock: https://openedx.org/r/xblock
 
 The DoneXBlock lets a student confirm that they've finished an
 activity. The student can click through two states of the XBlock,
@@ -73,7 +73,7 @@ How to Contribute
 Details about how to become a contributor to the Open edX project may
 be found in the wiki at `How to contribute`_
 
-.. _How to contribute: https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base
+.. _How to contribute: https://openedx.org/r/how-to-contribute
 
 The Open edX Code of Conduct
 ----------------------------
