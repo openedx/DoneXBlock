@@ -14,7 +14,7 @@ DoneXBlock
 
 .. |Maintenance Status| image:: https://img.shields.io/maintenance/yes/2022
   :alt: Maintenance
-	   
+
 Purpose
 =======
 
@@ -32,11 +32,6 @@ shown below:
 
 .. |mark| image:: completionxblock_mark.png
 .. |undo| image:: completionxblock_undo.png
-
-Status
-======
-
-Maintained
 
 Getting Started
 ===============
