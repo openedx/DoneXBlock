@@ -57,9 +57,18 @@ For details regarding how to deploy this or any other XBlock in the lms instance
 Getting Help
 ============
 
-If you're having trouble, we have discussion forums at https://discuss.openedx.org where you can connect with others in the community.
+If you're having trouble, we have discussion forums at
+https://discuss.openedx.org where you can connect with others in the
+community.
 
-Our real-time conversations are on Slack. You can request a `Slack invitation`_, then join our `community Slack workspace`_.
+Our real-time conversations are on Slack. You can request a `Slack
+invitation`_, then join our `community Slack workspace`_.
+
+For anything non-trivial, the best path is to open an issue in this
+repository with as many details about the issue you are facing as you
+can provide.
+
+https://github.com/openedx/DoneXBlock/issues
 
 For more information about these options, see the `Getting Help`_ page.
 
