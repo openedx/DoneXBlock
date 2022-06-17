@@ -42,6 +42,7 @@ You can see the DoneXBlock in action in the XBlock Workbench.  Running the Workb
 	  git clone git@github.com:openedx/DoneXBlock
 	  virtualenv venv/DoneXBlock/
 	  source venv/DoneXBlock/activate
+	  make upgrade
 	  make install
 	  make dev.run
 
