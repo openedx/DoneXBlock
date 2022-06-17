@@ -32,6 +32,8 @@ shown below:
 .. |mark| image:: completionxblock_mark.png
 .. |undo| image:: completionxblock_undo.png
 
+This can be useful for activities that are self directed or where completion is ambiguous.
+
 Getting Started
 ===============
 
