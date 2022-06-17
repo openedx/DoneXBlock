@@ -95,7 +95,7 @@ People
 The assigned maintainers for this component and other project details
 may be found in `Backstage`_ or groked from inspecting catalog-info.yaml.
 
-.. _Backstage: https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock,
+.. _Backstage: https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock
 
 Reporting Security Issues
 =========================
