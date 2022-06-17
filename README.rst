@@ -12,7 +12,8 @@ DoneXBlock
 .. |Publish package to PyPi| image:: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
   :target: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
 
-.. |Maintenance Status| image:: https://img.shields.io/maintenance/yes/2022   :alt: Maintenance
+.. |Maintenance Status| image:: https://img.shields.io/maintenance/yes/2022
+  :alt: Maintenance
 	   
 Purpose
 =======
