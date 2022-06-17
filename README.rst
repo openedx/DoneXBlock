@@ -1,7 +1,7 @@
 ##########
 DoneXBlock
 ##########
-| |License: AGPL v3| |Maintenance Status| |Python CI| |Publish package to PyPi|
+| |License: AGPL v3| |Status| |Python CI| |Publish package to PyPi|
 
 .. |License: AGPL v3| image:: https://img.shields.io/badge/License-AGPL_v3-blue.svg
   :target: https://www.gnu.org/licenses/agpl-3.0
@@ -12,8 +12,7 @@ DoneXBlock
 .. |Publish package to PyPi| image:: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
   :target: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
 
-.. |Maintenance Status| image:: https://img.shields.io/maintenance/yes/2022
-  :alt: Maintenance
+.. |Status| image:: https://img.shields.io/badge/status-maintained-sucess
 
 Purpose
 =======
