@@ -15,8 +15,14 @@ DoneXBlock
 Purpose
 =======
 
-Lets a student mark they've finished an activity. The student can
-click through two states of the XBlock, shown below:
+`XBlock`_ is the Open edX component architecture for building custom
+learning interactives.
+
+.. _XBlock: https://openedx.org/xblock
+
+The DoneXBlock lets a student confirm that they've finished an
+activity. The student can click through two states of the XBlock,
+shown below:
 
 | |mark|
 | |undo|
