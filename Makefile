@@ -1,3 +1,6 @@
+REPO_NAME := DoneXBlock
+DOCKER_NAME := donexblock
+
 install-test:
 	pip install -q -r requirements/test.txt
 
