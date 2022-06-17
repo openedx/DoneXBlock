@@ -41,7 +41,10 @@ Getting Started
 You can see the DoneXBlock in action in the XBlock Workbench.  Running the Workbench requires having docker running.
 
 .. code:: bash
+	  
 	  git clone git@github.com:openedx/DoneXBlock
+	  virtualenv venv/DoneXBlock/
+	  source venv/DoneXBlock/activate
 	  make install
 	  make dev.run
 
@@ -63,7 +66,6 @@ For more information about these options, see the `Getting Help`_ page.
 .. _Slack invitation: https://openedx-slack-invite.herokuapp.com/
 .. _community Slack workspace: https://openedx.slack.com/
 .. _Getting Help: https://openedx.org/getting-help
-
 
 How to Contribute
 =================
