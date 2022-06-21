@@ -37,11 +37,11 @@ boto==2.49.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-boto3==1.24.12
+boto3==1.24.13
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.27.12
+botocore==1.27.13
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -50,6 +50,10 @@ certifi==2022.6.15
     # via
     #   -r requirements/test.txt
     #   requests
+cffi==1.15.0
+    # via
+    #   -r requirements/test.txt
+    #   cryptography
 chardet==4.0.0
     # via
     #   -r requirements/test.txt
@@ -87,6 +91,10 @@ coverage==6.4.1
     #   coveralls
 coveralls==3.3.1
     # via -r requirements/test.txt
+cryptography==37.0.2
+    # via
+    #   -r requirements/test.txt
+    #   secretstorage
 ddt==1.5.0
     # via -r requirements/test.txt
 dill==0.3.5.1
@@ -99,7 +107,7 @@ distlib==0.3.4
     #   virtualenv
 django==3.2.13
     # via
-    #   -c requirements/common_constraints.txt
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
     #   django-pyfs
     #   xblock-sdk
@@ -150,6 +158,11 @@ isort==5.10.1
     # via
     #   -r requirements/test.txt
     #   pylint
+jeepney==0.8.0
+    # via
+    #   -r requirements/test.txt
+    #   keyring
+    #   secretstorage
 jinja2==3.1.2
     # via
     #   -r requirements/test.txt
@@ -227,6 +240,10 @@ py==1.11.0
     #   tox
 pycodestyle==2.8.0
     # via -r requirements/test.txt
+pycparser==2.21
+    # via
+    #   -r requirements/test.txt
+    #   cffi
 pygments==2.12.0
     # via
     #   -r requirements/test.txt
@@ -313,6 +330,10 @@ s3transfer==0.6.0
     # via
     #   -r requirements/test.txt
     #   boto3
+secretstorage==3.3.2
+    # via
+    #   -r requirements/test.txt
+    #   keyring
 simplejson==3.17.6
     # via
     #   -r requirements/test.txt
