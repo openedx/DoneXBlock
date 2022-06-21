@@ -1,0 +1,7 @@
+Decisions
+#########
+
+.. toctree::
+   :glob:
+
+   *
