@@ -1,0 +1,7 @@
+Quickstarts
+###########
+
+.. toctree::
+   :glob:
+
+   *

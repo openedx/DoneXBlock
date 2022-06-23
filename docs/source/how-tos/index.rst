@@ -1,0 +1,7 @@
+How Tos
+#######
+
+.. toctree::
+   :glob:
+
+   *
