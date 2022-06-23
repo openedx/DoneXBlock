@@ -10,10 +10,12 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
 from datetime import datetime
+
+sys.path.insert(0, os.path.abspath('../..'))
+print(sys.path)
 
 # -- Project information -----------------------------------------------------
 
@@ -29,6 +31,7 @@ copyright = f'{current_year}, The Center for Reimagining Learning'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
 ]
 
@@ -62,3 +65,6 @@ html_theme = 'sphinx_book_theme'
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None),
 }
+
+# -- Options for autosummary extension ---------------------------------------
+autosummary_imported_members = True
