@@ -24,9 +24,9 @@ bleach==5.0.0
     # via readme-renderer
 boto==2.49.0
     # via xblock-sdk
-boto3==1.24.13
+boto3==1.24.15
     # via fs-s3fs
-botocore==1.27.13
+botocore==1.27.15
     # via
     #   boto3
     #   s3transfer
@@ -64,7 +64,7 @@ dill==0.3.5.1
     # via pylint
 django==3.2.13
     # via
-    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
+    #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   django-pyfs
     #   xblock-sdk
 django-pyfs==3.2.0

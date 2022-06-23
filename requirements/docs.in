@@ -1,2 +1,5 @@
+
+-r base.txt
+
 Sphinx
 sphinx-book-theme
