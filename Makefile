@@ -92,6 +92,8 @@ build_dummy_translations: dummy_translations compile_translations ## generate an
 
 validate_translations: build_dummy_translations detect_changed_source_translations ## validate translations
 
+html: docs  ## An alias for the docs target.
+
 docs: ## generate Sphinx HTML documentation, including API docs
 	SPHINXOPTS="-W" make -C docs html
 	$(BROWSER)docs/build/html/index.html
