@@ -1,7 +1,7 @@
 ##########
 DoneXBlock
 ##########
-| |License: AGPL v3| |Python CI| |Publish package to PyPi|
+| |License: AGPL v3| |Status| |Python CI| |Publish package to PyPi|
 
 .. |License: AGPL v3| image:: https://img.shields.io/badge/License-AGPL_v3-blue.svg
   :target: https://www.gnu.org/licenses/agpl-3.0
@@ -12,11 +12,19 @@ DoneXBlock
 .. |Publish package to PyPi| image:: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml/badge.svg
   :target: https://github.com/openedx/DoneXBlock/actions/workflows/pypi-release.yml
 
+.. |Status| image:: https://img.shields.io/badge/status-maintained-31c653
+
 Purpose
 =======
 
-Lets a student mark they've finished an activity. The student can
-click through two states of the XBlock, shown below:
+`XBlock`_ is the Open edX component architecture for building custom
+learning interactives.
+
+.. _XBlock: https://openedx.org/r/xblock
+
+The DoneXBlock lets a student confirm that they've finished an
+activity. The student can click through two states of the XBlock,
+shown below:
 
 | |mark|
 | |undo|
@@ -24,17 +32,43 @@ click through two states of the XBlock, shown below:
 .. |mark| image:: completionxblock_mark.png
 .. |undo| image:: completionxblock_undo.png
 
-Status
-======
+This can be useful for activities that are self directed or where completion is ambiguous.
 
-Maintained
+Getting Started
+===============
+
+You can see the DoneXBlock in action in the XBlock Workbench.  Running the Workbench requires having docker running.
+
+.. code:: bash
+	  
+	  git clone git@github.com:openedx/DoneXBlock
+	  virtualenv venv/DoneXBlock/
+	  source venv/DoneXBlock/activate
+	  make upgrade
+	  make install
+	  make dev.run
+
+You can interact with the DoneXBlock in the Workbench by navigating to http://localhost:8000
+
+For details regarding how to deploy this or any other XBlock in the lms instance, see the `installing-the-xblock`_ documentation.
+
+.. _installing-the-xblock: https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/edx_platform/devstack.html#installing-the-xblock
 
 Getting Help
 ============
 
-If you're having trouble, we have discussion forums at https://discuss.openedx.org where you can connect with others in the community.
+If you're having trouble, we have discussion forums at
+https://discuss.openedx.org where you can connect with others in the
+community.
 
-Our real-time conversations are on Slack. You can request a `Slack invitation`_, then join our `community Slack workspace`_.
+Our real-time conversations are on Slack. You can request a `Slack
+invitation`_, then join our `community Slack workspace`_.
+
+For anything non-trivial, the best path is to open an issue in this
+repository with as many details about the issue you are facing as you
+can provide.
+
+https://github.com/openedx/DoneXBlock/issues
 
 For more information about these options, see the `Getting Help`_ page.
 
@@ -42,14 +76,13 @@ For more information about these options, see the `Getting Help`_ page.
 .. _community Slack workspace: https://openedx.slack.com/
 .. _Getting Help: https://openedx.org/getting-help
 
-
 How to Contribute
 =================
 
 Details about how to become a contributor to the Open edX project may
 be found in the wiki at `How to contribute`_
 
-.. _How to contribute: https://openedx.atlassian.net/wiki/spaces/COMM/pages/941457737/How+to+start+contributing+to+the+Open+edX+code+base
+.. _How to contribute: https://openedx.org/r/how-to-contribute
 
 The Open edX Code of Conduct
 ----------------------------
@@ -64,7 +97,7 @@ People
 The assigned maintainers for this component and other project details
 may be found in `Backstage`_ or groked from inspecting catalog-info.yaml.
 
-.. _Backstage: https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock,
+.. _Backstage: https://open-edx-backstage.herokuapp.com/catalog/default/component/DoneXBlock
 
 Reporting Security Issues
 =========================

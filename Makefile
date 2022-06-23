@@ -1,3 +1,6 @@
+REPO_NAME := DoneXBlock
+DOCKER_NAME := donexblock
+
 install-test:
 	pip install -q -r requirements/test.txt
 
@@ -34,6 +37,22 @@ upgrade: ## update the requirements/*.txt files with the latest packages satisfy
 	pip-compile --upgrade -o requirements/tox.txt requirements/tox.in
 	pip-compile --upgrade -o requirements/ci.txt requirements/ci.in
 	pip-compile --upgrade -o requirements/docs.txt requirements/docs.in
+
+
+requirements: ## install development environment requirements
+	pip install -r requirements/pip.txt
+	pip install -qr requirements/pip-tools.txt
+	pip install -r requirements/dev.txt
+
+dev.clean:
+	-docker rm $(DOCKER_NAME)-dev
+	-docker rmi $(DOCKER_NAME)-dev
+
+dev.build:
+	docker build -t $(DOCKER_NAME)-dev $(CURDIR)
+
+dev.run: dev.clean dev.build ## Clean, build and run test image
+	docker run -p 8000:8000 -v $(CURDIR):/usr/local/src/$(REPO_NAME) --name $(DOCKER_NAME)-dev $(DOCKER_NAME)-dev
 
 ## Localization targets
 
