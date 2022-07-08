@@ -1,7 +1,8 @@
 Quickstarts
 ###########
 
-.. toctree::
-   :glob:
 
-   *
+Currently there are no Quickstarts here, check out the `Getting Started`_ section
+in the README to get started with development.
+
+.. _Getting Started: https://github.com/openedx/DoneXBlock/#getting-started

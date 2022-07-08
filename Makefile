@@ -1,5 +1,14 @@
+.PHONY: docs upgrade test quality install
+
 REPO_NAME := DoneXBlock
 DOCKER_NAME := donexblock
+
+# For opening files in a browser. Use like: $(BROWSER)relative/path/to/file.html
+BROWSER := python -m webbrowser file://$(CURDIR)/
+
+help: ## display this help message
+	@echo "Please use \`make <target>' where <target> is one of"
+	@awk -F ':.*?## ' '/^[a-zA-Z]/ && NF==2 {printf "\033[36m  %-25s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST) | sort
 
 install-test:
 	pip install -q -r requirements/test.txt
@@ -82,3 +91,13 @@ dummy_translations: ## generate dummy translation (.po) files
 build_dummy_translations: dummy_translations compile_translations ## generate and compile dummy translation files
 
 validate_translations: build_dummy_translations detect_changed_source_translations ## validate translations
+
+html: docs  ## An alias for the docs target.
+
+docs: ## generate Sphinx HTML documentation, including API docs
+	SPHINXOPTS="-W" make -C docs html
+	$(BROWSER)docs/build/html/index.html
+
+docs-%: ## Passthrough docs make commands
+	SPHINXOPTS="-W" make -C docs $*
+

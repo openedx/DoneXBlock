@@ -1,4 +1,6 @@
-""" Show a toggle which lets students mark things as done."""
+"""
+Show a toggle which lets students mark things as done.
+"""
 
 
 import uuid
