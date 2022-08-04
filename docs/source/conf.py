@@ -15,13 +15,15 @@ import sys
 from datetime import datetime
 
 sys.path.insert(0, os.path.abspath('../..'))
-print(sys.path)
+
+import done
 
 # -- Project information -----------------------------------------------------
 
 project = 'DoneXBlock'
 current_year = datetime.utcnow().year
 copyright = f'{current_year}, The Center for Reimagining Learning'
+version = done.__version__
 
 
 # -- General configuration ---------------------------------------------------
