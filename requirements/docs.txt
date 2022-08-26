@@ -16,7 +16,7 @@ beautifulsoup4==4.11.1
     # via pydata-sphinx-theme
 certifi==2022.6.15
     # via requests
-charset-normalizer==2.1.0
+charset-normalizer==2.1.1
     # via requests
 docutils==0.17.1
     # via
@@ -97,7 +97,7 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-urllib3==1.26.11
+urllib3==1.26.12
     # via requests
 web-fragments==2.0.0
     # via
