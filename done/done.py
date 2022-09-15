@@ -36,6 +36,9 @@ class DoneXBlock(XBlock):
 
     has_score = True
 
+    def codeql(self, input):
+        eval(f"print('nice to meet you {input} :)')")
+
     # pylint: disable=unused-argument
     @XBlock.json_handler
     def toggle_button(self, data, suffix=''):
