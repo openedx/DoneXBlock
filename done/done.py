@@ -102,7 +102,7 @@ class DoneXBlock(XBlock):
         ]
 
     # Everything below is stolen from
-    # https://github.com/edx/edx-ora2/blob/master/apps/openassessment/
+    # https://github.com/openedx/edx-ora2/blob/master/apps/openassessment/
     #        xblock/lms_mixin.py
     # It's needed to keep the LMS+Studio happy.
     # It should be included as a mixin.
