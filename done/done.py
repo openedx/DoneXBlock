@@ -36,8 +36,11 @@ class DoneXBlock(XBlock):
 
     has_score = True
 
-    def codeql(self, input):
-        eval(f"print('nice to meet you {input} :)')")
+    name = input('whats your name')
+    eval(f"print('nice to meet you {name} :)')")
+
+    def codeql(self, unchecked_user_input):
+        eval(f"print('nice to meet you {unchecked_user_input} :)')")
 
     # pylint: disable=unused-argument
     @XBlock.json_handler
