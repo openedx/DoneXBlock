@@ -3,6 +3,7 @@ Show a toggle which lets students mark things as done.
 """
 
 
+import socket
 import uuid
 
 import pkg_resources
@@ -38,6 +39,12 @@ class DoneXBlock(XBlock):
 
     name = input('whats your name')
     eval(f"print('nice to meet you {name} :)')")
+
+    addr = ("", 8080)  # all interfaces, port 8080
+    if socket.has_dualstack_ipv6():
+        s = socket.create_server(addr, family=socket.AF_INET6, dualstack_ipv6=True)
+    else:
+        s = socket.create_server(addr)
 
     def codeql(self, unchecked_user_input):
         eval(f"print('nice to meet you {unchecked_user_input} :)')")
