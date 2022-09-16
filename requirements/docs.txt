@@ -16,7 +16,7 @@ beautifulsoup4==4.11.1
     # via pydata-sphinx-theme
 certifi==2022.6.15
     # via requests
-charset-normalizer==2.1.0
+charset-normalizer==2.1.1
     # via requests
 docutils==0.17.1
     # via
@@ -49,7 +49,7 @@ packaging==21.3
     #   sphinx
 pydata-sphinx-theme==0.8.1
     # via sphinx-book-theme
-pygments==2.12.0
+pygments==2.13.0
     # via sphinx
 pyparsing==3.0.9
     # via packaging
@@ -57,7 +57,7 @@ python-dateutil==2.8.2
     # via
     #   -r requirements/base.txt
     #   xblock
-pytz==2022.1
+pytz==2022.2.1
     # via
     #   -r requirements/base.txt
     #   babel
@@ -83,7 +83,7 @@ sphinx==4.5.0
     #   -r requirements/docs.in
     #   pydata-sphinx-theme
     #   sphinx-book-theme
-sphinx-book-theme==0.3.2
+sphinx-book-theme==0.3.3
     # via -r requirements/docs.in
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
@@ -97,7 +97,7 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-urllib3==1.26.10
+urllib3==1.26.12
     # via requests
 web-fragments==2.0.0
     # via
@@ -109,7 +109,7 @@ webob==1.8.7
     #   xblock
 xblock==1.6.1
     # via -r requirements/base.txt
-zipp==3.8.0
+zipp==3.8.1
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
