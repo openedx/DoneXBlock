@@ -12,6 +12,8 @@ on:
 
 jobs:
   call-upgrade-python-requirements-workflow:
+    # Do not run on forks
+    if: github.repository == 'openedx/DoneXBlock'
     uses: openedx/.github/.github/workflows/upgrade-python-requirements.yml@master
     with:
       branch: ${{ github.event.inputs.branch || '$default-branch' }}
