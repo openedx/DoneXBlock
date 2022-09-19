@@ -142,9 +142,3 @@ class DoneXBlock(XBlock):
         """The maximum raw score of our problem.
         """
         return 1
-
-    def add_nums(self, n, m):
-        """
-        Added to test whether coverage is running
-        """
-        return n+m
