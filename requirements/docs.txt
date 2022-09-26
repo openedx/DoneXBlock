@@ -14,7 +14,7 @@ babel==2.10.3
     # via sphinx
 beautifulsoup4==4.11.1
     # via pydata-sphinx-theme
-certifi==2022.6.15
+certifi==2022.9.24
     # via requests
 charset-normalizer==2.1.1
     # via requests
@@ -26,7 +26,7 @@ fs==2.4.16
     # via
     #   -r requirements/base.txt
     #   xblock
-idna==3.3
+idna==3.4
     # via requests
 imagesize==1.4.1
     # via sphinx
