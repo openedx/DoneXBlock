@@ -28,7 +28,7 @@ markupsafe==2.1.1
     # via
     #   -r requirements/base.txt
     #   xblock
-path==16.4.0
+path==16.5.0
     # via edx-i18n-tools
 polib==1.1.1
     # via edx-i18n-tools
@@ -50,7 +50,7 @@ six==1.16.0
     #   -r requirements/base.txt
     #   fs
     #   python-dateutil
-sqlparse==0.4.2
+sqlparse==0.4.3
     # via django
 web-fragments==2.0.0
     # via
