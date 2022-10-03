@@ -24,9 +24,9 @@ bleach==5.0.1
     # via readme-renderer
 boto==2.49.0
     # via xblock-sdk
-boto3==1.24.80
+boto3==1.24.84
     # via fs-s3fs
-botocore==1.27.80
+botocore==1.27.84
     # via
     #   boto3
     #   s3transfer
@@ -52,7 +52,7 @@ commonmark==0.9.1
     # via rich
 cookiecutter==2.1.1
     # via xblock-sdk
-coverage==6.4.4
+coverage==6.5.0
     # via coveralls
 coveralls==3.3.1
     # via -r requirements/test.in
@@ -87,7 +87,7 @@ fs-s3fs==1.1.1
     #   xblock-sdk
 idna==3.4
     # via requests
-importlib-metadata==4.12.0
+importlib-metadata==5.0.0
     # via
     #   keyring
     #   twine
@@ -95,7 +95,7 @@ iniconfig==1.1.1
     # via pytest
 isort==5.10.1
     # via pylint
-jaraco-classes==3.2.2
+jaraco-classes==3.2.3
     # via keyring
 jeepney==0.8.0
     # via
@@ -184,7 +184,7 @@ python-slugify==6.1.2
     # via
     #   code-annotations
     #   cookiecutter
-pytz==2022.2.1
+pytz==2022.4
     # via
     #   -r requirements/base.txt
     #   django
@@ -208,7 +208,7 @@ requests-toolbelt==0.9.1
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==12.5.1
+rich==12.6.0
     # via twine
 s3transfer==0.6.0
     # via boto3
@@ -234,7 +234,7 @@ tomli==2.0.1
     # via
     #   pylint
     #   pytest
-tomlkit==0.11.4
+tomlkit==0.11.5
     # via pylint
 twine==4.0.1
     # via -r requirements/test.in
