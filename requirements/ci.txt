@@ -105,7 +105,7 @@ distlib==0.3.6
     # via
     #   -r requirements/tox.txt
     #   virtualenv
-django==3.2.15
+django==3.2.16
     # via
     #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
