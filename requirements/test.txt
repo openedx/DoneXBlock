@@ -24,9 +24,9 @@ bleach==5.0.1
     # via readme-renderer
 boto==2.49.0
     # via xblock-sdk
-boto3==1.24.80
+boto3==1.24.89
     # via fs-s3fs
-botocore==1.27.80
+botocore==1.27.89
     # via
     #   boto3
     #   s3transfer
@@ -52,7 +52,7 @@ commonmark==0.9.1
     # via rich
 cookiecutter==2.1.1
     # via xblock-sdk
-coverage==6.4.4
+coverage==6.5.0
     # via coveralls
 coveralls==3.3.1
     # via -r requirements/test.in
@@ -62,7 +62,7 @@ ddt==1.6.0
     # via -r requirements/test.in
 dill==0.3.5.1
     # via pylint
-django==3.2.15
+django==3.2.16
     # via
     #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   django-pyfs
@@ -87,7 +87,7 @@ fs-s3fs==1.1.1
     #   xblock-sdk
 idna==3.4
     # via requests
-importlib-metadata==4.12.0
+importlib-metadata==5.0.0
     # via
     #   keyring
     #   twine
@@ -95,7 +95,7 @@ iniconfig==1.1.1
     # via pytest
 isort==5.10.1
     # via pylint
-jaraco-classes==3.2.2
+jaraco-classes==3.2.3
     # via keyring
 jeepney==0.8.0
     # via
@@ -184,7 +184,7 @@ python-slugify==6.1.2
     # via
     #   code-annotations
     #   cookiecutter
-pytz==2022.2.1
+pytz==2022.4
     # via
     #   -r requirements/base.txt
     #   django
@@ -204,11 +204,11 @@ requests==2.28.1
     #   requests-toolbelt
     #   twine
     #   xblock-sdk
-requests-toolbelt==0.9.1
+requests-toolbelt==0.10.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==12.5.1
+rich==12.6.0
     # via twine
 s3transfer==0.6.0
     # via boto3
@@ -234,11 +234,11 @@ tomli==2.0.1
     # via
     #   pylint
     #   pytest
-tomlkit==0.11.4
+tomlkit==0.11.5
     # via pylint
 twine==4.0.1
     # via -r requirements/test.in
-typing-extensions==4.3.0
+typing-extensions==4.4.0
     # via
     #   astroid
     #   pylint
@@ -268,7 +268,7 @@ xblock==1.6.1
     #   xblock-sdk
 xblock-sdk==0.5.1
     # via -r requirements/test.in
-zipp==3.8.1
+zipp==3.9.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
