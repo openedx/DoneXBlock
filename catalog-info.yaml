@@ -17,6 +17,6 @@ metadata:
       title: Grimoire Pull Request Backlog
       icon: dashboard
 spec:
-  type: XBlock
-  lifecycle: production
-  owner: tcril-engineering
+  type: 'library'
+  lifecycle: 'production'
+  owner: 'group:tcril-engineering'
