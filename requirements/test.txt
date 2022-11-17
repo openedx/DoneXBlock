@@ -24,9 +24,9 @@ bleach==5.0.1
     # via readme-renderer
 boto==2.49.0
     # via xblock-sdk
-boto3==1.26.8
+boto3==1.26.11
     # via fs-s3fs
-botocore==1.29.8
+botocore==1.29.11
     # via
     #   boto3
     #   s3transfer
@@ -75,7 +75,7 @@ docutils==0.19
     # via readme-renderer
 edx-lint==5.3.0
     # via -r requirements/test.in
-exceptiongroup==1.0.2
+exceptiongroup==1.0.4
     # via pytest
 fs==2.4.16
     # via
@@ -214,7 +214,7 @@ s3transfer==0.6.0
     # via boto3
 secretstorage==3.3.3
     # via keyring
-simplejson==3.17.6
+simplejson==3.18.0
     # via xblock-sdk
 six==1.16.0
     # via
