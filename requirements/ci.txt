@@ -37,11 +37,11 @@ boto==2.49.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-boto3==1.26.13
+boto3==1.26.16
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.29.13
+botocore==1.29.16
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -91,7 +91,7 @@ coverage==6.5.0
     #   coveralls
 coveralls==3.3.1
     # via -r requirements/test.txt
-cryptography==38.0.3
+cryptography==38.0.4
     # via
     #   -r requirements/test.txt
     #   secretstorage
@@ -149,7 +149,7 @@ idna==3.4
     # via
     #   -r requirements/test.txt
     #   requests
-importlib-metadata==5.0.0
+importlib-metadata==5.1.0
     # via
     #   -r requirements/test.txt
     #   keyring
@@ -248,7 +248,7 @@ py==1.11.0
     # via
     #   -r requirements/tox.txt
     #   tox
-pycodestyle==2.9.1
+pycodestyle==2.10.0
     # via -r requirements/test.txt
 pycparser==2.21
     # via
@@ -391,7 +391,7 @@ typing-extensions==4.4.0
     #   astroid
     #   pylint
     #   rich
-urllib3==1.26.12
+urllib3==1.26.13
     # via
     #   -r requirements/test.txt
     #   botocore
@@ -425,7 +425,7 @@ xblock==1.6.1
     #   xblock-sdk
 xblock-sdk==0.5.1
     # via -r requirements/test.txt
-zipp==3.10.0
+zipp==3.11.0
     # via
     #   -r requirements/test.txt
     #   importlib-metadata
