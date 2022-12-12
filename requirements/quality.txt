@@ -20,13 +20,13 @@ binaryornot==0.4.4
     # via cookiecutter
 boto==2.49.0
     # via xblock-sdk
-boto3==1.26.22
+boto3==1.26.27
     # via fs-s3fs
-botocore==1.29.22
+botocore==1.29.27
     # via
     #   boto3
     #   s3transfer
-certifi==2022.9.24
+certifi==2022.12.7
     # via requests
 chardet==5.1.0
     # via binaryornot
@@ -100,11 +100,11 @@ mccabe==0.7.0
     # via pylint
 pbr==5.11.0
     # via stevedore
-platformdirs==2.5.4
+platformdirs==2.6.0
     # via pylint
 pycodestyle==2.10.0
     # via -r requirements/quality.in
-pylint==2.15.7
+pylint==2.15.8
     # via
     #   -r requirements/quality.in
     #   edx-lint
