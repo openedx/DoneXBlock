@@ -14,7 +14,7 @@ babel==2.11.0
     # via sphinx
 beautifulsoup4==4.11.1
     # via pydata-sphinx-theme
-certifi==2022.9.24
+certifi==2022.12.7
     # via requests
 charset-normalizer==2.1.1
     # via requests
@@ -43,7 +43,7 @@ markupsafe==2.1.1
     #   -r requirements/base.txt
     #   jinja2
     #   xblock
-packaging==21.3
+packaging==22.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -51,8 +51,6 @@ pydata-sphinx-theme==0.8.1
     # via sphinx-book-theme
 pygments==2.13.0
     # via sphinx
-pyparsing==3.0.9
-    # via packaging
 python-dateutil==2.8.2
     # via
     #   -r requirements/base.txt
