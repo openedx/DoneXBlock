@@ -10,13 +10,13 @@ appdirs==1.4.4
     #   fs
 arrow==1.2.3
     # via jinja2-time
-asgiref==3.5.2
+asgiref==3.6.0
     # via django
 astroid==2.12.13
     # via
     #   pylint
     #   pylint-celery
-attrs==22.1.0
+attrs==22.2.0
     # via pytest
 binaryornot==0.4.4
     # via cookiecutter
@@ -24,9 +24,9 @@ bleach==5.0.1
     # via readme-renderer
 boto==2.49.0
     # via xblock-sdk
-boto3==1.26.32
+boto3==1.26.37
     # via fs-s3fs
-botocore==1.29.32
+botocore==1.29.37
     # via
     #   boto3
     #   s3transfer
@@ -75,7 +75,7 @@ docutils==0.19
     # via readme-renderer
 edx-lint==5.3.0
     # via -r requirements/test.in
-exceptiongroup==1.0.4
+exceptiongroup==1.1.0
     # via pytest
 fs==2.4.16
     # via
@@ -97,7 +97,7 @@ importlib-resources==5.10.1
     # via keyring
 iniconfig==1.1.1
     # via pytest
-isort==5.11.3
+isort==5.11.4
     # via pylint
 jaraco-classes==3.2.3
     # via keyring
