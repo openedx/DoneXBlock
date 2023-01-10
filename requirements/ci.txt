@@ -16,7 +16,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/test.txt
     #   django
-astroid==2.12.13
+astroid==2.13.2
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -37,11 +37,11 @@ boto==2.49.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-boto3==1.26.41
+boto3==1.26.45
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.29.41
+botocore==1.29.45
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -91,7 +91,7 @@ coverage==6.5.0
     #   coveralls
 coveralls==3.3.1
     # via -r requirements/test.txt
-cryptography==38.0.4
+cryptography==39.0.0
     # via
     #   -r requirements/test.txt
     #   secretstorage
@@ -158,7 +158,7 @@ importlib-resources==5.10.2
     # via
     #   -r requirements/test.txt
     #   keyring
-iniconfig==1.1.1
+iniconfig==2.0.0
     # via
     #   -r requirements/test.txt
     #   pytest
@@ -198,7 +198,7 @@ lazy==1.5
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-lazy-object-proxy==1.8.0
+lazy-object-proxy==1.9.0
     # via
     #   -r requirements/test.txt
     #   astroid
@@ -222,7 +222,7 @@ more-itertools==9.0.0
     # via
     #   -r requirements/test.txt
     #   jaraco-classes
-packaging==22.0
+packaging==23.0
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
@@ -232,7 +232,7 @@ pbr==5.11.0
     # via
     #   -r requirements/test.txt
     #   stevedore
-pkginfo==1.9.2
+pkginfo==1.9.6
     # via
     #   -r requirements/test.txt
     #   twine
@@ -331,7 +331,7 @@ rfc3986==2.0.0
     # via
     #   -r requirements/test.txt
     #   twine
-rich==13.0.0
+rich==13.0.1
     # via
     #   -r requirements/test.txt
     #   twine
@@ -343,7 +343,7 @@ secretstorage==3.3.3
     # via
     #   -r requirements/test.txt
     #   keyring
-simplejson==3.18.0
+simplejson==3.18.1
     # via
     #   -r requirements/test.txt
     #   xblock-sdk

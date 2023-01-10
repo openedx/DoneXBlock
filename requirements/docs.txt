@@ -43,7 +43,7 @@ markupsafe==2.1.1
     #   -r requirements/base.txt
     #   jinja2
     #   xblock
-packaging==22.0
+packaging==23.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -83,7 +83,7 @@ sphinx==4.5.0
     #   sphinx-book-theme
 sphinx-book-theme==0.3.3
     # via -r requirements/docs.in
-sphinxcontrib-applehelp==1.0.2
+sphinxcontrib-applehelp==1.0.3
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
     # via sphinx
