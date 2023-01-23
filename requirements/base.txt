@@ -10,7 +10,7 @@ fs==2.4.16
     # via xblock
 lxml==4.9.2
     # via xblock
-markupsafe==2.1.1
+markupsafe==2.1.2
     # via xblock
 python-dateutil==2.8.2
     # via xblock

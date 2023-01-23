@@ -12,7 +12,7 @@ arrow==1.2.3
     # via jinja2-time
 asgiref==3.6.0
     # via django
-astroid==2.13.2
+astroid==2.13.3
     # via
     #   pylint
     #   pylint-celery
@@ -20,9 +20,9 @@ binaryornot==0.4.4
     # via cookiecutter
 boto==2.49.0
     # via xblock-sdk
-boto3==1.26.50
+boto3==1.26.54
     # via fs-s3fs
-botocore==1.29.50
+botocore==1.29.54
     # via
     #   boto3
     #   s3transfer
@@ -91,7 +91,7 @@ lxml==4.9.2
     #   -r requirements/base.txt
     #   xblock
     #   xblock-sdk
-markupsafe==2.1.1
+markupsafe==2.1.2
     # via
     #   -r requirements/base.txt
     #   jinja2
