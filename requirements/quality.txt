@@ -20,9 +20,9 @@ binaryornot==0.4.4
     # via cookiecutter
 boto==2.49.0
     # via xblock-sdk
-boto3==1.26.54
+boto3==1.26.59
     # via fs-s3fs
-botocore==1.29.54
+botocore==1.29.59
     # via
     #   boto3
     #   s3transfer
@@ -69,7 +69,7 @@ fs-s3fs==1.1.1
     #   xblock-sdk
 idna==3.4
     # via requests
-isort==5.11.4
+isort==5.12.0
     # via pylint
 jinja2==3.1.2
     # via
@@ -127,7 +127,7 @@ python-dateutil==2.8.2
     #   arrow
     #   botocore
     #   xblock
-python-slugify==7.0.0
+python-slugify==8.0.0
     # via
     #   code-annotations
     #   cookiecutter
@@ -187,7 +187,7 @@ webob==1.8.7
     #   xblock-sdk
 wrapt==1.14.1
     # via astroid
-xblock==1.6.1
+xblock==1.6.2
     # via
     #   -r requirements/base.txt
     #   xblock-sdk
