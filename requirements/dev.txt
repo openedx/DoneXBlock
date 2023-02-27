@@ -30,7 +30,7 @@ markupsafe==2.1.2
     #   xblock
 path==16.6.0
     # via edx-i18n-tools
-polib==1.1.1
+polib==1.2.0
     # via edx-i18n-tools
 python-dateutil==2.8.2
     # via
