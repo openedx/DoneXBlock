@@ -107,7 +107,7 @@ webob==1.8.7
     #   xblock
 xblock==1.6.2
     # via -r requirements/base.txt
-zipp==3.14.0
+zipp==3.15.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
