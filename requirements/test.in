@@ -9,3 +9,4 @@ edx_lint
 pytest
 twine
 xblock-sdk
+mock

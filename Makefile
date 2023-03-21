@@ -26,7 +26,7 @@ quality:  ## Run the quality checks
 test:  ## Run the tests
 	mkdir -p var
 	rm -rf .coverage
-	python -m coverage run --rcfile=.coveragerc  -m pytest
+	python -m coverage run --rcfile=.coveragerc ./test_settings.py --noinput done/tests/
 
 covreport:  ## Show the coverage results
 	python -m coverage report -m --skip-covered
