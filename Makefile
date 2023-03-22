@@ -25,7 +25,9 @@ quality:  ## Run the quality checks
 	twine check dist/*
 
 test:  ## Run the tests
-	pytest
+	mkdir -p var
+	rm -rf .coverage
+	python -m coverage run --rcfile=.coveragerc ./test_settings.py --noinput done/tests/
 
 covreport:  ## Show the coverage results
 	python -m coverage report -m --skip-covered
