@@ -12,7 +12,7 @@ arrow==1.2.3
     # via jinja2-time
 asgiref==3.6.0
     # via django
-astroid==2.15.0
+astroid==2.15.1
     # via
     #   pylint
     #   pylint-celery
@@ -24,9 +24,9 @@ bleach==6.0.0
     # via readme-renderer
 boto==2.49.0
     # via xblock-sdk
-boto3==1.26.94
+boto3==1.26.99
     # via fs-s3fs
-botocore==1.29.94
+botocore==1.29.99
     # via
     #   boto3
     #   s3transfer
@@ -54,7 +54,7 @@ coverage==6.5.0
     # via coveralls
 coveralls==3.3.1
     # via -r requirements/test.in
-cryptography==39.0.2
+cryptography==40.0.1
     # via secretstorage
 ddt==1.6.0
     # via -r requirements/test.in
@@ -146,7 +146,7 @@ pbr==5.11.1
     # via stevedore
 pkginfo==1.9.6
     # via twine
-platformdirs==3.1.1
+platformdirs==3.2.0
     # via pylint
 pluggy==1.0.0
     # via pytest
@@ -158,7 +158,7 @@ pygments==2.14.0
     # via
     #   readme-renderer
     #   rich
-pylint==2.17.0
+pylint==2.17.1
     # via
     #   edx-lint
     #   pylint-celery
@@ -186,7 +186,7 @@ python-slugify==8.0.1
     # via
     #   code-annotations
     #   cookiecutter
-pytz==2022.7.1
+pytz==2023.2
     # via
     #   -r requirements/base.txt
     #   django

@@ -16,7 +16,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/test.txt
     #   django
-astroid==2.15.0
+astroid==2.15.1
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -37,11 +37,11 @@ boto==2.49.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-boto3==1.26.94
+boto3==1.26.99
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.29.94
+botocore==1.29.99
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -87,7 +87,7 @@ coverage==6.5.0
     #   coveralls
 coveralls==3.3.1
     # via -r requirements/test.txt
-cryptography==39.0.2
+cryptography==40.0.1
     # via
     #   -r requirements/test.txt
     #   secretstorage
@@ -121,7 +121,7 @@ exceptiongroup==1.1.1
     # via
     #   -r requirements/test.txt
     #   pytest
-filelock==3.10.0
+filelock==3.10.6
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -240,7 +240,7 @@ pkginfo==1.9.6
     # via
     #   -r requirements/test.txt
     #   twine
-platformdirs==3.1.1
+platformdirs==3.2.0
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
@@ -267,7 +267,7 @@ pygments==2.14.0
     #   -r requirements/test.txt
     #   readme-renderer
     #   rich
-pylint==2.17.0
+pylint==2.17.1
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -304,7 +304,7 @@ python-slugify==8.0.1
     #   -r requirements/test.txt
     #   code-annotations
     #   cookiecutter
-pytz==2022.7.1
+pytz==2023.2
     # via
     #   -r requirements/test.txt
     #   django
