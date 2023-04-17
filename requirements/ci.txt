@@ -16,7 +16,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/test.txt
     #   django
-astroid==2.15.2
+astroid==2.15.3
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -33,11 +33,11 @@ boto==2.49.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-boto3==1.26.109
+boto3==1.26.114
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.29.109
+botocore==1.29.114
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -83,7 +83,7 @@ coverage==6.5.0
     #   coveralls
 coveralls==3.3.1
     # via -r requirements/test.txt
-cryptography==40.0.1
+cryptography==40.0.2
     # via
     #   -r requirements/test.txt
     #   secretstorage
@@ -137,7 +137,7 @@ idna==3.4
     # via
     #   -r requirements/test.txt
     #   requests
-importlib-metadata==6.2.1
+importlib-metadata==6.4.1
     # via
     #   -r requirements/test.txt
     #   keyring
@@ -212,7 +212,7 @@ mdurl==0.1.2
     # via
     #   -r requirements/test.txt
     #   markdown-it-py
-mock==5.0.1
+mock==5.0.2
     # via -r requirements/test.txt
 more-itertools==9.1.0
     # via
@@ -222,7 +222,7 @@ openedx-django-pyfs==3.2.1
     # via
     #   -r requirements/test.txt
     #   xblock
-packaging==23.0
+packaging==23.1
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
@@ -258,7 +258,7 @@ pycparser==2.21
     # via
     #   -r requirements/test.txt
     #   cffi
-pygments==2.14.0
+pygments==2.15.0
     # via
     #   -r requirements/test.txt
     #   readme-renderer
@@ -287,7 +287,7 @@ pypng==0.20220715.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-pytest==7.3.0
+pytest==7.3.1
     # via -r requirements/test.txt
 python-dateutil==2.8.2
     # via
@@ -331,7 +331,7 @@ rfc3986==2.0.0
     # via
     #   -r requirements/test.txt
     #   twine
-rich==13.3.3
+rich==13.3.4
     # via
     #   -r requirements/test.txt
     #   twine
