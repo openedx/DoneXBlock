@@ -6,9 +6,12 @@ Show a toggle which lets students mark things as done.
 import uuid
 
 import pkg_resources
+from web_fragments.fragment import Fragment
 from xblock.core import XBlock
 from xblock.fields import Boolean, DateTime, Float, Scope, String
-from web_fragments.fragment import Fragment
+from xblockutils.resources import ResourceLoader
+
+resource_loader = ResourceLoader(__name__)
 
 
 def resource_string(path):
@@ -63,15 +66,19 @@ class DoneXBlock(XBlock):
         The primary view of the DoneXBlock, shown to students
         when viewing courses.
         """
-        html_resource = resource_string("static/html/done.html")
-        html = html_resource.format(done=self.done,
-                                    id=uuid.uuid1(0))
+        frag = Fragment()
+        frag.add_content(resource_loader.render_django_template(
+            'templates/done.html',
+            {
+                'id': uuid.uuid1(0),
+                'done': self.done,
+            },
+            i18n_service=self.runtime.service(self, 'i18n')
+        ))
         (unchecked_png, checked_png) = (
             self.runtime.local_resource_url(self, x) for x in
             ('public/check-empty.png', 'public/check-full.png')
         )
-
-        frag = Fragment(html)
         frag.add_css(resource_string("static/css/done.css"))
         frag.add_javascript(resource_string("static/js/src/done.js"))
         frag.initialize_js("DoneXBlock", {'state': self.done,
@@ -81,11 +88,15 @@ class DoneXBlock(XBlock):
         return frag
 
     def studio_view(self, _context=None):
-        '''
+        """
         Minimal view with no configuration options giving some help text.
-        '''
-        html = resource_string("static/html/studioview.html")
-        frag = Fragment(html)
+        """
+        frag = Fragment()
+        frag.add_content(resource_loader.render_django_template(
+            'templates/studioview.html',
+            {},
+            i18n_service=self.runtime.service(self, 'i18n')
+        ))
         return frag
 
     @staticmethod

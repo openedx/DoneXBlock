@@ -7,12 +7,13 @@ import re
 from setuptools import setup
 
 
-def package_data(pkg, root):
+def package_data(pkg, root_list):
     """Generic function to find package_data for `pkg` under `root`."""
     data = []
-    for dirname, _, files in os.walk(os.path.join(pkg, root)):
-        for fname in files:
-            data.append(os.path.relpath(os.path.join(dirname, fname), pkg))
+    for root in root_list:
+        for dirname, _, files in os.walk(os.path.join(pkg, root)):
+            for fname in files:
+                data.append(os.path.relpath(os.path.join(dirname, fname), pkg))
 
     return {pkg: data}
 
@@ -120,7 +121,7 @@ setup(
             'done = done:DoneXBlock',
         ]
     },
-    package_data=package_data("done", "static"),
+    package_data=package_data("done", ["static", "templates", "public"]),
     long_description=long_description,
     long_description_content_type='text/markdown'
 )
