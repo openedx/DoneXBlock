@@ -14,12 +14,20 @@ from xblockutils.resources import ResourceLoader
 resource_loader = ResourceLoader(__name__)
 
 
+def _(text):
+    """
+    Make '_' a no-op, so we can scrape strings
+    """
+    return text
+
+
 def resource_string(path):
     """Handy helper for getting resources from our kit."""
     data = pkg_resources.resource_string(__name__, path)
     return data.decode("utf8")
 
 
+@XBlock.needs('i18n')
 class DoneXBlock(XBlock):
     """
     Show a toggle which lets students mark things as done.
@@ -27,13 +35,13 @@ class DoneXBlock(XBlock):
 
     done = Boolean(
         scope=Scope.user_state,
-        help="Is the student done?",
+        help=_("Is the student done?"),
         default=False
     )
 
     align = String(
         scope=Scope.settings,
-        help="Align left/right/center",
+        help=_("Align left/right/center"),
         default="left"
     )
 
@@ -120,36 +128,38 @@ class DoneXBlock(XBlock):
 
     display_name = String(
         default="Completion", scope=Scope.settings,
-        help="Display name"
+        help=_("Display name")
     )
 
     start = DateTime(
         default=None, scope=Scope.settings,
-        help="ISO-8601 formatted string representing the start date "
-             "of this assignment. We ignore this."
+        help=_("ISO-8601 formatted string representing the start date of this assignment. We ignore this.")
     )
 
     due = DateTime(
         default=None, scope=Scope.settings,
-        help="ISO-8601 formatted string representing the due date "
-             "of this assignment. We ignore this."
+        help=_("ISO-8601 formatted string representing the due date of this assignment. We ignore this.")
     )
 
     weight = Float(
-        display_name="Problem Weight",
-        help=("Defines the number of points each problem is worth. "
-              "If the value is not set, the problem is worth the sum of the "
-              "option point values."),
+        display_name=_("Problem Weight"),
+        help=_(
+            "Defines the number of points each problem is worth. "
+            "If the value is not set, the problem is worth the sum of the "
+            "option point values."
+        ),
         values={"min": 0, "step": .1},
         scope=Scope.settings
     )
 
     def has_dynamic_children(self):
-        """Do we dynamically determine our children? No, we don't have any.
+        """
+        Do we dynamically determine our children? No, we don't have any.
         """
         return False
 
     def max_score(self):
-        """The maximum raw score of our problem.
+        """
+        The maximum raw score of our problem.
         """
         return 1
