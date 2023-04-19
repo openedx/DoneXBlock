@@ -5,9 +5,12 @@
   <div class="done_onoffswitch">
     <input type="checkbox" name="onoffswitch" class="done_onoffswitch-checkbox" id="{{id}}_myonoffswitch" checked="{{done}}">  </input>
     <label class="done_onoffswitch-label" for="{{id}}_myonoffswitch">
+        <span class="done_onoffswitch-switch"><span class="done_aria_hidden">{% trans "X" %}</span></span>
         <span class="done_aria_hidden">{% trans "I have completed this" %}</span>
-        <span class="done_onoffswitch-inner"></span>
-        <span class="done_onoffswitch-switch"></span>
+        <span class="done_onoffswitch-inner">
+            <span class="done_unmark">{% trans "Unmark" %}</span>
+            <span class="done_mark">{% trans "Mark as complete" %}</span>
+        </span>
     </label>
   </div>
   <div class="done_right_spacer"></div>
