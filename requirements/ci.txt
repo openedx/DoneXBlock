@@ -33,11 +33,11 @@ boto==2.49.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-boto3==1.26.114
+boto3==1.26.115
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.29.114
+botocore==1.29.115
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -137,7 +137,7 @@ idna==3.4
     # via
     #   -r requirements/test.txt
     #   requests
-importlib-metadata==6.4.1
+importlib-metadata==6.5.0
     # via
     #   -r requirements/test.txt
     #   keyring
@@ -195,6 +195,10 @@ lxml==4.9.2
     #   -r requirements/test.txt
     #   xblock
     #   xblock-sdk
+mako==1.2.4
+    # via
+    #   -r requirements/test.txt
+    #   xblock-utils
 markdown-it-py==2.2.0
     # via
     #   -r requirements/test.txt
@@ -203,6 +207,7 @@ markupsafe==2.1.2
     # via
     #   -r requirements/test.txt
     #   jinja2
+    #   mako
     #   xblock
 mccabe==0.7.0
     # via
@@ -347,6 +352,7 @@ simplejson==3.19.1
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
+    #   xblock-utils
 six==1.16.0
     # via
     #   -r requirements/test.txt
@@ -357,7 +363,7 @@ six==1.16.0
     #   fs-s3fs
     #   python-dateutil
     #   tox
-sqlparse==0.4.3
+sqlparse==0.4.4
     # via
     #   -r requirements/test.txt
     #   django
@@ -407,6 +413,7 @@ web-fragments==2.0.0
     #   -r requirements/test.txt
     #   xblock
     #   xblock-sdk
+    #   xblock-utils
 webencodings==0.5.1
     # via
     #   -r requirements/test.txt
@@ -424,7 +431,10 @@ xblock[django]==1.6.2
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
+    #   xblock-utils
 xblock-sdk==0.5.4
+    # via -r requirements/test.txt
+xblock-utils==3.0.0
     # via -r requirements/test.txt
 zipp==3.15.0
     # via
