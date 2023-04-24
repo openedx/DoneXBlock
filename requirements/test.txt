@@ -140,8 +140,6 @@ mccabe==0.7.0
     # via pylint
 mdurl==0.1.2
     # via markdown-it-py
-mock==5.0.2
-    # via -r requirements/test.in
 more-itertools==9.1.0
     # via jaraco-classes
 openedx-django-pyfs==3.2.1
