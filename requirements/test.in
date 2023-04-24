@@ -6,7 +6,6 @@
 coveralls
 ddt
 edx_lint
-mock
 pytest
 twine
 xblock-sdk
