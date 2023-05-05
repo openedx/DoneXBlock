@@ -33,11 +33,11 @@ boto==2.49.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-boto3==1.26.121
+boto3==1.26.123
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.29.121
+botocore==1.29.123
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -239,7 +239,7 @@ pkginfo==1.9.6
     # via
     #   -r requirements/test.txt
     #   twine
-platformdirs==3.4.0
+platformdirs==3.5.0
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
@@ -332,7 +332,7 @@ rfc3986==2.0.0
     # via
     #   -r requirements/test.txt
     #   twine
-rich==13.3.4
+rich==13.3.5
     # via
     #   -r requirements/test.txt
     #   twine
@@ -400,7 +400,7 @@ urllib3==1.26.15
     #   botocore
     #   requests
     #   twine
-virtualenv==20.22.0
+virtualenv==20.23.0
     # via
     #   -r requirements/tox.txt
     #   tox
