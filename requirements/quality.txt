@@ -22,13 +22,13 @@ binaryornot==0.4.4
     # via cookiecutter
 boto==2.49.0
     # via xblock-sdk
-boto3==1.26.123
+boto3==1.26.129
     # via fs-s3fs
-botocore==1.29.123
+botocore==1.29.129
     # via
     #   boto3
     #   s3transfer
-certifi==2022.12.7
+certifi==2023.5.7
     # via requests
 chardet==5.1.0
     # via binaryornot
@@ -50,7 +50,7 @@ ddt==1.6.0
     # via -r requirements/quality.in
 dill==0.3.6
     # via pylint
-django==3.2.18
+django==3.2.19
     # via
     #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.txt
@@ -112,7 +112,7 @@ platformdirs==3.5.0
     # via pylint
 pycodestyle==2.10.0
     # via -r requirements/quality.in
-pylint==2.17.3
+pylint==2.17.4
     # via
     #   -r requirements/quality.in
     #   edx-lint
@@ -150,11 +150,11 @@ pyyaml==6.0
     #   code-annotations
     #   cookiecutter
     #   xblock
-requests==2.29.0
+requests==2.30.0
     # via
     #   cookiecutter
     #   xblock-sdk
-s3transfer==0.6.0
+s3transfer==0.6.1
     # via boto3
 simplejson==3.19.1
     # via
