@@ -33,16 +33,16 @@ boto==2.49.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-boto3==1.26.123
+boto3==1.26.129
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.29.123
+botocore==1.29.129
     # via
     #   -r requirements/test.txt
     #   boto3
     #   s3transfer
-certifi==2022.12.7
+certifi==2023.5.7
     # via
     #   -r requirements/test.txt
     #   requests
@@ -97,7 +97,7 @@ distlib==0.3.6
     # via
     #   -r requirements/tox.txt
     #   virtualenv
-django==3.2.18
+django==3.2.19
     # via
     #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -264,7 +264,7 @@ pygments==2.15.1
     #   -r requirements/test.txt
     #   readme-renderer
     #   rich
-pylint==2.17.3
+pylint==2.17.4
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -316,7 +316,7 @@ readme-renderer==37.3
     # via
     #   -r requirements/test.txt
     #   twine
-requests==2.29.0
+requests==2.30.0
     # via
     #   -r requirements/test.txt
     #   cookiecutter
@@ -324,7 +324,7 @@ requests==2.29.0
     #   requests-toolbelt
     #   twine
     #   xblock-sdk
-requests-toolbelt==0.10.1
+requests-toolbelt==1.0.0
     # via
     #   -r requirements/test.txt
     #   twine
@@ -336,7 +336,7 @@ rich==13.3.5
     # via
     #   -r requirements/test.txt
     #   twine
-s3transfer==0.6.0
+s3transfer==0.6.1
     # via
     #   -r requirements/test.txt
     #   boto3

@@ -22,11 +22,11 @@ babel==2.12.1
     #   sphinx
 beautifulsoup4==4.12.2
     # via pydata-sphinx-theme
-certifi==2022.12.7
+certifi==2023.5.7
     # via requests
 charset-normalizer==3.1.0
     # via requests
-django==3.2.18
+django==3.2.19
     # via -r requirements/base.txt
 docutils==0.19
     # via
@@ -83,7 +83,7 @@ pyyaml==6.0
     # via
     #   -r requirements/base.txt
     #   xblock
-requests==2.29.0
+requests==2.30.0
     # via sphinx
 simplejson==3.19.1
     # via
@@ -123,7 +123,7 @@ sqlparse==0.4.4
     #   django
 typing-extensions==4.5.0
     # via pydata-sphinx-theme
-urllib3==1.26.15
+urllib3==2.0.2
     # via requests
 web-fragments==2.0.0
     # via
