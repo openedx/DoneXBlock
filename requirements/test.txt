@@ -14,7 +14,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/base.txt
     #   django
-astroid==2.15.4
+astroid==2.15.5
     # via
     #   pylint
     #   pylint-celery
@@ -24,9 +24,9 @@ bleach==6.0.0
     # via readme-renderer
 boto==2.49.0
     # via xblock-sdk
-boto3==1.26.129
+boto3==1.26.133
     # via fs-s3fs
-botocore==1.29.129
+botocore==1.29.133
     # via
     #   boto3
     #   s3transfer
@@ -68,7 +68,7 @@ django==3.2.19
     #   xblock-sdk
 docopt==0.6.2
     # via coveralls
-docutils==0.19
+docutils==0.20
     # via readme-renderer
 edx-lint==5.3.4
     # via -r requirements/test.in
@@ -150,7 +150,7 @@ pbr==5.11.1
     # via stevedore
 pkginfo==1.9.6
     # via twine
-platformdirs==3.5.0
+platformdirs==3.5.1
     # via pylint
 pluggy==1.0.0
     # via pytest

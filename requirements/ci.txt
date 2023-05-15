@@ -16,7 +16,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/test.txt
     #   django
-astroid==2.15.4
+astroid==2.15.5
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -33,11 +33,11 @@ boto==2.49.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-boto3==1.26.129
+boto3==1.26.133
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.29.129
+botocore==1.29.133
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -107,7 +107,7 @@ docopt==0.6.2
     # via
     #   -r requirements/test.txt
     #   coveralls
-docutils==0.19
+docutils==0.20
     # via
     #   -r requirements/test.txt
     #   readme-renderer
@@ -239,7 +239,7 @@ pkginfo==1.9.6
     # via
     #   -r requirements/test.txt
     #   twine
-platformdirs==3.5.0
+platformdirs==3.5.1
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
