@@ -14,7 +14,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/base.txt
     #   django
-astroid==2.15.4
+astroid==2.15.5
     # via
     #   pylint
     #   pylint-celery
@@ -22,9 +22,9 @@ binaryornot==0.4.4
     # via cookiecutter
 boto==2.49.0
     # via xblock-sdk
-boto3==1.26.129
+boto3==1.26.133
     # via fs-s3fs
-botocore==1.29.129
+botocore==1.29.133
     # via
     #   boto3
     #   s3transfer
@@ -108,7 +108,7 @@ openedx-django-pyfs==3.2.1
     # via xblock
 pbr==5.11.1
     # via stevedore
-platformdirs==3.5.0
+platformdirs==3.5.1
     # via pylint
 pycodestyle==2.10.0
     # via -r requirements/quality.in
