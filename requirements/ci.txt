@@ -12,7 +12,7 @@ arrow==1.2.3
     # via
     #   -r requirements/test.txt
     #   jinja2-time
-asgiref==3.6.0
+asgiref==3.7.2
     # via
     #   -r requirements/test.txt
     #   django
@@ -33,11 +33,11 @@ boto==2.49.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-boto3==1.26.137
+boto3==1.26.142
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.29.137
+botocore==1.29.142
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -316,7 +316,7 @@ readme-renderer==37.3
     # via
     #   -r requirements/test.txt
     #   twine
-requests==2.30.0
+requests==2.31.0
     # via
     #   -r requirements/test.txt
     #   cookiecutter
@@ -388,13 +388,14 @@ tox==3.28.0
     #   -r requirements/tox.txt
 twine==4.0.2
     # via -r requirements/test.txt
-typing-extensions==4.5.0
+typing-extensions==4.6.2
     # via
     #   -r requirements/test.txt
+    #   asgiref
     #   astroid
     #   pylint
     #   rich
-urllib3==1.26.15
+urllib3==1.26.16
     # via
     #   -r requirements/test.txt
     #   botocore

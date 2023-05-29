@@ -10,7 +10,7 @@ appdirs==1.4.4
     #   fs
 arrow==1.2.3
     # via jinja2-time
-asgiref==3.6.0
+asgiref==3.7.2
     # via
     #   -r requirements/base.txt
     #   django
@@ -22,9 +22,9 @@ binaryornot==0.4.4
     # via cookiecutter
 boto==2.49.0
     # via xblock-sdk
-boto3==1.26.137
+boto3==1.26.142
     # via fs-s3fs
-botocore==1.29.137
+botocore==1.29.142
     # via
     #   boto3
     #   s3transfer
@@ -150,7 +150,7 @@ pyyaml==6.0
     #   code-annotations
     #   cookiecutter
     #   xblock
-requests==2.30.0
+requests==2.31.0
     # via
     #   cookiecutter
     #   xblock-sdk
@@ -180,11 +180,13 @@ tomli==2.0.1
     # via pylint
 tomlkit==0.11.8
     # via pylint
-typing-extensions==4.5.0
+typing-extensions==4.6.2
     # via
+    #   -r requirements/base.txt
+    #   asgiref
     #   astroid
     #   pylint
-urllib3==1.26.15
+urllib3==1.26.16
     # via
     #   botocore
     #   requests
