@@ -12,7 +12,7 @@ appdirs==1.4.4
     # via
     #   -r requirements/base.txt
     #   fs
-asgiref==3.6.0
+asgiref==3.7.2
     # via
     #   -r requirements/base.txt
     #   django
@@ -83,7 +83,7 @@ pyyaml==6.0
     # via
     #   -r requirements/base.txt
     #   xblock
-requests==2.30.0
+requests==2.31.0
     # via sphinx
 simplejson==3.19.1
     # via
@@ -121,8 +121,11 @@ sqlparse==0.4.4
     # via
     #   -r requirements/base.txt
     #   django
-typing-extensions==4.5.0
-    # via pydata-sphinx-theme
+typing-extensions==4.6.2
+    # via
+    #   -r requirements/base.txt
+    #   asgiref
+    #   pydata-sphinx-theme
 urllib3==2.0.2
     # via requests
 web-fragments==2.0.0
