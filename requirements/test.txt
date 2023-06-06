@@ -24,9 +24,9 @@ bleach==6.0.0
     # via readme-renderer
 boto==2.49.0
     # via xblock-sdk
-boto3==1.26.142
+boto3==1.26.146
     # via fs-s3fs
-botocore==1.29.142
+botocore==1.29.146
     # via
     #   boto3
     #   s3transfer
@@ -54,7 +54,7 @@ coverage==6.5.0
     # via coveralls
 coveralls==3.3.1
     # via -r requirements/test.in
-cryptography==40.0.2
+cryptography==41.0.1
     # via secretstorage
 ddt==1.6.0
     # via -r requirements/test.in
@@ -130,7 +130,7 @@ mako==1.2.4
     #   xblock-utils
 markdown-it-py==2.2.0
     # via rich
-markupsafe==2.1.2
+markupsafe==2.1.3
     # via
     #   -r requirements/base.txt
     #   jinja2
@@ -142,7 +142,7 @@ mdurl==0.1.2
     # via markdown-it-py
 more-itertools==9.1.0
     # via jaraco-classes
-openedx-django-pyfs==3.2.1
+openedx-django-pyfs==3.3.0
     # via xblock
 packaging==23.1
     # via pytest
@@ -212,7 +212,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.3.5
+rich==13.4.1
     # via twine
 s3transfer==0.6.1
     # via boto3
@@ -247,7 +247,7 @@ tomlkit==0.11.8
     # via pylint
 twine==4.0.2
     # via -r requirements/test.in
-typing-extensions==4.6.2
+typing-extensions==4.6.3
     # via
     #   -r requirements/base.txt
     #   asgiref
@@ -281,7 +281,7 @@ xblock[django]==1.6.2
     #   xblock-utils
 xblock-sdk==0.5.4
     # via -r requirements/test.in
-xblock-utils==3.0.0
+xblock-utils==3.1.0
     # via -r requirements/base.txt
 zipp==3.15.0
     # via
