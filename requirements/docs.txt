@@ -126,7 +126,7 @@ typing-extensions==4.6.3
     #   -r requirements/base.txt
     #   asgiref
     #   pydata-sphinx-theme
-urllib3==2.0.2
+urllib3==2.0.3
     # via requests
 web-fragments==2.0.0
     # via
