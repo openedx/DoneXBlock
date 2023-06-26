@@ -20,9 +20,9 @@ astroid==2.15.5
     #   pylint-celery
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.26.155
+boto3==1.26.160
     # via fs-s3fs
-botocore==1.29.155
+botocore==1.29.160
     # via
     #   boto3
     #   s3transfer
@@ -106,7 +106,7 @@ openedx-django-pyfs==3.3.0
     # via xblock
 pbr==5.11.1
     # via stevedore
-platformdirs==3.6.0
+platformdirs==3.8.0
     # via pylint
 pycodestyle==2.10.0
     # via -r requirements/quality.in
