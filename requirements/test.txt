@@ -22,9 +22,9 @@ binaryornot==0.4.4
     # via cookiecutter
 bleach==6.0.0
     # via readme-renderer
-boto3==1.26.155
+boto3==1.26.160
     # via fs-s3fs
-botocore==1.29.155
+botocore==1.29.160
     # via
     #   boto3
     #   s3transfer
@@ -111,7 +111,7 @@ jmespath==1.0.1
     # via
     #   boto3
     #   botocore
-keyring==23.13.1
+keyring==24.2.0
     # via twine
 lazy==1.5
     # via xblock
@@ -148,9 +148,9 @@ pbr==5.11.1
     # via stevedore
 pkginfo==1.9.6
     # via twine
-platformdirs==3.6.0
+platformdirs==3.8.0
     # via pylint
-pluggy==1.0.0
+pluggy==1.2.0
     # via pytest
 pycparser==2.21
     # via cffi
@@ -174,7 +174,7 @@ pylint-plugin-utils==0.8.2
     #   pylint-django
 pypng==0.20220715.0
     # via xblock-sdk
-pytest==7.3.2
+pytest==7.4.0
     # via -r requirements/test.in
 python-dateutil==2.8.2
     # via
@@ -197,7 +197,7 @@ pyyaml==6.0
     #   code-annotations
     #   cookiecutter
     #   xblock
-readme-renderer==37.3
+readme-renderer==40.0
     # via twine
 requests==2.31.0
     # via
