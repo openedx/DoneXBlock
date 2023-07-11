@@ -24,9 +24,9 @@ beautifulsoup4==4.12.2
     # via pydata-sphinx-theme
 certifi==2023.5.7
     # via requests
-charset-normalizer==3.1.0
+charset-normalizer==3.2.0
     # via requests
-django==3.2.19
+django==3.2.20
     # via -r requirements/base.txt
 docutils==0.19
     # via
@@ -40,11 +40,11 @@ idna==3.4
     # via requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==6.7.0
+importlib-metadata==6.8.0
     # via sphinx
 jinja2==3.1.2
     # via sphinx
-lxml==4.9.2
+lxml==4.9.3
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -143,7 +143,7 @@ xblock==1.6.2
     #   xblock-utils
 xblock-utils==3.2.0
     # via -r requirements/base.txt
-zipp==3.15.0
+zipp==3.16.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
