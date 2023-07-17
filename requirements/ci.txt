@@ -29,11 +29,11 @@ bleach==6.0.0
     # via
     #   -r requirements/test.txt
     #   readme-renderer
-boto3==1.28.1
+boto3==1.28.3
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.31.1
+botocore==1.31.3
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -54,7 +54,7 @@ charset-normalizer==3.2.0
     # via
     #   -r requirements/test.txt
     #   requests
-click==8.1.4
+click==8.1.5
     # via
     #   -r requirements/test.txt
     #   click-log
@@ -69,7 +69,7 @@ code-annotations==1.3.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
-cookiecutter==2.2.0
+cookiecutter==2.2.3
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
@@ -79,7 +79,7 @@ coverage==6.5.0
     #   coveralls
 coveralls==3.3.1
     # via -r requirements/test.txt
-cryptography==41.0.1
+cryptography==41.0.2
     # via
     #   -r requirements/test.txt
     #   secretstorage
@@ -212,7 +212,7 @@ more-itertools==9.1.0
     # via
     #   -r requirements/test.txt
     #   jaraco-classes
-openedx-django-pyfs==3.3.0
+openedx-django-pyfs==3.4.0
     # via
     #   -r requirements/test.txt
     #   xblock
@@ -230,7 +230,7 @@ pkginfo==1.9.6
     # via
     #   -r requirements/test.txt
     #   twine
-platformdirs==3.8.1
+platformdirs==3.9.1
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
@@ -392,7 +392,7 @@ urllib3==1.26.16
     #   botocore
     #   requests
     #   twine
-virtualenv==20.23.1
+virtualenv==20.24.0
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -424,7 +424,7 @@ xblock-sdk==0.6.0
     # via -r requirements/test.txt
 xblock-utils==3.2.0
     # via -r requirements/test.txt
-zipp==3.16.0
+zipp==3.16.2
     # via
     #   -r requirements/test.txt
     #   importlib-metadata
