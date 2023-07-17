@@ -8,3 +8,4 @@ pylint
 edx_lint
 xblock-sdk
 ddt
+twine
