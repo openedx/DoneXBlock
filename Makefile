@@ -45,6 +45,9 @@ upgrade: ## update the requirements/*.txt files with the latest packages satisfy
 	pip-compile --upgrade -o requirements/tox.txt requirements/tox.in
 	pip-compile --upgrade -o requirements/ci.txt requirements/ci.in
 	pip-compile --upgrade -o requirements/docs.txt requirements/docs.in
+	# lets tox controls the django versions.
+	sed -i.tmp '/^[d|D]jango==/d' requirements/test.txt
+	rm requirements/test.txt.tmp
 
 .PHONY: requirements
 requirements: ## install development environment requirements
