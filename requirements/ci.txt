@@ -29,11 +29,11 @@ bleach==6.0.0
     # via
     #   -r requirements/test.txt
     #   readme-renderer
-boto3==1.28.3
+boto3==1.28.8
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.31.3
+botocore==1.31.8
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -42,10 +42,6 @@ certifi==2023.5.7
     # via
     #   -r requirements/test.txt
     #   requests
-cffi==1.15.1
-    # via
-    #   -r requirements/test.txt
-    #   cryptography
 chardet==5.1.0
     # via
     #   -r requirements/test.txt
@@ -54,7 +50,7 @@ charset-normalizer==3.2.0
     # via
     #   -r requirements/test.txt
     #   requests
-click==8.1.5
+click==8.1.6
     # via
     #   -r requirements/test.txt
     #   click-log
@@ -79,17 +75,13 @@ coverage==6.5.0
     #   coveralls
 coveralls==3.3.1
     # via -r requirements/test.txt
-cryptography==41.0.2
-    # via
-    #   -r requirements/test.txt
-    #   secretstorage
 ddt==1.6.0
     # via -r requirements/test.txt
 dill==0.3.6
     # via
     #   -r requirements/test.txt
     #   pylint
-distlib==0.3.6
+distlib==0.3.7
     # via
     #   -r requirements/tox.txt
     #   virtualenv
@@ -154,11 +146,6 @@ jaraco-classes==3.3.0
     # via
     #   -r requirements/test.txt
     #   keyring
-jeepney==0.8.0
-    # via
-    #   -r requirements/test.txt
-    #   keyring
-    #   secretstorage
 jinja2==3.1.2
     # via
     #   -r requirements/test.txt
@@ -246,10 +233,6 @@ py==1.11.0
     # via
     #   -r requirements/tox.txt
     #   tox
-pycparser==2.21
-    # via
-    #   -r requirements/test.txt
-    #   cffi
 pygments==2.15.1
     # via
     #   -r requirements/test.txt
@@ -297,7 +280,7 @@ pytz==2023.3
     #   -r requirements/test.txt
     #   django
     #   xblock
-pyyaml==6.0
+pyyaml==6.0.1
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -331,10 +314,6 @@ s3transfer==0.6.1
     # via
     #   -r requirements/test.txt
     #   boto3
-secretstorage==3.3.3
-    # via
-    #   -r requirements/test.txt
-    #   keyring
 simplejson==3.19.1
     # via
     #   -r requirements/test.txt
@@ -392,7 +371,7 @@ urllib3==1.26.16
     #   botocore
     #   requests
     #   twine
-virtualenv==20.24.0
+virtualenv==20.24.1
     # via
     #   -r requirements/tox.txt
     #   tox

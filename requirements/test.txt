@@ -22,21 +22,19 @@ binaryornot==0.4.4
     # via cookiecutter
 bleach==6.0.0
     # via readme-renderer
-boto3==1.28.3
+boto3==1.28.8
     # via fs-s3fs
-botocore==1.31.3
+botocore==1.31.8
     # via
     #   boto3
     #   s3transfer
 certifi==2023.5.7
     # via requests
-cffi==1.15.1
-    # via cryptography
 chardet==5.1.0
     # via binaryornot
 charset-normalizer==3.2.0
     # via requests
-click==8.1.5
+click==8.1.6
     # via
     #   click-log
     #   code-annotations
@@ -52,12 +50,16 @@ coverage==6.5.0
     # via coveralls
 coveralls==3.3.1
     # via -r requirements/test.in
-cryptography==41.0.2
-    # via secretstorage
 ddt==1.6.0
     # via -r requirements/test.in
 dill==0.3.6
-    # via pylints
+    # via pylint
+django==3.2.20
+    # via
+    #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
+    #   -r requirements/base.txt
+    #   openedx-django-pyfs
+    #   xblock-sdk
 docopt==0.6.2
     # via coveralls
 docutils==0.20.1
@@ -90,10 +92,6 @@ isort==5.12.0
     # via pylint
 jaraco-classes==3.3.0
     # via keyring
-jeepney==0.8.0
-    # via
-    #   keyring
-    #   secretstorage
 jinja2==3.1.2
     # via
     #   code-annotations
@@ -143,8 +141,6 @@ platformdirs==3.9.1
     # via pylint
 pluggy==1.2.0
     # via pytest
-pycparser==2.21
-    # via cffi
 pygments==2.15.1
     # via
     #   readme-renderer
@@ -182,7 +178,7 @@ pytz==2023.3
     #   -r requirements/base.txt
     #   django
     #   xblock
-pyyaml==6.0
+pyyaml==6.0.1
     # via
     #   -r requirements/base.txt
     #   code-annotations
@@ -205,8 +201,6 @@ rich==13.4.2
     # via twine
 s3transfer==0.6.1
     # via boto3
-secretstorage==3.3.3
-    # via keyring
 simplejson==3.19.1
     # via
     #   -r requirements/base.txt
