@@ -20,13 +20,13 @@ astroid==2.15.6
     #   pylint-celery
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.28.8
+boto3==1.28.9
     # via fs-s3fs
-botocore==1.31.8
+botocore==1.31.9
     # via
     #   boto3
     #   s3transfer
-certifi==2023.5.7
+certifi==2023.7.22
     # via requests
 chardet==5.1.0
     # via binaryornot
@@ -46,7 +46,7 @@ cookiecutter==2.2.3
     # via xblock-sdk
 ddt==1.6.0
     # via -r requirements/quality.in
-dill==0.3.6
+dill==0.3.7
     # via pylint
 django==3.2.20
     # via
