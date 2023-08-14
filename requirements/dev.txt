@@ -16,7 +16,7 @@ django==3.2.20
     # via
     #   -r requirements/base.txt
     #   edx-i18n-tools
-edx-i18n-tools==1.0.0
+edx-i18n-tools==1.1.0
     # via -r requirements/dev.in
 fs==2.4.16
     # via
@@ -70,7 +70,7 @@ typing-extensions==4.7.1
     # via
     #   -r requirements/base.txt
     #   asgiref
-web-fragments==2.0.0
+web-fragments==2.1.0
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -79,11 +79,11 @@ webob==1.8.7
     # via
     #   -r requirements/base.txt
     #   xblock
-xblock==1.6.2
+xblock==1.7.0
     # via
     #   -r requirements/base.txt
     #   xblock-utils
-xblock-utils==3.3.0
+xblock-utils==3.4.0
     # via -r requirements/base.txt
 
 # The following packages are considered to be unsafe in a requirements file:

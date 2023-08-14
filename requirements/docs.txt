@@ -64,7 +64,7 @@ packaging==23.1
     #   sphinx
 pydata-sphinx-theme==0.13.3
     # via sphinx-book-theme
-pygments==2.15.1
+pygments==2.16.1
     # via
     #   accessible-pygments
     #   pydata-sphinx-theme
@@ -128,7 +128,7 @@ typing-extensions==4.7.1
     #   pydata-sphinx-theme
 urllib3==2.0.4
     # via requests
-web-fragments==2.0.0
+web-fragments==2.1.0
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -137,11 +137,11 @@ webob==1.8.7
     # via
     #   -r requirements/base.txt
     #   xblock
-xblock==1.6.2
+xblock==1.7.0
     # via
     #   -r requirements/base.txt
     #   xblock-utils
-xblock-utils==3.3.0
+xblock-utils==3.4.0
     # via -r requirements/base.txt
 zipp==3.16.2
     # via importlib-metadata
