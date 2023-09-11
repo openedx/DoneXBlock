@@ -22,11 +22,11 @@ babel==2.12.1
     #   sphinx
 beautifulsoup4==4.12.2
     # via pydata-sphinx-theme
-boto3==1.28.40
+boto3==1.28.44
     # via
     #   -r requirements/base.txt
     #   fs-s3fs
-botocore==1.31.40
+botocore==1.31.44
     # via
     #   -r requirements/base.txt
     #   boto3
@@ -35,7 +35,7 @@ certifi==2023.7.22
     # via requests
 charset-normalizer==3.2.0
     # via requests
-django==3.2.20
+django==3.2.21
     # via
     #   -r requirements/base.txt
     #   openedx-django-pyfs
@@ -104,7 +104,7 @@ python-dateutil==2.8.2
     #   -r requirements/base.txt
     #   botocore
     #   xblock
-pytz==2023.3
+pytz==2023.3.post1
     # via
     #   -r requirements/base.txt
     #   babel

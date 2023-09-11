@@ -25,15 +25,11 @@ binaryornot==0.4.4
     # via
     #   -r requirements/test.txt
     #   cookiecutter
-bleach==6.0.0
-    # via
-    #   -r requirements/test.txt
-    #   readme-renderer
-boto3==1.28.40
+boto3==1.28.44
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.31.40
+botocore==1.31.44
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -93,7 +89,7 @@ distlib==0.3.7
     # via
     #   -r requirements/tox.txt
     #   virtualenv
-django==3.2.20
+django==3.2.21
     # via
     #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -212,6 +208,10 @@ more-itertools==10.1.0
     # via
     #   -r requirements/test.txt
     #   jaraco-classes
+nh3==0.2.14
+    # via
+    #   -r requirements/test.txt
+    #   readme-renderer
 openedx-django-pyfs==3.4.0
     # via
     #   -r requirements/test.txt
@@ -279,7 +279,7 @@ pypng==0.20220715.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-pytest==7.4.1
+pytest==7.4.2
     # via -r requirements/test.txt
 python-dateutil==2.8.2
     # via
@@ -292,7 +292,7 @@ python-slugify==8.0.1
     #   -r requirements/test.txt
     #   code-annotations
     #   cookiecutter
-pytz==2023.3
+pytz==2023.3.post1
     # via
     #   -r requirements/test.txt
     #   django
@@ -303,7 +303,7 @@ pyyaml==6.0.1
     #   code-annotations
     #   cookiecutter
     #   xblock
-readme-renderer==41.0
+readme-renderer==42.0
     # via
     #   -r requirements/test.txt
     #   twine
@@ -345,7 +345,6 @@ six==1.16.0
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
-    #   bleach
     #   edx-lint
     #   fs
     #   fs-s3fs
@@ -395,7 +394,7 @@ urllib3==1.26.16
     #   botocore
     #   requests
     #   twine
-virtualenv==20.24.4
+virtualenv==20.24.5
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -405,10 +404,6 @@ web-fragments==2.1.0
     #   xblock
     #   xblock-sdk
     #   xblock-utils
-webencodings==0.5.1
-    # via
-    #   -r requirements/test.txt
-    #   bleach
 webob==1.8.7
     # via
     #   -r requirements/test.txt
