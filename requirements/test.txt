@@ -20,11 +20,11 @@ astroid==2.15.6
     #   pylint-celery
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.28.44
+boto3==1.28.49
     # via
     #   -r requirements/base.txt
     #   fs-s3fs
-botocore==1.31.44
+botocore==1.31.49
     # via
     #   -r requirements/base.txt
     #   boto3
@@ -112,7 +112,7 @@ jmespath==1.0.1
     #   botocore
 keyring==24.2.0
     # via twine
-lazy==1.5
+lazy==1.6
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -215,7 +215,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.5.2
+rich==13.5.3
     # via
     #   cookiecutter
     #   twine
