@@ -14,17 +14,17 @@ asgiref==3.7.2
     # via
     #   -r requirements/base.txt
     #   django
-astroid==2.15.6
+astroid==2.15.7
     # via
     #   pylint
     #   pylint-celery
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.28.49
+boto3==1.28.53
     # via
     #   -r requirements/base.txt
     #   fs-s3fs
-botocore==1.31.49
+botocore==1.31.53
     # via
     #   -r requirements/base.txt
     #   boto3
@@ -47,13 +47,13 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==1.5.0
     # via edx-lint
-cookiecutter==2.3.0
+cookiecutter==2.3.1
     # via xblock-sdk
 coverage==6.5.0
     # via coveralls
 coveralls==3.3.1
     # via -r requirements/test.in
-cryptography==41.0.3
+cryptography==41.0.4
     # via secretstorage
 ddt==1.6.0
     # via -r requirements/test.in
@@ -89,7 +89,7 @@ importlib-metadata==6.8.0
     # via
     #   keyring
     #   twine
-importlib-resources==6.0.1
+importlib-resources==6.1.0
     # via keyring
 iniconfig==2.0.0
     # via pytest
@@ -253,7 +253,7 @@ tomlkit==0.12.1
     # via pylint
 twine==4.0.2
     # via -r requirements/test.in
-typing-extensions==4.7.1
+typing-extensions==4.8.0
     # via
     #   -r requirements/base.txt
     #   asgiref
@@ -288,7 +288,7 @@ xblock-sdk==0.7.0
     # via -r requirements/test.in
 xblock-utils==3.4.1
     # via -r requirements/base.txt
-zipp==3.16.2
+zipp==3.17.0
     # via
     #   importlib-metadata
     #   importlib-resources
