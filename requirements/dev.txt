@@ -12,11 +12,11 @@ asgiref==3.7.2
     # via
     #   -r requirements/base.txt
     #   django
-boto3==1.28.53
+boto3==1.28.57
     # via
     #   -r requirements/base.txt
     #   fs-s3fs
-botocore==1.31.53
+botocore==1.31.57
     # via
     #   -r requirements/base.txt
     #   boto3
@@ -83,7 +83,7 @@ pyyaml==6.0.1
     #   -r requirements/base.txt
     #   edx-i18n-tools
     #   xblock
-s3transfer==0.6.2
+s3transfer==0.7.0
     # via
     #   -r requirements/base.txt
     #   boto3
@@ -118,7 +118,7 @@ webob==1.8.7
     # via
     #   -r requirements/base.txt
     #   xblock
-xblock[django]==1.7.0
+xblock[django]==1.8.0
     # via
     #   -r requirements/base.txt
     #   xblock-utils
