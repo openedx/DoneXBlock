@@ -25,11 +25,11 @@ binaryornot==0.4.4
     # via
     #   -r requirements/test.txt
     #   cookiecutter
-boto3==1.28.57
+boto3==1.28.62
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.31.57
+botocore==1.31.62
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -89,7 +89,7 @@ distlib==0.3.7
     # via
     #   -r requirements/tox.txt
     #   virtualenv
-django==3.2.21
+django==3.2.22
     # via
     #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -185,6 +185,7 @@ lxml==4.9.3
 mako==1.2.4
     # via
     #   -r requirements/test.txt
+    #   xblock
     #   xblock-utils
 markdown-it-py==3.0.0
     # via
@@ -230,7 +231,7 @@ pkginfo==1.9.6
     # via
     #   -r requirements/test.txt
     #   twine
-platformdirs==3.10.0
+platformdirs==3.11.0
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
@@ -336,9 +337,10 @@ secretstorage==3.3.3
     # via
     #   -r requirements/test.txt
     #   keyring
-simplejson==3.19.1
+simplejson==3.19.2
     # via
     #   -r requirements/test.txt
+    #   xblock
     #   xblock-sdk
     #   xblock-utils
 six==1.16.0
@@ -390,7 +392,7 @@ typing-extensions==4.8.0
     #   astroid
     #   pylint
     #   rich
-urllib3==1.26.16
+urllib3==1.26.17
     # via
     #   -r requirements/test.txt
     #   botocore
@@ -415,14 +417,14 @@ wrapt==1.15.0
     # via
     #   -r requirements/test.txt
     #   astroid
-xblock[django]==1.8.0
+xblock[django]==1.8.1
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
     #   xblock-utils
 xblock-sdk==0.7.0
     # via -r requirements/test.txt
-xblock-utils==3.4.1
+xblock-utils==4.0.0
     # via -r requirements/test.txt
 zipp==3.17.0
     # via
