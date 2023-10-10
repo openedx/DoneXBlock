@@ -2,5 +2,4 @@
 -c constraints.txt
 
 XBlock
-xblock-utils
 django

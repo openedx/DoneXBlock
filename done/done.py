@@ -9,7 +9,7 @@ import pkg_resources
 from web_fragments.fragment import Fragment
 from xblock.core import XBlock
 from xblock.fields import Boolean, DateTime, Float, Scope, String
-from xblockutils.resources import ResourceLoader
+from xblock.utils.resources import ResourceLoader
 
 resource_loader = ResourceLoader(__name__)
 
