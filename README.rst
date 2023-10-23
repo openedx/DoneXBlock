@@ -102,7 +102,7 @@ may be found in `Backstage`_ or groked from inspecting catalog-info.yaml.
 Reporting Security Issues
 =========================
 
-Please do not report security issues in public. Please email security@edx.org.
+Please do not report security issues in public. Please email security@openedx.org.
 
 
 History
