@@ -9,7 +9,10 @@ import pkg_resources
 from web_fragments.fragment import Fragment
 from xblock.core import XBlock
 from xblock.fields import Boolean, DateTime, Float, Scope, String
-from xblock.utils.resources import ResourceLoader
+try:
+    from xblock.utils.resources import ResourceLoader
+except ModuleNotFoundError:  # For backward compatibility with releases older than Quince.
+    from xblockutils.resources import ResourceLoader
 
 resource_loader = ResourceLoader(__name__)
 
