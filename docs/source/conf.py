@@ -22,7 +22,7 @@ import done
 
 project = 'DoneXBlock'
 current_year = datetime.utcnow().year
-copyright = f'{current_year}, The Center for Reimagining Learning'
+copyright = f'{current_year}, Axim Collaborative'
 version = done.__version__
 
 
