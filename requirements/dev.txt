@@ -27,7 +27,7 @@ lxml==4.9.3
     #   -r requirements/base.txt
     #   edx-i18n-tools
     #   xblock
-mako==1.2.4
+mako==1.3.0
     # via
     #   -r requirements/base.txt
     #   xblock
