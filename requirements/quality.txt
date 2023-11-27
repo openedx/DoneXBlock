@@ -20,9 +20,9 @@ astroid==3.0.1
     #   pylint-celery
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.29.3
+boto3==1.29.6
     # via fs-s3fs
-botocore==1.32.3
+botocore==1.32.6
     # via
     #   boto3
     #   s3transfer
@@ -42,7 +42,7 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==1.5.0
     # via edx-lint
-cookiecutter==2.4.0
+cookiecutter==2.5.0
     # via xblock-sdk
 ddt==1.7.0
     # via -r requirements/quality.in
@@ -62,7 +62,7 @@ fs==2.4.16
     #   xblock
 fs-s3fs==1.1.1
     # via xblock-sdk
-idna==3.4
+idna==3.6
     # via requests
 isort==5.12.0
     # via pylint
@@ -103,7 +103,7 @@ platformdirs==3.11.0
     #   pylint
 pycodestyle==2.11.1
     # via -r requirements/quality.in
-pygments==2.17.1
+pygments==2.17.2
     # via rich
 pylint==3.0.2
     # via
