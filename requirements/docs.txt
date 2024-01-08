@@ -44,7 +44,7 @@ importlib-metadata==7.0.1
     # via sphinx
 jinja2==3.1.2
     # via sphinx
-lxml==5.0.0
+lxml==5.0.1
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -136,7 +136,7 @@ webob==1.8.7
     # via
     #   -r requirements/base.txt
     #   xblock
-xblock==1.9.0
+xblock==1.9.1
     # via -r requirements/base.txt
 zipp==3.17.0
     # via importlib-metadata
