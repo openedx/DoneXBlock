@@ -20,9 +20,9 @@ astroid==3.0.3
     #   pylint-celery
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.34.34
+boto3==1.34.39
     # via fs-s3fs
-botocore==1.34.34
+botocore==1.34.39
     # via
     #   boto3
     #   s3transfer
@@ -87,7 +87,7 @@ iniconfig==2.0.0
     # via pytest
 isort==5.13.2
     # via pylint
-jaraco-classes==3.3.0
+jaraco-classes==3.3.1
     # via keyring
 jeepney==0.8.0
     # via
@@ -168,7 +168,7 @@ python-dateutil==2.8.2
     #   arrow
     #   botocore
     #   xblock
-python-slugify==8.0.3
+python-slugify==8.0.4
     # via
     #   code-annotations
     #   cookiecutter
@@ -230,7 +230,7 @@ tomli==2.0.1
     #   pytest
 tomlkit==0.12.3
     # via pylint
-twine==4.0.2
+twine==5.0.0
     # via -r requirements/test.in
 types-python-dateutil==2.8.19.20240106
     # via arrow
