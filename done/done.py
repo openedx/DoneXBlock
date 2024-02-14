@@ -6,9 +6,22 @@ Show a toggle which lets students mark things as done.
 import uuid
 
 import pkg_resources
+from web_fragments.fragment import Fragment
 from xblock.core import XBlock
 from xblock.fields import Boolean, DateTime, Float, Scope, String
-from web_fragments.fragment import Fragment
+try:
+    from xblock.utils.resources import ResourceLoader
+except ModuleNotFoundError:  # For backward compatibility with releases older than Quince.
+    from xblockutils.resources import ResourceLoader
+
+resource_loader = ResourceLoader(__name__)
+
+
+def _(text):
+    """
+    Make '_' a no-op, so we can scrape strings
+    """
+    return text
 
 
 def resource_string(path):
@@ -17,6 +30,7 @@ def resource_string(path):
     return data.decode("utf8")
 
 
+@XBlock.needs('i18n')
 class DoneXBlock(XBlock):
     """
     Show a toggle which lets students mark things as done.
@@ -24,13 +38,13 @@ class DoneXBlock(XBlock):
 
     done = Boolean(
         scope=Scope.user_state,
-        help="Is the student done?",
+        help=_("Is the student done?"),
         default=False
     )
 
     align = String(
         scope=Scope.settings,
-        help="Align left/right/center",
+        help=_("Align left/right/center"),
         default="left"
     )
 
@@ -63,15 +77,19 @@ class DoneXBlock(XBlock):
         The primary view of the DoneXBlock, shown to students
         when viewing courses.
         """
-        html_resource = resource_string("static/html/done.html")
-        html = html_resource.format(done=self.done,
-                                    id=uuid.uuid1(0))
+        frag = Fragment()
+        frag.add_content(resource_loader.render_django_template(
+            'templates/done.html',
+            {
+                'id': uuid.uuid1(0),
+                'done': self.done,
+            },
+            i18n_service=self.runtime.service(self, 'i18n')
+        ))
         (unchecked_png, checked_png) = (
             self.runtime.local_resource_url(self, x) for x in
             ('public/check-empty.png', 'public/check-full.png')
         )
-
-        frag = Fragment(html)
         frag.add_css(resource_string("static/css/done.css"))
         frag.add_javascript(resource_string("static/js/src/done.js"))
         frag.initialize_js("DoneXBlock", {'state': self.done,
@@ -81,11 +99,15 @@ class DoneXBlock(XBlock):
         return frag
 
     def studio_view(self, _context=None):
-        '''
+        """
         Minimal view with no configuration options giving some help text.
-        '''
-        html = resource_string("static/html/studioview.html")
-        frag = Fragment(html)
+        """
+        frag = Fragment()
+        frag.add_content(resource_loader.render_django_template(
+            'templates/studioview.html',
+            {},
+            i18n_service=self.runtime.service(self, 'i18n')
+        ))
         return frag
 
     @staticmethod
@@ -109,36 +131,38 @@ class DoneXBlock(XBlock):
 
     display_name = String(
         default="Completion", scope=Scope.settings,
-        help="Display name"
+        help=_("Display name")
     )
 
     start = DateTime(
         default=None, scope=Scope.settings,
-        help="ISO-8601 formatted string representing the start date "
-             "of this assignment. We ignore this."
+        help=_("ISO-8601 formatted string representing the start date of this assignment. We ignore this.")
     )
 
     due = DateTime(
         default=None, scope=Scope.settings,
-        help="ISO-8601 formatted string representing the due date "
-             "of this assignment. We ignore this."
+        help=_("ISO-8601 formatted string representing the due date of this assignment. We ignore this.")
     )
 
     weight = Float(
-        display_name="Problem Weight",
-        help=("Defines the number of points each problem is worth. "
-              "If the value is not set, the problem is worth the sum of the "
-              "option point values."),
+        display_name=_("Problem Weight"),
+        help=_(
+            "Defines the number of points each problem is worth. "
+            "If the value is not set, the problem is worth the sum of the "
+            "option point values."
+        ),
         values={"min": 0, "step": .1},
         scope=Scope.settings
     )
 
     def has_dynamic_children(self):
-        """Do we dynamically determine our children? No, we don't have any.
+        """
+        Do we dynamically determine our children? No, we don't have any.
         """
         return False
 
     def max_score(self):
-        """The maximum raw score of our problem.
+        """
+        The maximum raw score of our problem.
         """
         return 1

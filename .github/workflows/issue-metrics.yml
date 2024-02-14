@@ -1,0 +1,24 @@
+name: Monthly issue metrics
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: issue metrics
+    runs-on: ubuntu-latest
+    
+    steps:
+
+    - name: Run issue-metrics tool
+      uses: github/issue-metrics@v2
+      env:
+        GH_TOKEN: ${{ secrets.REQUIREMENTS_BOT_GITHUB_TOKEN }}
+        LABELS_TO_MEASURE: 'waiting for eng review,product review,needs test run,waiting on author,Ready to Merge,blocked by other work'
+        SEARCH_QUERY: 'repo:openedx/DoneXBlock is:pr created:2023-05-01..2023-08-31 -reason:"not planned"'
+
+    - name: Create issue
+      uses: peter-evans/create-issue-from-file@v5
+      with:
+        title: Issue metrics report
+        content-filepath: ./issue_metrics.md
+        assignees: e0d,feanil
