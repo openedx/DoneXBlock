@@ -139,8 +139,9 @@ setup(
     description='done XBlock',   # TODO: write a better description.
     url='https://github.com/openedx/DoneXBlock',
     classifiers=[
-        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.12',
     ],
     packages=[
         'done',
