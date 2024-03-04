@@ -18,11 +18,15 @@ astroid==3.1.0
     # via
     #   pylint
     #   pylint-celery
+backports-zoneinfo==0.2.1
+    # via
+    #   -r requirements/base.txt
+    #   django
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.34.49
+boto3==1.34.54
     # via fs-s3fs
-botocore==1.34.49
+botocore==1.34.54
     # via
     #   boto3
     #   s3transfer
@@ -52,7 +56,7 @@ coveralls==3.3.1
     # via -r requirements/test.in
 cryptography==42.0.5
     # via secretstorage
-ddt==1.7.1
+ddt==1.7.2
     # via -r requirements/test.in
 dill==0.3.8
     # via pylint
@@ -101,7 +105,7 @@ jmespath==1.0.1
     # via
     #   boto3
     #   botocore
-keyring==24.3.0
+keyring==24.3.1
     # via twine
 lxml==5.1.0
     # via
@@ -132,7 +136,7 @@ packaging==23.2
     # via pytest
 pbr==6.0.0
     # via stevedore
-pkginfo==1.9.6
+pkginfo==1.10.0
     # via twine
 platformdirs==4.2.0
     # via pylint
@@ -160,9 +164,9 @@ pylint-plugin-utils==0.8.2
     #   pylint-django
 pypng==0.20220715.0
     # via xblock-sdk
-pytest==8.0.2
+pytest==8.1.0
     # via -r requirements/test.in
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
     # via
     #   -r requirements/base.txt
     #   arrow
@@ -175,7 +179,6 @@ python-slugify==8.0.4
 pytz==2024.1
     # via
     #   -r requirements/base.txt
-    #   django
     #   xblock
 pyyaml==6.0.1
     # via
@@ -183,7 +186,7 @@ pyyaml==6.0.1
     #   code-annotations
     #   cookiecutter
     #   xblock
-readme-renderer==42.0
+readme-renderer==43.0
     # via twine
 requests==2.31.0
     # via
@@ -196,7 +199,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.7.0
+rich==13.7.1
     # via
     #   cookiecutter
     #   twine
@@ -228,7 +231,7 @@ tomli==2.0.1
     # via
     #   pylint
     #   pytest
-tomlkit==0.12.3
+tomlkit==0.12.4
     # via pylint
 twine==5.0.0
     # via -r requirements/test.in
@@ -256,7 +259,7 @@ webob==1.8.7
     #   -r requirements/base.txt
     #   xblock
     #   xblock-sdk
-xblock==1.10.0
+xblock==2.0.0
     # via
     #   -r requirements/base.txt
     #   xblock-sdk
