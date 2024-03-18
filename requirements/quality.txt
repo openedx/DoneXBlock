@@ -25,9 +25,9 @@ backports-zoneinfo==0.2.1 ; python_version < "3.9"
     #   django
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.34.62
+boto3==1.34.64
     # via fs-s3fs
-botocore==1.34.62
+botocore==1.34.64
     # via
     #   boto3
     #   s3transfer
@@ -45,7 +45,7 @@ click==8.1.7
     #   edx-lint
 click-log==0.4.0
     # via edx-lint
-code-annotations==1.6.0
+code-annotations==1.7.0
     # via edx-lint
 cookiecutter==2.6.0
     # via xblock-sdk
@@ -152,7 +152,7 @@ requests==2.31.0
     #   xblock-sdk
 rich==13.7.1
     # via cookiecutter
-s3transfer==0.10.0
+s3transfer==0.10.1
     # via boto3
 simplejson==3.19.2
     # via
@@ -178,7 +178,7 @@ tomli==2.0.1
     # via pylint
 tomlkit==0.12.4
     # via pylint
-types-python-dateutil==2.8.19.20240311
+types-python-dateutil==2.9.0.20240316
     # via arrow
 typing-extensions==4.10.0
     # via
