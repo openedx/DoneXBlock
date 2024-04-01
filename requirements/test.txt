@@ -25,9 +25,9 @@ backports-zoneinfo==0.2.1 ; python_version < "3.9"
     #   django
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.34.69
+boto3==1.34.74
     # via fs-s3fs
-botocore==1.34.69
+botocore==1.34.74
     # via
     #   boto3
     #   s3transfer
@@ -93,7 +93,7 @@ iniconfig==2.0.0
     # via pytest
 isort==5.13.2
     # via pylint
-jaraco-classes==3.3.1
+jaraco-classes==3.4.0
     # via keyring
 jaraco-context==4.3.0
     # via keyring
@@ -139,7 +139,7 @@ more-itertools==10.2.0
     # via
     #   jaraco-classes
     #   jaraco-functools
-nh3==0.2.15
+nh3==0.2.17
     # via readme-renderer
 packaging==24.0
     # via pytest
@@ -151,7 +151,7 @@ platformdirs==4.2.0
     # via pylint
 pluggy==1.4.0
     # via pytest
-pycparser==2.21
+pycparser==2.22
     # via cffi
 pygments==2.17.2
     # via
