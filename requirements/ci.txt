@@ -194,9 +194,8 @@ keyring==25.1.0
     # via
     #   -r requirements/test.txt
     #   twine
-lxml==4.9.4
+lxml==5.2.1
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/test.txt
     #   xblock
     #   xblock-sdk
@@ -427,7 +426,7 @@ xblock==4.0.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-xblock-sdk==0.10.0
+xblock-sdk==0.7.0
     # via -r requirements/test.txt
 zipp==3.18.1
     # via
