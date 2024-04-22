@@ -139,7 +139,7 @@ webob==1.8.7
     # via
     #   -r requirements/base.txt
     #   xblock
-xblock==3.1.0
+xblock==4.0.0
     # via -r requirements/base.txt
 zipp==3.18.1
     # via importlib-metadata
