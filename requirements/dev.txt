@@ -26,7 +26,7 @@ fs==2.4.16
     # via
     #   -r requirements/base.txt
     #   xblock
-lxml==4.9.4
+lxml==5.2.1
     # via
     #   -r requirements/base.txt
     #   edx-i18n-tools

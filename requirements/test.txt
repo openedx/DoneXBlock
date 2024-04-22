@@ -115,9 +115,8 @@ jmespath==1.0.1
     #   botocore
 keyring==25.1.0
     # via twine
-lxml==4.9.4
+lxml==5.2.1
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/base.txt
     #   xblock
     #   xblock-sdk
@@ -274,7 +273,7 @@ xblock==4.0.0
     # via
     #   -r requirements/base.txt
     #   xblock-sdk
-xblock-sdk==0.10.0
+xblock-sdk==0.7.0
     # via -r requirements/test.in
 zipp==3.18.1
     # via

@@ -79,9 +79,8 @@ jmespath==1.0.1
     # via
     #   boto3
     #   botocore
-lxml==4.9.4
+lxml==5.2.1
     # via
-    #   -c requirements/constraints.txt
     #   -r requirements/base.txt
     #   xblock
     #   xblock-sdk
@@ -205,7 +204,7 @@ xblock==4.0.0
     # via
     #   -r requirements/base.txt
     #   xblock-sdk
-xblock-sdk==0.10.0
+xblock-sdk==0.7.0
     # via -r requirements/quality.in
 
 # The following packages are considered to be unsafe in a requirements file:
