@@ -21,7 +21,7 @@ astroid==3.1.0
     #   -r requirements/test.txt
     #   pylint
     #   pylint-celery
-backports-tarfile==1.1.0
+backports-tarfile==1.1.1
     # via
     #   -r requirements/test.txt
     #   jaraco-context
@@ -34,11 +34,11 @@ binaryornot==0.4.4
     # via
     #   -r requirements/test.txt
     #   cookiecutter
-boto3==1.34.88
+boto3==1.34.93
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.34.88
+botocore==1.34.93
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -190,7 +190,7 @@ jmespath==1.0.1
     #   -r requirements/test.txt
     #   boto3
     #   botocore
-keyring==25.1.0
+keyring==25.2.0
     # via
     #   -r requirements/test.txt
     #   twine
@@ -245,7 +245,7 @@ pkginfo==1.10.0
     # via
     #   -r requirements/test.txt
     #   twine
-platformdirs==4.2.0
+platformdirs==4.2.1
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
@@ -295,7 +295,7 @@ pyproject-api==1.6.1
     # via
     #   -r requirements/tox.txt
     #   tox
-pytest==8.1.1
+pytest==8.2.0
     # via -r requirements/test.txt
 python-dateutil==2.9.0.post0
     # via
@@ -387,7 +387,7 @@ tomlkit==0.12.4
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.14.2
+tox==4.15.0
     # via -r requirements/tox.txt
 twine==5.0.0
     # via -r requirements/test.txt
@@ -408,7 +408,7 @@ urllib3==1.26.18
     #   botocore
     #   requests
     #   twine
-virtualenv==20.25.3
+virtualenv==20.26.0
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -422,11 +422,11 @@ webob==1.8.7
     #   -r requirements/test.txt
     #   xblock
     #   xblock-sdk
-xblock==4.0.0
+xblock==4.0.1
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-xblock-sdk==0.7.0
+xblock-sdk==0.11.0
     # via -r requirements/test.txt
 zipp==3.18.1
     # via
