@@ -16,7 +16,7 @@ asgiref==3.8.1
     # via
     #   -r requirements/test.txt
     #   django
-astroid==3.1.0
+astroid==3.2.2
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -34,11 +34,11 @@ binaryornot==0.4.4
     # via
     #   -r requirements/test.txt
     #   cookiecutter
-boto3==1.34.103
+boto3==1.34.108
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.34.103
+botocore==1.34.108
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -88,11 +88,11 @@ cookiecutter==2.6.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-coverage[toml]==7.4.4
+coverage[toml]==7.5.1
     # via
     #   -r requirements/test.txt
     #   coveralls
-coveralls==4.0.0
+coveralls==4.0.1
     # via -r requirements/test.txt
 cryptography==42.0.7
     # via
@@ -190,16 +190,16 @@ jmespath==1.0.1
     #   -r requirements/test.txt
     #   boto3
     #   botocore
-keyring==25.2.0
+keyring==25.2.1
     # via
     #   -r requirements/test.txt
     #   twine
-lxml==5.2.1
+lxml==5.2.2
     # via
     #   -r requirements/test.txt
     #   xblock
     #   xblock-sdk
-mako==1.3.3
+mako==1.3.5
     # via
     #   -r requirements/test.txt
     #   xblock
@@ -245,7 +245,7 @@ pkginfo==1.10.0
     # via
     #   -r requirements/test.txt
     #   twine
-platformdirs==4.2.1
+platformdirs==4.2.2
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
@@ -267,7 +267,7 @@ pygments==2.18.0
     #   -r requirements/test.txt
     #   readme-renderer
     #   rich
-pylint==3.1.0
+pylint==3.2.1
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -295,7 +295,7 @@ pyproject-api==1.6.1
     # via
     #   -r requirements/tox.txt
     #   tox
-pytest==8.2.0
+pytest==8.2.1
     # via -r requirements/test.txt
 python-dateutil==2.9.0.post0
     # via
@@ -390,7 +390,7 @@ tomlkit==0.12.5
     #   pylint
 tox==4.15.0
     # via -r requirements/tox.txt
-twine==5.0.0
+twine==5.1.0
     # via -r requirements/test.txt
 types-python-dateutil==2.9.0.20240316
     # via
@@ -409,7 +409,7 @@ urllib3==1.26.18
     #   botocore
     #   requests
     #   twine
-virtualenv==20.26.1
+virtualenv==20.26.2
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -429,7 +429,7 @@ xblock==4.0.1
     #   xblock-sdk
 xblock-sdk==0.11.0
     # via -r requirements/test.txt
-zipp==3.18.1
+zipp==3.18.2
     # via
     #   -r requirements/test.txt
     #   importlib-metadata
