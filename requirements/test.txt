@@ -14,7 +14,7 @@ asgiref==3.8.1
     # via
     #   -r requirements/base.txt
     #   django
-astroid==3.2.2
+astroid==3.2.3
     # via
     #   pylint
     #   pylint-celery
@@ -27,9 +27,9 @@ backports-zoneinfo==0.2.1 ; python_version < "3.9"
     #   django
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.34.140
+boto3==1.34.144
     # via fs-s3fs
-botocore==1.34.140
+botocore==1.34.144
     # via
     #   boto3
     #   s3transfer
@@ -53,7 +53,7 @@ code-annotations==1.8.0
     # via edx-lint
 cookiecutter==2.6.0
     # via xblock-sdk
-coverage[toml]==7.5.4
+coverage[toml]==7.6.0
     # via coveralls
 coveralls==4.0.1
     # via -r requirements/test.in
@@ -73,7 +73,7 @@ docutils==0.20.1
     # via readme-renderer
 edx-lint==5.3.6
     # via -r requirements/test.in
-exceptiongroup==1.2.1
+exceptiongroup==1.2.2
     # via pytest
 fs==2.4.16
     # via
@@ -242,7 +242,7 @@ tomli==2.0.1
     #   coverage
     #   pylint
     #   pytest
-tomlkit==0.12.5
+tomlkit==0.13.0
     # via pylint
 twine==5.1.1
     # via -r requirements/test.in
