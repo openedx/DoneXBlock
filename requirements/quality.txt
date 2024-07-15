@@ -14,7 +14,7 @@ asgiref==3.8.1
     # via
     #   -r requirements/base.txt
     #   django
-astroid==3.2.2
+astroid==3.2.3
     # via
     #   pylint
     #   pylint-celery
@@ -25,9 +25,9 @@ backports-zoneinfo==0.2.1 ; python_version < "3.9"
     #   django
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.34.140
+boto3==1.34.144
     # via fs-s3fs
-botocore==1.34.140
+botocore==1.34.144
     # via
     #   boto3
     #   s3transfer
@@ -53,7 +53,7 @@ ddt==1.7.2
     # via -r requirements/quality.in
 dill==0.3.8
     # via pylint
-django==4.2.13
+django==4.2.14
     # via
     #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.txt
@@ -175,7 +175,7 @@ text-unidecode==1.3
     # via python-slugify
 tomli==2.0.1
     # via pylint
-tomlkit==0.12.5
+tomlkit==0.13.0
     # via pylint
 types-python-dateutil==2.9.0.20240316
     # via arrow
