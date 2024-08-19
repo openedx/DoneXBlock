@@ -81,7 +81,7 @@ pyyaml==6.0.2
     #   xblock
 requests==2.32.3
     # via sphinx
-simplejson==3.19.2
+simplejson==3.19.3
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -92,7 +92,7 @@ six==1.16.0
     #   python-dateutil
 snowballstemmer==2.2.0
     # via sphinx
-soupsieve==2.5
+soupsieve==2.6
     # via beautifulsoup4
 sphinx==8.0.2
     # via
@@ -125,7 +125,7 @@ web-fragments==2.2.0
     # via
     #   -r requirements/base.txt
     #   xblock
-webob==1.8.7
+webob==1.8.8
     # via
     #   -r requirements/base.txt
     #   xblock
