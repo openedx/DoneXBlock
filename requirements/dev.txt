@@ -53,7 +53,7 @@ pyyaml==6.0.2
     #   -r requirements/base.txt
     #   edx-i18n-tools
     #   xblock
-simplejson==3.19.2
+simplejson==3.19.3
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -70,7 +70,7 @@ web-fragments==2.2.0
     # via
     #   -r requirements/base.txt
     #   xblock
-webob==1.8.7
+webob==1.8.8
     # via
     #   -r requirements/base.txt
     #   xblock
