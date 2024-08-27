@@ -5,7 +5,7 @@ Show a toggle which lets students mark things as done.
 
 import uuid
 
-import pkg_resources
+import importlib.resources
 from web_fragments.fragment import Fragment
 from xblock.core import XBlock
 from xblock.fields import Boolean, DateTime, Float, Scope, String
@@ -26,8 +26,8 @@ def _(text):
 
 def resource_string(path):
     """Handy helper for getting resources from our kit."""
-    data = pkg_resources.resource_string(__name__, path)
-    return data.decode("utf8")
+    data = importlib.resources.files(__package__).joinpath(path)
+    return data.read_text(encoding="utf8")
 
 
 @XBlock.needs('i18n')
