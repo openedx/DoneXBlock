@@ -46,10 +46,6 @@ certifi==2024.8.30
     # via
     #   -r requirements/test.txt
     #   requests
-cffi==1.17.1
-    # via
-    #   -r requirements/test.txt
-    #   cryptography
 chardet==5.2.0
     # via
     #   -r requirements/test.txt
@@ -89,10 +85,6 @@ coverage[toml]==7.6.1
     #   coveralls
 coveralls==4.0.1
     # via -r requirements/test.txt
-cryptography==43.0.1
-    # via
-    #   -r requirements/test.txt
-    #   secretstorage
 ddt==1.7.2
     # via -r requirements/test.txt
 dill==0.3.8
@@ -161,11 +153,6 @@ jaraco-functools==4.0.2
     # via
     #   -r requirements/test.txt
     #   keyring
-jeepney==0.8.0
-    # via
-    #   -r requirements/test.txt
-    #   keyring
-    #   secretstorage
 jinja2==3.1.4
     # via
     #   -r requirements/test.txt
@@ -244,10 +231,6 @@ pluggy==1.5.0
     #   -r requirements/tox.txt
     #   pytest
     #   tox
-pycparser==2.22
-    # via
-    #   -r requirements/test.txt
-    #   cffi
 pygments==2.18.0
     # via
     #   -r requirements/test.txt
@@ -333,10 +316,6 @@ s3transfer==0.10.2
     # via
     #   -r requirements/test.txt
     #   boto3
-secretstorage==3.3.3
-    # via
-    #   -r requirements/test.txt
-    #   keyring
 simplejson==3.19.3
     # via
     #   -r requirements/test.txt
