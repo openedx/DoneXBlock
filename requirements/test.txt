@@ -22,15 +22,15 @@ backports-tarfile==1.2.0
     # via jaraco-context
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.35.10
+boto3==1.35.14
     # via fs-s3fs
-botocore==1.35.10
+botocore==1.35.14
     # via
     #   boto3
     #   s3transfer
 certifi==2024.8.30
     # via requests
-cffi==1.17.0
+cffi==1.17.1
     # via cryptography
 chardet==5.2.0
     # via binaryornot
@@ -52,7 +52,7 @@ coverage[toml]==7.6.1
     # via coveralls
 coveralls==4.0.1
     # via -r requirements/test.in
-cryptography==43.0.0
+cryptography==43.0.1
     # via secretstorage
 ddt==1.7.2
     # via -r requirements/test.in
@@ -126,7 +126,7 @@ mccabe==0.7.0
     # via pylint
 mdurl==0.1.2
     # via markdown-it-py
-more-itertools==10.4.0
+more-itertools==10.5.0
     # via
     #   jaraco-classes
     #   jaraco-functools
@@ -138,7 +138,7 @@ pbr==6.1.0
     # via stevedore
 pkginfo==1.10.0
     # via twine
-platformdirs==4.2.2
+platformdirs==4.3.2
     # via pylint
 pluggy==1.5.0
     # via pytest
@@ -231,7 +231,7 @@ tomlkit==0.13.2
     # via pylint
 twine==5.1.1
     # via -r requirements/test.in
-types-python-dateutil==2.9.0.20240821
+types-python-dateutil==2.9.0.20240906
     # via arrow
 urllib3==2.2.2
     # via
