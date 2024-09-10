@@ -30,8 +30,6 @@ botocore==1.35.14
     #   s3transfer
 certifi==2024.8.30
     # via requests
-cffi==1.17.1
-    # via cryptography
 chardet==5.2.0
     # via binaryornot
 charset-normalizer==3.3.2
@@ -52,8 +50,6 @@ coverage[toml]==7.6.1
     # via coveralls
 coveralls==4.0.1
     # via -r requirements/test.in
-cryptography==43.0.1
-    # via secretstorage
 ddt==1.7.2
     # via -r requirements/test.in
 dill==0.3.8
@@ -91,10 +87,6 @@ jaraco-context==6.0.1
     # via keyring
 jaraco-functools==4.0.2
     # via keyring
-jeepney==0.8.0
-    # via
-    #   keyring
-    #   secretstorage
 jinja2==3.1.4
     # via
     #   code-annotations
@@ -142,8 +134,6 @@ platformdirs==4.3.2
     # via pylint
 pluggy==1.5.0
     # via pytest
-pycparser==2.22
-    # via cffi
 pygments==2.18.0
     # via
     #   readme-renderer
@@ -205,8 +195,6 @@ rich==13.8.0
     #   twine
 s3transfer==0.10.2
     # via boto3
-secretstorage==3.3.3
-    # via keyring
 simplejson==3.19.3
     # via
     #   -r requirements/base.txt
