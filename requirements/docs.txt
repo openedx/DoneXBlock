@@ -36,7 +36,7 @@ fs==2.4.16
     # via
     #   -r requirements/base.txt
     #   xblock
-idna==3.8
+idna==3.10
     # via requests
 imagesize==1.4.1
     # via sphinx
@@ -71,7 +71,7 @@ python-dateutil==2.9.0.post0
     # via
     #   -r requirements/base.txt
     #   xblock
-pytz==2024.1
+pytz==2024.2
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -119,7 +119,7 @@ sqlparse==0.5.1
     #   django
 typing-extensions==4.12.2
     # via pydata-sphinx-theme
-urllib3==2.2.2
+urllib3==2.2.3
     # via requests
 web-fragments==2.2.0
     # via
