@@ -47,7 +47,7 @@ python-dateutil==2.9.0.post0
     # via
     #   -r requirements/base.txt
     #   xblock
-pytz==2024.1
+pytz==2024.2
     # via
     #   -r requirements/base.txt
     #   xblock
