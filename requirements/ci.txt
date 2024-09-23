@@ -16,7 +16,7 @@ asgiref==3.8.1
     # via
     #   -r requirements/test.txt
     #   django
-astroid==3.2.4
+astroid==3.3.3
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -29,11 +29,11 @@ binaryornot==0.4.4
     # via
     #   -r requirements/test.txt
     #   cookiecutter
-boto3==1.35.19
+boto3==1.35.24
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.35.19
+botocore==1.35.24
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -118,7 +118,7 @@ docutils==0.21.2
     #   readme-renderer
 edx-lint==5.4.0
     # via -r requirements/test.txt
-filelock==3.16.0
+filelock==3.16.1
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -176,7 +176,7 @@ jmespath==1.0.1
     #   -r requirements/test.txt
     #   boto3
     #   botocore
-keyring==25.3.0
+keyring==25.4.1
     # via
     #   -r requirements/test.txt
     #   twine
@@ -231,7 +231,7 @@ pkginfo==1.10.0
     # via
     #   -r requirements/test.txt
     #   twine
-platformdirs==4.3.3
+platformdirs==4.3.6
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
@@ -253,7 +253,7 @@ pygments==2.18.0
     #   -r requirements/test.txt
     #   readme-renderer
     #   rich
-pylint==3.2.7
+pylint==3.3.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -277,7 +277,7 @@ pypng==0.20220715.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-pyproject-api==1.7.1
+pyproject-api==1.8.0
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -365,7 +365,7 @@ tomlkit==0.13.2
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.18.1
+tox==4.20.0
     # via -r requirements/tox.txt
 twine==5.1.1
     # via -r requirements/test.txt
@@ -379,7 +379,7 @@ urllib3==2.2.3
     #   botocore
     #   requests
     #   twine
-virtualenv==20.26.4
+virtualenv==20.26.5
     # via
     #   -r requirements/tox.txt
     #   tox
