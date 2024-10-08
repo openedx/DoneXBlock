@@ -5,7 +5,6 @@ Show a toggle which lets students mark things as done.
 
 import uuid
 
-import importlib.resources
 from web_fragments.fragment import Fragment
 from xblock.core import XBlock
 from xblock.fields import Boolean, DateTime, Float, Scope, String
@@ -25,9 +24,8 @@ def _(text):
 
 
 def resource_string(path):
-    """Handy helper for getting resources from our kit."""
-    data = importlib.resources.files(__package__).joinpath(path)
-    return data.read_text(encoding="utf8")
+    """Retrieves the contents of a file as a string from the specified path."""
+    return resource_loader.load_unicode(path)
 
 
 @XBlock.needs('i18n')
