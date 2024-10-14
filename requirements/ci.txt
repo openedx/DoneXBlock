@@ -29,11 +29,11 @@ binaryornot==0.4.4
     # via
     #   -r requirements/test.txt
     #   cookiecutter
-boto3==1.35.34
+boto3==1.35.39
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.35.34
+botocore==1.35.39
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -56,7 +56,7 @@ chardet==5.2.0
     #   -r requirements/tox.txt
     #   binaryornot
     #   tox
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
     # via
     #   -r requirements/test.txt
     #   requests
@@ -83,7 +83,7 @@ cookiecutter==2.6.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-coverage[toml]==7.6.1
+coverage[toml]==7.6.3
     # via
     #   -r requirements/test.txt
     #   coveralls
@@ -99,7 +99,7 @@ dill==0.3.9
     # via
     #   -r requirements/test.txt
     #   pylint
-distlib==0.3.8
+distlib==0.3.9
     # via
     #   -r requirements/tox.txt
     #   virtualenv
@@ -193,7 +193,7 @@ markdown-it-py==3.0.0
     # via
     #   -r requirements/test.txt
     #   rich
-markupsafe==2.1.5
+markupsafe==3.0.1
     # via
     #   -r requirements/test.txt
     #   jinja2
@@ -264,7 +264,7 @@ pylint-celery==0.3
     # via
     #   -r requirements/test.txt
     #   edx-lint
-pylint-django==2.5.5
+pylint-django==2.6.1
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -329,7 +329,7 @@ rich==13.9.2
     #   -r requirements/test.txt
     #   cookiecutter
     #   twine
-s3transfer==0.10.2
+s3transfer==0.10.3
     # via
     #   -r requirements/test.txt
     #   boto3
