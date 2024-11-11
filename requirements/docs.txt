@@ -56,7 +56,7 @@ markupsafe==3.0.2
     #   jinja2
     #   mako
     #   xblock
-packaging==24.1
+packaging==24.2
     # via sphinx
 pydata-sphinx-theme==0.16.0
     # via sphinx-book-theme

@@ -29,11 +29,11 @@ binaryornot==0.4.4
     # via
     #   -r requirements/test.txt
     #   cookiecutter
-boto3==1.35.54
+boto3==1.35.57
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.35.54
+botocore==1.35.57
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -216,7 +216,7 @@ nh3==0.2.18
     # via
     #   -r requirements/test.txt
     #   readme-renderer
-packaging==24.1
+packaging==24.2
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
@@ -399,7 +399,7 @@ xblock==5.1.0
     #   xblock-sdk
 xblock-sdk==0.12.0
     # via -r requirements/test.txt
-zipp==3.20.2
+zipp==3.21.0
     # via
     #   -r requirements/test.txt
     #   importlib-metadata
