@@ -34,7 +34,7 @@ six==1.16.0
     # via
     #   fs
     #   python-dateutil
-sqlparse==0.5.1
+sqlparse==0.5.2
     # via django
 web-fragments==2.2.0
     # via xblock
