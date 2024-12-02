@@ -20,9 +20,9 @@ astroid==3.3.5
     #   pylint-celery
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.35.68
+boto3==1.35.71
     # via fs-s3fs
-botocore==1.35.68
+botocore==1.35.71
     # via
     #   boto3
     #   s3transfer
@@ -40,7 +40,7 @@ click==8.1.7
     #   edx-lint
 click-log==0.4.0
     # via edx-lint
-code-annotations==1.8.2
+code-annotations==2.0.0
     # via edx-lint
 cookiecutter==2.6.0
     # via xblock-sdk
@@ -103,7 +103,7 @@ pycodestyle==2.12.1
     # via -r requirements/quality.in
 pygments==2.18.0
     # via rich
-pylint==3.3.1
+pylint==3.3.2
     # via
     #   -r requirements/quality.in
     #   edx-lint
