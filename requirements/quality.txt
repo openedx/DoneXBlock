@@ -20,9 +20,9 @@ astroid==3.3.8
     #   pylint-celery
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.35.90
+boto3==1.35.92
     # via fs-s3fs
-botocore==1.35.90
+botocore==1.35.92
     # via
     #   boto3
     #   s3transfer
@@ -101,7 +101,7 @@ platformdirs==4.3.6
     # via pylint
 pycodestyle==2.12.1
     # via -r requirements/quality.in
-pygments==2.18.0
+pygments==2.19.0
     # via rich
 pylint==3.3.3
     # via
