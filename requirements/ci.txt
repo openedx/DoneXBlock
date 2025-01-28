@@ -29,16 +29,16 @@ binaryornot==0.4.4
     # via
     #   -r requirements/test.txt
     #   cookiecutter
-boto3==1.36.2
+boto3==1.36.6
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.36.2
+botocore==1.36.6
     # via
     #   -r requirements/test.txt
     #   boto3
     #   s3transfer
-cachetools==5.5.0
+cachetools==5.5.1
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -116,9 +116,9 @@ docutils==0.21.2
     # via
     #   -r requirements/test.txt
     #   readme-renderer
-edx-lint==5.4.1
+edx-lint==5.6.0
     # via -r requirements/test.txt
-filelock==3.16.1
+filelock==3.17.0
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -132,11 +132,15 @@ fs-s3fs==1.1.1
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
+id==1.5.0
+    # via
+    #   -r requirements/test.txt
+    #   twine
 idna==3.10
     # via
     #   -r requirements/test.txt
     #   requests
-importlib-metadata==8.5.0
+importlib-metadata==8.6.1
     # via
     #   -r requirements/test.txt
     #   keyring
@@ -227,10 +231,6 @@ pbr==6.1.0
     # via
     #   -r requirements/test.txt
     #   stevedore
-pkginfo==1.12.0
-    # via
-    #   -r requirements/test.txt
-    #   twine
 platformdirs==4.3.6
     # via
     #   -r requirements/test.txt
@@ -277,7 +277,7 @@ pypng==0.20220715.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-pyproject-api==1.8.0
+pyproject-api==1.9.0
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -313,6 +313,7 @@ requests==2.32.3
     #   -r requirements/test.txt
     #   cookiecutter
     #   coveralls
+    #   id
     #   requests-toolbelt
     #   twine
     #   xblock-sdk
@@ -329,7 +330,7 @@ rich==13.9.4
     #   -r requirements/test.txt
     #   cookiecutter
     #   twine
-s3transfer==0.11.1
+s3transfer==0.11.2
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -365,9 +366,9 @@ tomlkit==0.13.2
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.23.2
+tox==4.24.1
     # via -r requirements/tox.txt
-twine==6.0.1
+twine==6.1.0
     # via -r requirements/test.txt
 types-python-dateutil==2.9.0.20241206
     # via
@@ -394,7 +395,7 @@ webob==1.8.9
     #   -r requirements/test.txt
     #   xblock
     #   xblock-sdk
-xblock==5.1.0
+xblock==5.1.1
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
