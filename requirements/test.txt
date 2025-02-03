@@ -22,13 +22,13 @@ backports-tarfile==1.2.0
     # via jaraco-context
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.36.6
+boto3==1.36.11
     # via fs-s3fs
-botocore==1.36.6
+botocore==1.36.11
     # via
     #   boto3
     #   s3transfer
-certifi==2024.12.14
+certifi==2025.1.31
     # via requests
 cffi==1.17.1
     # via cryptography
@@ -83,7 +83,7 @@ importlib-metadata==8.6.1
     # via keyring
 iniconfig==2.0.0
     # via pytest
-isort==5.13.2
+isort==6.0.0
     # via pylint
 jaraco-classes==3.4.0
     # via keyring
@@ -148,7 +148,7 @@ pygments==2.19.1
     # via
     #   readme-renderer
     #   rich
-pylint==3.3.3
+pylint==3.3.4
     # via
     #   edx-lint
     #   pylint-celery
@@ -176,7 +176,7 @@ python-slugify==8.0.4
     # via
     #   code-annotations
     #   cookiecutter
-pytz==2024.2
+pytz==2025.1
     # via
     #   -r requirements/base.txt
     #   xblock

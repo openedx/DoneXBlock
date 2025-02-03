@@ -16,13 +16,13 @@ asgiref==3.8.1
     # via
     #   -r requirements/base.txt
     #   django
-babel==2.16.0
+babel==2.17.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
-beautifulsoup4==4.12.3
+beautifulsoup4==4.13.0
     # via pydata-sphinx-theme
-certifi==2024.12.14
+certifi==2025.1.31
     # via requests
 charset-normalizer==3.4.1
     # via requests
@@ -69,7 +69,7 @@ python-dateutil==2.9.0.post0
     # via
     #   -r requirements/base.txt
     #   xblock
-pytz==2024.2
+pytz==2025.1
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -116,7 +116,9 @@ sqlparse==0.5.3
     #   -r requirements/base.txt
     #   django
 typing-extensions==4.12.2
-    # via pydata-sphinx-theme
+    # via
+    #   beautifulsoup4
+    #   pydata-sphinx-theme
 urllib3==2.3.0
     # via requests
 web-fragments==2.2.0
