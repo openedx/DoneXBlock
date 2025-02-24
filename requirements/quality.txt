@@ -20,9 +20,9 @@ astroid==3.3.8
     #   pylint-celery
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.36.21
+boto3==1.36.26
     # via fs-s3fs
-botocore==1.36.21
+botocore==1.36.26
     # via
     #   boto3
     #   s3transfer
@@ -164,7 +164,7 @@ sqlparse==0.5.3
     # via
     #   -r requirements/base.txt
     #   django
-stevedore==5.4.0
+stevedore==5.4.1
     # via code-annotations
 text-unidecode==1.3
     # via python-slugify
