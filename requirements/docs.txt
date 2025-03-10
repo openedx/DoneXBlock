@@ -26,7 +26,7 @@ certifi==2025.1.31
     # via requests
 charset-normalizer==3.4.1
     # via requests
-django==4.2.19
+django==4.2.20
     # via -r requirements/base.txt
 docutils==0.21.2
     # via
@@ -40,7 +40,7 @@ idna==3.10
     # via requests
 imagesize==1.4.1
     # via sphinx
-jinja2==3.1.5
+jinja2==3.1.6
     # via sphinx
 lxml==5.3.1
     # via
