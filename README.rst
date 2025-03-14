@@ -52,7 +52,7 @@ You can interact with the DoneXBlock in the Workbench by navigating to http://lo
 
 For details regarding how to deploy this or any other XBlock in the lms instance, see the `installing-the-xblock`_ documentation.
 
-.. _installing-the-xblock: https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/edx_platform/devstack.html#installing-the-xblock
+.. _installing-the-xblock: https://docs.tutor.edly.io/configuration.html#installing-extra-xblocks-and-requirements
 
 Getting Help
 ============
