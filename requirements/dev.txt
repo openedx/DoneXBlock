@@ -16,7 +16,7 @@ django==4.2.20
     # via
     #   -r requirements/base.txt
     #   edx-i18n-tools
-edx-i18n-tools==1.6.3
+edx-i18n-tools==1.7.0
     # via -r requirements/dev.in
 fs==2.4.16
     # via
