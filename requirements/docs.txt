@@ -71,7 +71,7 @@ python-dateutil==2.9.0.post0
     # via
     #   -r requirements/base.txt
     #   xblock
-pytz==2025.1
+pytz==2025.2
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -119,7 +119,7 @@ sqlparse==0.5.3
     # via
     #   -r requirements/base.txt
     #   django
-typing-extensions==4.12.2
+typing-extensions==4.13.0
     # via
     #   beautifulsoup4
     #   pydata-sphinx-theme
