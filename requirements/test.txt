@@ -22,9 +22,9 @@ backports-tarfile==1.2.0
     # via jaraco-context
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.37.18
+boto3==1.37.23
     # via fs-s3fs
-botocore==1.37.18
+botocore==1.37.23
     # via
     #   boto3
     #   s3transfer
@@ -48,7 +48,7 @@ code-annotations==2.2.0
     # via edx-lint
 cookiecutter==2.6.0
     # via xblock-sdk
-coverage[toml]==7.7.1
+coverage[toml]==7.8.0
     # via coveralls
 coveralls==4.0.1
     # via -r requirements/test.in
@@ -176,7 +176,7 @@ python-slugify==8.0.4
     # via
     #   code-annotations
     #   cookiecutter
-pytz==2025.1
+pytz==2025.2
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -200,7 +200,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.9.4
+rich==14.0.0
     # via
     #   cookiecutter
     #   twine
