@@ -42,7 +42,7 @@ imagesize==1.4.1
     # via sphinx
 jinja2==3.1.6
     # via sphinx
-lxml==5.3.1
+lxml==5.3.2
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -119,13 +119,13 @@ sqlparse==0.5.3
     # via
     #   -r requirements/base.txt
     #   django
-typing-extensions==4.13.0
+typing-extensions==4.13.1
     # via
     #   beautifulsoup4
     #   pydata-sphinx-theme
 urllib3==2.3.0
     # via requests
-web-fragments==2.2.0
+web-fragments==3.0.0
     # via
     #   -r requirements/base.txt
     #   xblock
