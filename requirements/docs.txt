@@ -20,7 +20,7 @@ babel==2.17.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
-beautifulsoup4==4.13.3
+beautifulsoup4==4.13.4
     # via pydata-sphinx-theme
 certifi==2025.1.31
     # via requests
@@ -56,7 +56,7 @@ markupsafe==3.0.2
     #   jinja2
     #   mako
     #   xblock
-packaging==24.2
+packaging==25.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -94,7 +94,7 @@ six==1.17.0
     #   python-dateutil
 snowballstemmer==2.2.0
     # via sphinx
-soupsieve==2.6
+soupsieve==2.7
     # via beautifulsoup4
 sphinx==8.2.3
     # via
