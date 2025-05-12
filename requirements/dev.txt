@@ -12,7 +12,7 @@ asgiref==3.8.1
     # via
     #   -r requirements/base.txt
     #   django
-django==4.2.20
+django==4.2.21
     # via
     #   -r requirements/base.txt
     #   edx-i18n-tools
@@ -69,7 +69,7 @@ sqlparse==0.5.3
     # via
     #   -r requirements/base.txt
     #   django
-web-fragments==3.0.0
+web-fragments==3.1.0
     # via
     #   -r requirements/base.txt
     #   xblock
