@@ -8,7 +8,7 @@ appdirs==1.4.4
     # via fs
 asgiref==3.8.1
     # via django
-django==4.2.22
+django==4.2.23
     # via
     #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.in
