@@ -8,7 +8,7 @@ appdirs==1.4.4
     # via
     #   -r requirements/base.txt
     #   fs
-asgiref==3.8.1
+asgiref==3.9.0
     # via
     #   -r requirements/base.txt
     #   django
