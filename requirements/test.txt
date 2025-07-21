@@ -22,13 +22,13 @@ backports-tarfile==1.2.0
     # via jaraco-context
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.39.4
+boto3==1.39.9
     # via fs-s3fs
-botocore==1.39.4
+botocore==1.39.9
     # via
     #   boto3
     #   s3transfer
-certifi==2025.7.9
+certifi==2025.7.14
     # via requests
 cffi==1.17.1
     # via cryptography
@@ -130,7 +130,7 @@ more-itertools==10.7.0
     # via
     #   jaraco-classes
     #   jaraco-functools
-nh3==0.2.21
+nh3==0.3.0
     # via readme-renderer
 packaging==25.0
     # via
@@ -205,7 +205,7 @@ rich==14.0.0
     # via
     #   cookiecutter
     #   twine
-s3transfer==0.13.0
+s3transfer==0.13.1
     # via boto3
 secretstorage==3.3.3
     # via keyring
