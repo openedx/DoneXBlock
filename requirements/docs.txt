@@ -20,7 +20,7 @@ babel==2.17.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
-beautifulsoup4==4.13.4
+beautifulsoup4==4.13.5
     # via pydata-sphinx-theme
 certifi==2025.8.3
     # via requests
@@ -42,7 +42,7 @@ imagesize==1.4.1
     # via sphinx
 jinja2==3.1.6
     # via sphinx
-lxml==6.0.0
+lxml==6.0.1
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -79,7 +79,7 @@ pyyaml==6.0.2
     # via
     #   -r requirements/base.txt
     #   xblock
-requests==2.32.4
+requests==2.32.5
     # via sphinx
 roman-numerals-py==3.1.0
     # via sphinx
