@@ -22,9 +22,9 @@ backports-tarfile==1.2.0
     # via jaraco-context
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.40.16
+boto3==1.40.21
     # via fs-s3fs
-botocore==1.40.16
+botocore==1.40.21
     # via
     #   boto3
     #   s3transfer
@@ -48,7 +48,7 @@ code-annotations==2.3.0
     # via edx-lint
 cookiecutter==2.6.0
     # via xblock-sdk
-coverage[toml]==7.10.5
+coverage[toml]==7.10.6
     # via coveralls
 coveralls==4.0.1
     # via -r requirements/test.in
@@ -136,9 +136,7 @@ packaging==25.0
     # via
     #   pytest
     #   twine
-pbr==7.0.1
-    # via stevedore
-platformdirs==4.3.8
+platformdirs==4.4.0
     # via pylint
 pluggy==1.6.0
     # via pytest
@@ -225,7 +223,7 @@ sqlparse==0.5.3
     # via
     #   -r requirements/base.txt
     #   django
-stevedore==5.4.1
+stevedore==5.5.0
     # via code-annotations
 text-unidecode==1.3
     # via python-slugify
