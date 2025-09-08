@@ -22,9 +22,9 @@ backports-tarfile==1.2.0
     # via jaraco-context
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.40.21
+boto3==1.40.25
     # via fs-s3fs
-botocore==1.40.21
+botocore==1.40.25
     # via
     #   boto3
     #   s3transfer
@@ -52,7 +52,7 @@ coverage[toml]==7.10.6
     # via coveralls
 coveralls==4.0.1
     # via -r requirements/test.in
-cryptography==45.0.6
+cryptography==45.0.7
     # via secretstorage
 ddt==1.7.2
     # via -r requirements/test.in
@@ -126,7 +126,7 @@ mccabe==0.7.0
     # via pylint
 mdurl==0.1.2
     # via markdown-it-py
-more-itertools==10.7.0
+more-itertools==10.8.0
     # via
     #   jaraco-classes
     #   jaraco-functools
@@ -163,7 +163,7 @@ pylint-plugin-utils==0.9.0
     #   pylint-django
 pypng==0.20220715.0
     # via xblock-sdk
-pytest==8.4.1
+pytest==8.4.2
     # via -r requirements/test.in
 python-dateutil==2.9.0.post0
     # via
@@ -229,7 +229,7 @@ text-unidecode==1.3
     # via python-slugify
 tomlkit==0.13.3
     # via pylint
-twine==6.1.0
+twine==6.2.0
     # via -r requirements/test.in
 types-python-dateutil==2.9.0.20250822
     # via arrow
