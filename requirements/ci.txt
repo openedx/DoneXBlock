@@ -29,11 +29,11 @@ binaryornot==0.4.4
     # via
     #   -r requirements/test.txt
     #   cookiecutter
-boto3==1.40.55
+boto3==1.40.68
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.40.55
+botocore==1.40.68
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -46,10 +46,6 @@ certifi==2025.10.5
     # via
     #   -r requirements/test.txt
     #   requests
-cffi==2.0.0
-    # via
-    #   -r requirements/test.txt
-    #   cryptography
 chardet==5.2.0
     # via
     #   -r requirements/test.txt
@@ -83,16 +79,12 @@ cookiecutter==2.6.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk
-coverage[toml]==7.11.0
+coverage[toml]==7.11.1
     # via
     #   -r requirements/test.txt
     #   coveralls
 coveralls==4.0.1
     # via -r requirements/test.txt
-cryptography==46.0.3
-    # via
-    #   -r requirements/test.txt
-    #   secretstorage
 ddt==1.7.2
     # via -r requirements/test.txt
 dill==0.4.0
@@ -103,7 +95,7 @@ distlib==0.4.0
     # via
     #   -r requirements/tox.txt
     #   virtualenv
-django==4.2.25
+django==5.2.8
     # via
     #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -112,7 +104,7 @@ docopt==0.6.2
     # via
     #   -r requirements/test.txt
     #   coveralls
-docutils==0.22.2
+docutils==0.22.3
     # via
     #   -r requirements/test.txt
     #   readme-renderer
@@ -164,11 +156,6 @@ jaraco-functools==4.3.0
     # via
     #   -r requirements/test.txt
     #   keyring
-jeepney==0.9.0
-    # via
-    #   -r requirements/test.txt
-    #   keyring
-    #   secretstorage
 jinja2==3.1.6
     # via
     #   -r requirements/test.txt
@@ -215,7 +202,7 @@ more-itertools==10.8.0
     #   -r requirements/test.txt
     #   jaraco-classes
     #   jaraco-functools
-nh3==0.3.1
+nh3==0.3.2
     # via
     #   -r requirements/test.txt
     #   readme-renderer
@@ -240,10 +227,6 @@ pluggy==1.6.0
     #   -r requirements/tox.txt
     #   pytest
     #   tox
-pycparser==2.23
-    # via
-    #   -r requirements/test.txt
-    #   cffi
 pygments==2.19.2
     # via
     #   -r requirements/test.txt
@@ -331,10 +314,6 @@ s3transfer==0.14.0
     # via
     #   -r requirements/test.txt
     #   boto3
-secretstorage==3.4.0
-    # via
-    #   -r requirements/test.txt
-    #   keyring
 simplejson==3.20.2
     # via
     #   -r requirements/test.txt
@@ -363,7 +342,7 @@ tomlkit==0.13.3
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.31.0
+tox==4.32.0
     # via -r requirements/tox.txt
 twine==6.2.0
     # via -r requirements/test.txt
@@ -377,7 +356,7 @@ urllib3==2.5.0
     #   botocore
     #   requests
     #   twine
-virtualenv==20.35.3
+virtualenv==20.35.4
     # via
     #   -r requirements/tox.txt
     #   tox

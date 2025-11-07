@@ -34,6 +34,7 @@ covreport:  ## Show the coverage results
 upgrade: export CUSTOM_COMPILE_COMMAND=make upgrade
 upgrade: ## update the requirements/*.txt files with the latest packages satisfying requirements/*.in
 	pip install -q -r requirements/pip-tools.txt
+	pip install -q -r requirements/pip.txt
 	pip-compile --upgrade --allow-unsafe -o requirements/pip.txt requirements/pip.in
 	pip-compile --upgrade -o requirements/pip-tools.txt requirements/pip-tools.in
 	pip install -q -r requirements/pip.txt

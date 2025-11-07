@@ -22,16 +22,14 @@ backports-tarfile==1.2.0
     # via jaraco-context
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.40.55
+boto3==1.40.68
     # via fs-s3fs
-botocore==1.40.55
+botocore==1.40.68
     # via
     #   boto3
     #   s3transfer
 certifi==2025.10.5
     # via requests
-cffi==2.0.0
-    # via cryptography
 chardet==5.2.0
     # via binaryornot
 charset-normalizer==3.4.4
@@ -48,12 +46,10 @@ code-annotations==2.3.0
     # via edx-lint
 cookiecutter==2.6.0
     # via xblock-sdk
-coverage[toml]==7.11.0
+coverage[toml]==7.11.1
     # via coveralls
 coveralls==4.0.1
     # via -r requirements/test.in
-cryptography==46.0.3
-    # via secretstorage
 ddt==1.7.2
     # via -r requirements/test.in
 dill==0.4.0
@@ -64,7 +60,7 @@ dill==0.4.0
     #   xblock-sdk
 docopt==0.6.2
     # via coveralls
-docutils==0.22.2
+docutils==0.22.3
     # via readme-renderer
 edx-lint==5.6.0
     # via -r requirements/test.in
@@ -91,10 +87,6 @@ jaraco-context==6.0.1
     # via keyring
 jaraco-functools==4.3.0
     # via keyring
-jeepney==0.9.0
-    # via
-    #   keyring
-    #   secretstorage
 jinja2==3.1.6
     # via
     #   code-annotations
@@ -130,7 +122,7 @@ more-itertools==10.8.0
     # via
     #   jaraco-classes
     #   jaraco-functools
-nh3==0.3.1
+nh3==0.3.2
     # via readme-renderer
 packaging==25.0
     # via
@@ -140,8 +132,6 @@ platformdirs==4.5.0
     # via pylint
 pluggy==1.6.0
     # via pytest
-pycparser==2.23
-    # via cffi
 pygments==2.19.2
     # via
     #   pytest
@@ -205,8 +195,6 @@ rich==14.2.0
     #   twine
 s3transfer==0.14.0
     # via boto3
-secretstorage==3.4.0
-    # via keyring
 simplejson==3.20.2
     # via
     #   -r requirements/base.txt
