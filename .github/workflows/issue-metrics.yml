@@ -17,7 +17,7 @@ jobs:
         SEARCH_QUERY: 'repo:openedx/DoneXBlock is:pr created:2023-05-01..2023-08-31 -reason:"not planned"'
 
     - name: Create issue
-      uses: peter-evans/create-issue-from-file@v5
+      uses: peter-evans/create-issue-from-file@v6
       with:
         title: Issue metrics report
         content-filepath: ./issue_metrics.md
