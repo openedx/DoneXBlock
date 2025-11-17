@@ -22,13 +22,13 @@ backports-tarfile==1.2.0
     # via jaraco-context
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.40.69
+boto3==1.40.74
     # via fs-s3fs
-botocore==1.40.69
+botocore==1.40.74
     # via
     #   boto3
     #   s3transfer
-certifi==2025.10.5
+certifi==2025.11.12
     # via requests
 cffi==2.0.0
     # via cryptography
@@ -36,7 +36,7 @@ chardet==5.2.0
     # via binaryornot
 charset-normalizer==3.4.4
     # via requests
-click==8.3.0
+click==8.3.1
     # via
     #   click-log
     #   code-annotations
@@ -103,7 +103,7 @@ jmespath==1.0.1
     # via
     #   boto3
     #   botocore
-keyring==25.6.0
+keyring==25.7.0
     # via twine
 lxml==6.0.2
     # via
@@ -163,7 +163,7 @@ pylint-plugin-utils==0.9.0
     #   pylint-django
 pypng==0.20220715.0
     # via xblock-sdk
-pytest==9.0.0
+pytest==9.0.1
     # via -r requirements/test.in
 python-dateutil==2.9.0.post0
     # via
@@ -205,7 +205,7 @@ rich==14.2.0
     #   twine
 s3transfer==0.14.0
     # via boto3
-secretstorage==3.4.0
+secretstorage==3.4.1
     # via keyring
 simplejson==3.20.2
     # via
