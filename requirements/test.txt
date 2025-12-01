@@ -22,9 +22,9 @@ backports-tarfile==1.2.0
     # via jaraco-context
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.41.2
+boto3==1.41.5
     # via fs-s3fs
-botocore==1.41.2
+botocore==1.41.5
     # via
     #   boto3
     #   s3transfer
@@ -219,7 +219,7 @@ six==1.17.0
     #   fs
     #   fs-s3fs
     #   python-dateutil
-sqlparse==0.5.3
+sqlparse==0.5.4
     # via
     #   -r requirements/base.txt
     #   django
