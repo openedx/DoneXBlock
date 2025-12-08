@@ -26,7 +26,7 @@ certifi==2025.11.12
     # via requests
 charset-normalizer==3.4.4
     # via requests
-django==5.2.8
+django==5.2.9
     # via -r requirements/base.txt
 docutils==0.22.3
     # via
@@ -96,7 +96,7 @@ snowballstemmer==3.0.1
     # via sphinx
 soupsieve==2.8
     # via beautifulsoup4
-sphinx==9.0.0
+sphinx==9.0.4
     # via
     #   -r requirements/docs.in
     #   pydata-sphinx-theme
@@ -123,7 +123,7 @@ typing-extensions==4.15.0
     # via
     #   beautifulsoup4
     #   pydata-sphinx-theme
-urllib3==2.5.0
+urllib3==2.6.0
     # via requests
 web-fragments==3.1.0
     # via
