@@ -28,7 +28,7 @@ charset-normalizer==3.4.4
     # via requests
 django==5.2.9
     # via -r requirements/base.txt
-docutils==0.22.3
+docutils==0.22.4
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -81,7 +81,7 @@ pyyaml==6.0.3
     #   xblock
 requests==2.32.5
     # via sphinx
-roman-numerals==3.1.0
+roman-numerals==4.1.0
     # via sphinx
 simplejson==3.20.2
     # via
@@ -94,7 +94,7 @@ six==1.17.0
     #   python-dateutil
 snowballstemmer==3.0.1
     # via sphinx
-soupsieve==2.8
+soupsieve==2.8.1
     # via beautifulsoup4
 sphinx==9.0.4
     # via
@@ -115,7 +115,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-sqlparse==0.5.4
+sqlparse==0.5.5
     # via
     #   -r requirements/base.txt
     #   django

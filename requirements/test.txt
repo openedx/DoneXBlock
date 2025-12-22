@@ -22,9 +22,9 @@ backports-tarfile==1.2.0
     # via jaraco-context
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.42.9
+boto3==1.42.14
     # via fs-s3fs
-botocore==1.42.9
+botocore==1.42.14
     # via
     #   boto3
     #   s3transfer
@@ -64,7 +64,7 @@ dill==0.4.0
     #   xblock-sdk
 docopt==0.6.2
     # via coveralls
-docutils==0.22.3
+docutils==0.22.4
     # via readme-renderer
 edx-lint==5.6.0
     # via -r requirements/test.in
@@ -79,7 +79,7 @@ id==1.5.0
     # via twine
 idna==3.11
     # via requests
-importlib-metadata==8.7.0
+importlib-metadata==8.7.1
     # via keyring
 iniconfig==2.3.0
     # via pytest
@@ -89,7 +89,7 @@ jaraco-classes==3.4.0
     # via keyring
 jaraco-context==6.0.1
     # via keyring
-jaraco-functools==4.3.0
+jaraco-functools==4.4.0
     # via keyring
 jeepney==0.9.0
     # via
@@ -219,7 +219,7 @@ six==1.17.0
     #   fs
     #   fs-s3fs
     #   python-dateutil
-sqlparse==0.5.4
+sqlparse==0.5.5
     # via
     #   -r requirements/base.txt
     #   django
