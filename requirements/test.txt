@@ -14,7 +14,7 @@ asgiref==3.11.0
     # via
     #   -r requirements/base.txt
     #   django
-astroid==3.3.11
+astroid==4.0.3
     # via
     #   pylint
     #   pylint-celery
@@ -22,13 +22,13 @@ backports-tarfile==1.2.0
     # via jaraco-context
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.42.17
+boto3==1.42.21
     # via fs-s3fs
-botocore==1.42.17
+botocore==1.42.21
     # via
     #   boto3
     #   s3transfer
-certifi==2025.11.12
+certifi==2026.1.4
     # via requests
 cffi==2.0.0
     # via cryptography
@@ -83,7 +83,7 @@ importlib-metadata==8.7.1
     # via keyring
 iniconfig==2.3.0
     # via pytest
-isort==6.1.0
+isort==7.0.0
     # via pylint
 jaraco-classes==3.4.0
     # via keyring
@@ -147,7 +147,7 @@ pygments==2.19.2
     #   pytest
     #   readme-renderer
     #   rich
-pylint==3.3.9
+pylint==4.0.4
     # via
     #   edx-lint
     #   pylint-celery
@@ -155,7 +155,7 @@ pylint==3.3.9
     #   pylint-plugin-utils
 pylint-celery==0.3
     # via edx-lint
-pylint-django==2.6.1
+pylint-django==2.7.0
     # via edx-lint
 pylint-plugin-utils==0.9.0
     # via
