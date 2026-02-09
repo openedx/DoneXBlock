@@ -14,7 +14,7 @@ asgiref==3.11.1
     # via
     #   -r requirements/base.txt
     #   django
-astroid==4.0.3
+astroid==4.0.4
     # via
     #   pylint
     #   pylint-celery
@@ -22,9 +22,9 @@ backports-tarfile==1.2.0
     # via jaraco-context
 binaryornot==0.4.4
     # via cookiecutter
-boto3==1.42.41
+boto3==1.42.44
     # via fs-s3fs
-botocore==1.42.41
+botocore==1.42.44
     # via
     #   boto3
     #   s3transfer
@@ -75,7 +75,7 @@ fs==2.4.16
     #   xblock
 fs-s3fs==1.1.1
     # via xblock-sdk
-id==1.5.0
+id==1.6.1
     # via twine
 idna==3.11
     # via requests
@@ -191,7 +191,6 @@ requests==2.32.5
     # via
     #   cookiecutter
     #   coveralls
-    #   id
     #   requests-toolbelt
     #   twine
     #   xblock-sdk
@@ -236,6 +235,7 @@ tzdata==2025.3
 urllib3==2.6.3
     # via
     #   botocore
+    #   id
     #   requests
     #   twine
 web-fragments==3.1.0
