@@ -29,11 +29,11 @@ binaryornot==0.4.4
     # via
     #   -r requirements/test.txt
     #   cookiecutter
-boto3==1.42.49
+boto3==1.42.54
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.42.49
+botocore==1.42.54
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -50,7 +50,7 @@ cffi==2.0.0
     # via
     #   -r requirements/test.txt
     #   cryptography
-chardet==5.2.0
+chardet==6.0.0.post1
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
@@ -118,7 +118,7 @@ docutils==0.22.4
     #   readme-renderer
 edx-lint==5.6.0
     # via -r requirements/test.txt
-filelock==3.24.1
+filelock==3.24.3
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -148,7 +148,7 @@ iniconfig==2.3.0
     # via
     #   -r requirements/test.txt
     #   pytest
-isort==7.0.0
+isort==8.0.0
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -227,7 +227,7 @@ packaging==26.0
     #   pytest
     #   tox
     #   twine
-platformdirs==4.9.1
+platformdirs==4.9.2
     # via
     #   -r requirements/test.txt
     #   -r requirements/tox.txt
@@ -250,7 +250,7 @@ pygments==2.19.2
     #   pytest
     #   readme-renderer
     #   rich
-pylint==4.0.4
+pylint==4.0.5
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -321,7 +321,7 @@ rfc3986==2.0.0
     # via
     #   -r requirements/test.txt
     #   twine
-rich==14.3.2
+rich==14.3.3
     # via
     #   -r requirements/test.txt
     #   cookiecutter
@@ -350,7 +350,7 @@ sqlparse==0.5.5
     # via
     #   -r requirements/test.txt
     #   django
-stevedore==5.6.0
+stevedore==5.7.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -362,7 +362,7 @@ tomlkit==0.14.0
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.36.0
+tox==4.44.0
     # via -r requirements/tox.txt
 twine==6.2.0
     # via -r requirements/test.txt
@@ -377,7 +377,7 @@ urllib3==2.6.3
     #   id
     #   requests
     #   twine
-virtualenv==20.36.1
+virtualenv==20.38.0
     # via
     #   -r requirements/tox.txt
     #   tox
