@@ -28,7 +28,7 @@ lxml[html-clean]==6.0.2
     #   edx-i18n-tools
     #   lxml-html-clean
     #   xblock
-lxml-html-clean==0.4.3
+lxml-html-clean==0.4.4
     # via lxml
 mako==1.3.10
     # via
