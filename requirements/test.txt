@@ -22,9 +22,9 @@ astroid==4.0.4
     #   pylint-celery
 binaryornot==0.6.0
     # via cookiecutter
-boto3==1.42.64
+boto3==1.42.68
     # via fs-s3fs
-botocore==1.42.64
+botocore==1.42.68
     # via
     #   boto3
     #   s3transfer
@@ -32,7 +32,7 @@ certifi==2026.2.25
     # via requests
 cffi==2.0.0
     # via cryptography
-charset-normalizer==3.4.5
+charset-normalizer==3.4.6
     # via requests
 click==8.3.1
     # via
@@ -43,7 +43,7 @@ click==8.3.1
     #   typer
 click-log==0.4.0
     # via edx-lint
-code-annotations==2.3.2
+code-annotations==3.0.0
     # via edx-lint
 cookiecutter==2.7.1
     # via xblock-sdk
@@ -63,7 +63,7 @@ dill==0.4.1
     #   xblock-sdk
 docutils==0.22.4
     # via readme-renderer
-edx-lint==5.6.0
+edx-lint==6.0.0
     # via -r requirements/test.in
 fs==2.4.16
     # via

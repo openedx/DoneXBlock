@@ -24,7 +24,7 @@ beautifulsoup4==4.14.3
     # via pydata-sphinx-theme
 certifi==2026.2.25
     # via requests
-charset-normalizer==3.4.5
+charset-normalizer==3.4.6
     # via requests
 django==5.2.12
     # via -r requirements/base.txt
