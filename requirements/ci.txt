@@ -29,11 +29,11 @@ binaryornot==0.6.0
     # via
     #   -r requirements/test.txt
     #   cookiecutter
-boto3==1.42.73
+boto3==1.42.74
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.42.73
+botocore==1.42.74
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -46,10 +46,6 @@ certifi==2026.2.25
     # via
     #   -r requirements/test.txt
     #   requests
-cffi==2.0.0
-    # via
-    #   -r requirements/test.txt
-    #   cryptography
 charset-normalizer==3.4.6
     # via
     #   -r requirements/test.txt
@@ -84,10 +80,6 @@ coverage[toml]==7.13.5
     #   coveralls
 coveralls==4.1.0
     # via -r requirements/test.txt
-cryptography==46.0.5
-    # via
-    #   -r requirements/test.txt
-    #   secretstorage
 ddt==1.7.2
     # via -r requirements/test.txt
 dill==0.4.1
@@ -152,11 +144,6 @@ jaraco-functools==4.4.0
     # via
     #   -r requirements/test.txt
     #   keyring
-jeepney==0.9.0
-    # via
-    #   -r requirements/test.txt
-    #   keyring
-    #   secretstorage
 jinja2==3.1.6
     # via
     #   -r requirements/test.txt
@@ -229,10 +216,6 @@ pluggy==1.6.0
     #   -r requirements/tox.txt
     #   pytest
     #   tox
-pycparser==3.0
-    # via
-    #   -r requirements/test.txt
-    #   cffi
 pygments==2.19.2
     # via
     #   -r requirements/test.txt
@@ -324,10 +307,6 @@ s3transfer==0.16.0
     # via
     #   -r requirements/test.txt
     #   boto3
-secretstorage==3.5.0
-    # via
-    #   -r requirements/test.txt
-    #   keyring
 shellingham==1.5.4
     # via
     #   -r requirements/test.txt

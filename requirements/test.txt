@@ -22,16 +22,14 @@ astroid==4.0.4
     #   pylint-celery
 binaryornot==0.6.0
     # via cookiecutter
-boto3==1.42.73
+boto3==1.42.74
     # via fs-s3fs
-botocore==1.42.73
+botocore==1.42.74
     # via
     #   boto3
     #   s3transfer
 certifi==2026.2.25
     # via requests
-cffi==2.0.0
-    # via cryptography
 charset-normalizer==3.4.6
     # via requests
 click==8.3.1
@@ -51,8 +49,6 @@ coverage[toml]==7.13.5
     # via coveralls
 coveralls==4.1.0
     # via -r requirements/test.in
-cryptography==46.0.5
-    # via secretstorage
 ddt==1.7.2
     # via -r requirements/test.in
 dill==0.4.1
@@ -86,10 +82,6 @@ jaraco-context==6.1.2
     # via keyring
 jaraco-functools==4.4.0
     # via keyring
-jeepney==0.9.0
-    # via
-    #   keyring
-    #   secretstorage
 jinja2==3.1.6
     # via
     #   code-annotations
@@ -135,8 +127,6 @@ platformdirs==4.9.4
     # via pylint
 pluggy==1.6.0
     # via pytest
-pycparser==3.0
-    # via cffi
 pygments==2.19.2
     # via
     #   pytest
@@ -200,8 +190,6 @@ rich==14.3.3
     #   typer
 s3transfer==0.16.0
     # via boto3
-secretstorage==3.5.0
-    # via keyring
 shellingham==1.5.4
     # via typer
 simplejson==3.20.2
