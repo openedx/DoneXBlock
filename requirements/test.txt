@@ -22,9 +22,9 @@ astroid==4.0.4
     #   pylint-celery
 binaryornot==0.6.0
     # via cookiecutter
-boto3==1.42.78
+boto3==1.42.83
     # via fs-s3fs
-botocore==1.42.78
+botocore==1.42.83
     # via
     #   boto3
     #   s3transfer
@@ -32,9 +32,9 @@ certifi==2026.2.25
     # via requests
 cffi==2.0.0
     # via cryptography
-charset-normalizer==3.4.6
+charset-normalizer==3.4.7
     # via requests
-click==8.3.1
+click==8.3.2
     # via
     #   click-log
     #   code-annotations
@@ -121,7 +121,7 @@ mccabe==0.7.0
     # via pylint
 mdurl==0.1.2
     # via markdown-it-py
-more-itertools==10.8.0
+more-itertools==11.0.1
     # via
     #   jaraco-classes
     #   jaraco-functools
@@ -182,7 +182,7 @@ pyyaml==6.0.3
     #   xblock
 readme-renderer==44.0
     # via twine
-requests==2.33.0
+requests==2.33.1
     # via
     #   cookiecutter
     #   coveralls
@@ -230,7 +230,7 @@ twine==6.2.0
     # via -r requirements/test.in
 typer==0.24.1
     # via coveralls
-tzdata==2025.3
+tzdata==2026.1
     # via arrow
 urllib3==2.6.3
     # via
