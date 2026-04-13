@@ -26,7 +26,7 @@ certifi==2026.2.25
     # via requests
 charset-normalizer==3.4.7
     # via requests
-django==5.2.12
+django==5.2.13
     # via -r requirements/base.txt
 docutils==0.22.4
     # via
@@ -42,7 +42,7 @@ imagesize==2.0.0
     # via sphinx
 jinja2==3.1.6
     # via sphinx
-lxml==6.0.2
+lxml==6.0.4
     # via
     #   -r requirements/base.txt
     #   xblock
