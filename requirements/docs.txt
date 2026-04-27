@@ -22,7 +22,7 @@ babel==2.18.0
     #   sphinx
 beautifulsoup4==4.14.3
     # via pydata-sphinx-theme
-certifi==2026.2.25
+certifi==2026.4.22
     # via requests
 charset-normalizer==3.4.7
     # via requests
@@ -36,7 +36,7 @@ fs==2.4.16
     # via
     #   -r requirements/base.txt
     #   xblock
-idna==3.11
+idna==3.13
     # via requests
 imagesize==2.0.0
     # via sphinx
@@ -56,7 +56,7 @@ markupsafe==3.0.3
     #   jinja2
     #   mako
     #   xblock
-packaging==26.1
+packaging==26.2
     # via sphinx
 pydata-sphinx-theme==0.16.1
     # via sphinx-book-theme
@@ -81,7 +81,7 @@ requests==2.33.1
     # via sphinx
 roman-numerals==4.1.0
     # via sphinx
-simplejson==4.0.1
+simplejson==4.1.1
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -131,7 +131,7 @@ webob==1.8.9
     # via
     #   -r requirements/base.txt
     #   xblock
-xblock==6.0.0
+xblock==6.1.0
     # via -r requirements/base.txt
 
 # The following packages are considered to be unsafe in a requirements file:
