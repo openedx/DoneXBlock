@@ -22,9 +22,9 @@ astroid==4.0.4
     #   pylint-celery
 binaryornot==0.6.0
     # via cookiecutter
-boto3==1.42.96
+boto3==1.43.2
     # via fs-s3fs
-botocore==1.42.96
+botocore==1.43.2
     # via
     #   boto3
     #   s3transfer
@@ -63,7 +63,7 @@ dill==0.4.1
     #   xblock-sdk
 docutils==0.22.4
     # via readme-renderer
-edx-lint==6.0.0
+edx-lint==6.1.0
     # via -r requirements/test.in
 fs==2.4.16
     # via
@@ -105,7 +105,7 @@ lxml==6.1.0
     #   -r requirements/base.txt
     #   xblock
     #   xblock-sdk
-mako==1.3.11
+mako==1.3.12
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -198,7 +198,7 @@ rich==15.0.0
     #   cookiecutter
     #   twine
     #   typer
-s3transfer==0.16.1
+s3transfer==0.17.0
     # via boto3
 secretstorage==3.5.0
     # via keyring
@@ -225,10 +225,12 @@ stevedore==5.7.0
 text-unidecode==1.3
     # via python-slugify
 tomlkit==0.14.0
-    # via pylint
+    # via
+    #   edx-lint
+    #   pylint
 twine==6.2.0
     # via -r requirements/test.in
-typer==0.25.0
+typer==0.25.1
     # via coveralls
 tzdata==2026.2
     # via arrow
