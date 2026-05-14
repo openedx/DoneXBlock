@@ -10,14 +10,14 @@ jobs:
     steps:
 
     - name: Run issue-metrics tool
-      uses: github/issue-metrics@v4
+      uses: github/issue-metrics@7d11f06fad8611f09f067325c1ed4b363c18a90b # v4.2.5
       env:
         GH_TOKEN: ${{ secrets.REQUIREMENTS_BOT_GITHUB_TOKEN }}
         LABELS_TO_MEASURE: 'waiting for eng review,product review,needs test run,waiting on author,Ready to Merge,blocked by other work'
         SEARCH_QUERY: 'repo:openedx/DoneXBlock is:pr created:2023-05-01..2023-08-31 -reason:"not planned"'
 
     - name: Create issue
-      uses: peter-evans/create-issue-from-file@v6
+      uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
       with:
         title: Issue metrics report
         content-filepath: ./issue_metrics.md
