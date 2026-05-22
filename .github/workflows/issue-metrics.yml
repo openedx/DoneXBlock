@@ -10,7 +10,7 @@ jobs:
     steps:
 
     - name: Run issue-metrics tool
-      uses: github/issue-metrics@7d11f06fad8611f09f067325c1ed4b363c18a90b # v4.2.5
+      uses: github/issue-metrics@1e38d5e62363e14db8019ed7d106b9855bdba6cc # v4.2.7
       env:
         GH_TOKEN: ${{ secrets.REQUIREMENTS_BOT_GITHUB_TOKEN }}
         LABELS_TO_MEASURE: 'waiting for eng review,product review,needs test run,waiting on author,Ready to Merge,blocked by other work'
