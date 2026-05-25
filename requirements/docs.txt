@@ -22,7 +22,7 @@ babel==2.18.0
     #   sphinx
 beautifulsoup4==4.14.3
     # via pydata-sphinx-theme
-certifi==2026.4.22
+certifi==2026.5.20
     # via requests
 charset-normalizer==3.4.7
     # via requests
@@ -36,13 +36,13 @@ fs==2.4.16
     # via
     #   -r requirements/base.txt
     #   xblock
-idna==3.15
+idna==3.16
     # via requests
 imagesize==2.0.0
     # via sphinx
 jinja2==3.1.6
     # via sphinx
-lxml==6.1.0
+lxml==6.1.1
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -90,9 +90,9 @@ six==1.17.0
     #   -r requirements/base.txt
     #   fs
     #   python-dateutil
-snowballstemmer==3.0.1
+snowballstemmer==3.1.0
     # via sphinx
-soupsieve==2.8.3
+soupsieve==2.8.4
     # via beautifulsoup4
 sphinx==9.1.0
     # via
