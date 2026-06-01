@@ -22,9 +22,9 @@ astroid==4.0.4
     #   pylint-celery
 binaryornot==0.6.0
     # via cookiecutter
-boto3==1.43.14
+boto3==1.43.18
     # via fs-s3fs
-botocore==1.43.14
+botocore==1.43.18
     # via
     #   boto3
     #   s3transfer
@@ -40,14 +40,13 @@ click==8.4.1
     #   code-annotations
     #   cookiecutter
     #   edx-lint
-    #   typer
 click-log==0.4.0
     # via edx-lint
 code-annotations==3.0.0
     # via edx-lint
 cookiecutter==2.7.1
     # via xblock-sdk
-coverage[toml]==7.14.0
+coverage[toml]==7.14.1
     # via coveralls
 coveralls==4.1.0
     # via -r requirements/test.in
@@ -61,7 +60,7 @@ dill==0.4.1
     #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.txt
     #   xblock-sdk
-docutils==0.22.4
+docutils==0.23
     # via readme-renderer
 edx-lint==6.1.0
     # via -r requirements/test.in
@@ -74,7 +73,7 @@ fs-s3fs==1.1.1
     # via xblock-sdk
 id==1.6.1
     # via twine
-idna==3.16
+idna==3.17
     # via requests
 iniconfig==2.3.0
     # via pytest
@@ -131,7 +130,7 @@ packaging==26.2
     # via
     #   pytest
     #   twine
-platformdirs==4.9.6
+platformdirs==4.10.0
     # via pylint
 pluggy==1.6.0
     # via pytest
@@ -198,7 +197,7 @@ rich==15.0.0
     #   cookiecutter
     #   twine
     #   typer
-s3transfer==0.17.0
+s3transfer==0.18.0
     # via boto3
 secretstorage==3.5.0
     # via keyring
@@ -230,7 +229,7 @@ tomlkit==0.15.0
     #   pylint
 twine==6.2.0
     # via -r requirements/test.in
-typer==0.25.1
+typer==0.26.4
     # via coveralls
 tzdata==2026.2
     # via arrow
