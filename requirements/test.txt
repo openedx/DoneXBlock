@@ -22,9 +22,9 @@ astroid==4.0.4
     #   pylint-celery
 binaryornot==0.6.0
     # via cookiecutter
-boto3==1.43.18
+boto3==1.43.24
     # via fs-s3fs
-botocore==1.43.18
+botocore==1.43.24
     # via
     #   boto3
     #   s3transfer
@@ -73,7 +73,7 @@ fs-s3fs==1.1.1
     # via xblock-sdk
 id==1.6.1
     # via twine
-idna==3.17
+idna==3.18
     # via requests
 iniconfig==2.3.0
     # via pytest
@@ -229,7 +229,7 @@ tomlkit==0.15.0
     #   pylint
 twine==6.2.0
     # via -r requirements/test.in
-typer==0.26.4
+typer==0.26.7
     # via coveralls
 tzdata==2026.2
     # via arrow
@@ -244,7 +244,7 @@ web-fragments==4.0.0
     #   -r requirements/base.txt
     #   xblock
     #   xblock-sdk
-webob==1.8.9
+webob==1.8.10
     # via
     #   -r requirements/base.txt
     #   xblock
