@@ -20,9 +20,9 @@ astroid==4.0.4
     #   pylint-celery
 binaryornot==0.6.0
     # via cookiecutter
-boto3==1.43.18
+boto3==1.43.24
     # via fs-s3fs
-botocore==1.43.18
+botocore==1.43.24
     # via
     #   boto3
     #   s3transfer
@@ -46,7 +46,7 @@ ddt==1.7.2
     # via -r requirements/quality.in
 dill==0.4.1
     # via pylint
-django==5.2.14
+django==5.2.15
     # via
     #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.txt
@@ -60,7 +60,7 @@ fs==2.4.16
     #   xblock
 fs-s3fs==1.1.1
     # via xblock-sdk
-idna==3.17
+idna==3.18
     # via requests
 isort==8.0.1
     # via pylint
@@ -179,7 +179,7 @@ web-fragments==4.0.0
     #   -r requirements/base.txt
     #   xblock
     #   xblock-sdk
-webob==1.8.9
+webob==1.8.10
     # via
     #   -r requirements/base.txt
     #   xblock
