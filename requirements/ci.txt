@@ -29,11 +29,11 @@ binaryornot==0.6.0
     # via
     #   -r requirements/test.txt
     #   cookiecutter
-boto3==1.43.24
+boto3==1.43.29
     # via
     #   -r requirements/test.txt
     #   fs-s3fs
-botocore==1.43.24
+botocore==1.43.29
     # via
     #   -r requirements/test.txt
     #   boto3
@@ -83,7 +83,7 @@ coverage[toml]==7.14.1
     #   coveralls
 coveralls==4.1.0
     # via -r requirements/test.txt
-cryptography==48.0.0
+cryptography==49.0.0
     # via
     #   -r requirements/test.txt
     #   secretstorage
@@ -93,7 +93,7 @@ dill==0.4.1
     # via
     #   -r requirements/test.txt
     #   pylint
-distlib==0.4.1
+distlib==0.4.3
     # via
     #   -r requirements/tox.txt
     #   virtualenv
@@ -102,13 +102,21 @@ django==5.2.15
     #   -c https://raw.githubusercontent.com/openedx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
     #   xblock-sdk
+dnspython==2.8.0
+    # via
+    #   -r requirements/test.txt
+    #   pymongo
 docutils==0.23
     # via
     #   -r requirements/test.txt
     #   readme-renderer
 edx-lint==6.1.0
     # via -r requirements/test.txt
-filelock==3.29.1
+edx-opaque-keys==4.0.0
+    # via
+    #   -r requirements/test.txt
+    #   xblock
+filelock==3.29.4
     # via
     #   -r requirements/tox.txt
     #   python-discovery
@@ -238,7 +246,7 @@ pygments==2.20.0
     #   pytest
     #   readme-renderer
     #   rich
-pylint==4.0.5
+pylint==4.0.6
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -258,6 +266,10 @@ pylint-plugin-utils==0.9.0
     #   -r requirements/test.txt
     #   pylint-celery
     #   pylint-django
+pymongo==4.17.0
+    # via
+    #   -r requirements/test.txt
+    #   edx-opaque-keys
 pypng==0.20220715.0
     # via
     #   -r requirements/test.txt
@@ -266,7 +278,7 @@ pyproject-api==1.10.1
     # via
     #   -r requirements/tox.txt
     #   tox
-pytest==9.0.3
+pytest==9.1.0
     # via -r requirements/test.txt
 python-dateutil==2.9.0.post0
     # via
@@ -274,7 +286,7 @@ python-dateutil==2.9.0.post0
     #   arrow
     #   botocore
     #   xblock
-python-discovery==1.4.0
+python-discovery==1.4.2
     # via
     #   -r requirements/tox.txt
     #   tox
@@ -294,7 +306,7 @@ pyyaml==6.0.3
     #   code-annotations
     #   cookiecutter
     #   xblock
-readme-renderer==44.0
+readme-renderer==45.0
     # via
     #   -r requirements/test.txt
     #   twine
@@ -352,6 +364,7 @@ stevedore==5.8.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
+    #   edx-opaque-keys
 text-unidecode==1.3
     # via
     #   -r requirements/test.txt
@@ -373,6 +386,10 @@ typer==0.26.7
     # via
     #   -r requirements/test.txt
     #   coveralls
+typing-extensions==4.15.0
+    # via
+    #   -r requirements/test.txt
+    #   edx-opaque-keys
 tzdata==2026.2
     # via
     #   -r requirements/test.txt
@@ -384,21 +401,20 @@ urllib3==2.7.0
     #   id
     #   requests
     #   twine
-virtualenv==21.4.2
+virtualenv==21.5.0
     # via
     #   -r requirements/tox.txt
     #   tox
 web-fragments==4.0.0
     # via
     #   -r requirements/test.txt
-    #   xblock
     #   xblock-sdk
 webob==1.8.10
     # via
     #   -r requirements/test.txt
     #   xblock
     #   xblock-sdk
-xblock==6.1.0
+xblock==6.3.0
     # via
     #   -r requirements/test.txt
     #   xblock-sdk

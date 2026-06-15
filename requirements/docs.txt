@@ -28,10 +28,18 @@ charset-normalizer==3.4.7
     # via requests
 django==5.2.15
     # via -r requirements/base.txt
+dnspython==2.8.0
+    # via
+    #   -r requirements/base.txt
+    #   pymongo
 docutils==0.22.4
     # via
     #   pydata-sphinx-theme
     #   sphinx
+edx-opaque-keys==4.0.0
+    # via
+    #   -r requirements/base.txt
+    #   xblock
 fs==2.4.16
     # via
     #   -r requirements/base.txt
@@ -65,6 +73,10 @@ pygments==2.20.0
     #   accessible-pygments
     #   pydata-sphinx-theme
     #   sphinx
+pymongo==4.17.0
+    # via
+    #   -r requirements/base.txt
+    #   edx-opaque-keys
 python-dateutil==2.9.0.post0
     # via
     #   -r requirements/base.txt
@@ -117,21 +129,23 @@ sqlparse==0.5.5
     # via
     #   -r requirements/base.txt
     #   django
+stevedore==5.8.0
+    # via
+    #   -r requirements/base.txt
+    #   edx-opaque-keys
 typing-extensions==4.15.0
     # via
+    #   -r requirements/base.txt
     #   beautifulsoup4
+    #   edx-opaque-keys
     #   pydata-sphinx-theme
 urllib3==2.7.0
     # via requests
-web-fragments==4.0.0
-    # via
-    #   -r requirements/base.txt
-    #   xblock
 webob==1.8.10
     # via
     #   -r requirements/base.txt
     #   xblock
-xblock==6.1.0
+xblock==6.3.0
     # via -r requirements/base.txt
 
 # The following packages are considered to be unsafe in a requirements file:
