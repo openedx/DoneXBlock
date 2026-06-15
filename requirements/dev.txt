@@ -16,8 +16,16 @@ django==5.2.15
     # via
     #   -r requirements/base.txt
     #   edx-i18n-tools
+dnspython==2.8.0
+    # via
+    #   -r requirements/base.txt
+    #   pymongo
 edx-i18n-tools==2.0.0
     # via -r requirements/dev.in
+edx-opaque-keys==4.0.0
+    # via
+    #   -r requirements/base.txt
+    #   xblock
 fs==2.4.16
     # via
     #   -r requirements/base.txt
@@ -43,6 +51,10 @@ path==16.16.0
     # via edx-i18n-tools
 polib==1.2.0
     # via edx-i18n-tools
+pymongo==4.17.0
+    # via
+    #   -r requirements/base.txt
+    #   edx-opaque-keys
 python-dateutil==2.9.0.post0
     # via
     #   -r requirements/base.txt
@@ -69,15 +81,19 @@ sqlparse==0.5.5
     # via
     #   -r requirements/base.txt
     #   django
-web-fragments==4.0.0
+stevedore==5.8.0
     # via
     #   -r requirements/base.txt
-    #   xblock
+    #   edx-opaque-keys
+typing-extensions==4.15.0
+    # via
+    #   -r requirements/base.txt
+    #   edx-opaque-keys
 webob==1.8.10
     # via
     #   -r requirements/base.txt
     #   xblock
-xblock==6.1.0
+xblock==6.3.0
     # via -r requirements/base.txt
 
 # The following packages are considered to be unsafe in a requirements file:
