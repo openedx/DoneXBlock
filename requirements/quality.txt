@@ -20,9 +20,9 @@ astroid==4.0.4
     #   pylint-celery
 binaryornot==0.6.0
     # via cookiecutter
-boto3==1.43.34
+boto3==1.43.36
     # via fs-s3fs
-botocore==1.43.34
+botocore==1.43.36
     # via
     #   boto3
     #   s3transfer
@@ -30,7 +30,7 @@ certifi==2026.6.17
     # via requests
 charset-normalizer==3.4.7
     # via requests
-click==8.4.1
+click==8.4.2
     # via
     #   click-log
     #   code-annotations

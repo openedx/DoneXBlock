@@ -22,9 +22,9 @@ astroid==4.0.4
     #   pylint-celery
 binaryornot==0.6.0
     # via cookiecutter
-boto3==1.43.34
+boto3==1.43.36
     # via fs-s3fs
-botocore==1.43.34
+botocore==1.43.36
     # via
     #   boto3
     #   s3transfer
@@ -34,7 +34,7 @@ cffi==2.0.0
     # via cryptography
 charset-normalizer==3.4.7
     # via requests
-click==8.4.1
+click==8.4.2
     # via
     #   click-log
     #   code-annotations
@@ -46,7 +46,7 @@ code-annotations==3.0.0
     # via edx-lint
 cookiecutter==2.7.1
     # via xblock-sdk
-coverage[toml]==7.14.2
+coverage[toml]==7.14.3
     # via coveralls
 coveralls==4.1.0
     # via -r requirements/test.in
@@ -244,7 +244,7 @@ tomlkit==0.15.0
     #   pylint
 twine==6.2.0
     # via -r requirements/test.in
-typer==0.26.7
+typer==0.26.8
     # via coveralls
 typing-extensions==4.15.0
     # via
