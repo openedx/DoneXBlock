@@ -20,9 +20,9 @@ astroid==4.0.4
     #   pylint-celery
 binaryornot==0.6.0
     # via cookiecutter
-boto3==1.43.36
+boto3==1.43.40
     # via fs-s3fs
-botocore==1.43.36
+botocore==1.43.40
     # via
     #   boto3
     #   s3transfer
@@ -172,7 +172,7 @@ sqlparse==0.5.5
     # via
     #   -r requirements/base.txt
     #   django
-stevedore==5.8.0
+stevedore==5.9.0
     # via
     #   -r requirements/base.txt
     #   code-annotations
@@ -183,7 +183,7 @@ tomlkit==0.15.0
     # via
     #   edx-lint
     #   pylint
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via
     #   -r requirements/base.txt
     #   edx-opaque-keys
