@@ -42,9 +42,9 @@ six==1.17.0
     #   python-dateutil
 sqlparse==0.5.5
     # via django
-stevedore==5.8.0
+stevedore==5.9.0
     # via edx-opaque-keys
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via edx-opaque-keys
 webob==1.8.10
     # via xblock
