@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=64", "setuptools-scm>=8.0"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "done-xblock"
@@ -14,7 +14,6 @@ classifiers = [
     "Framework :: Django :: 4.2",
     "Framework :: Django :: 5.2",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.12",
@@ -95,3 +94,57 @@ exclude_lines = [
 
 [tool.coverage.html]
 directory = "htmlcov"
+
+[tool.uv]
+package = true
+conflicts = [
+    [{group = "test"}, {group = "django42"}],
+]
+
+# [tool.uv.constraint-dependencies] is machine-managed — do not edit directly.
+# Run `make upgrade` to regenerate it via edx_lint write_uv_constraints.
+
+[tool.edx_lint]
+uv_constraints = []
+
+[dependency-groups]
+test-base = [
+    "coverage",
+    "coveralls",
+    "ddt",
+    "pytest",
+    "twine",
+    "xblock-sdk",
+]
+# Current default: Django 5.2. To add a new Django version, add a group below
+# (e.g. django60) and add a matching tox env + uv conflict entry.
+test = [
+    {include-group = "test-base"},
+    "Django>=5.2,<6.0",
+]
+django42 = [
+    {include-group = "test-base"},
+    "Django>=4.2,<5.0",
+]
+quality = [
+    {include-group = "test"},
+    "edx-lint",
+    "pylint",
+    "pycodestyle",
+    "ruff",
+]
+doc = [
+    {include-group = "test"},
+    "Sphinx",
+    "sphinx-book-theme",
+]
+ci = [
+    "tox",
+    "tox-uv>=1",
+]
+dev = [
+    {include-group = "quality"},
+    {include-group = "ci"},
+    {include-group = "doc"},
+    "edx-i18n-tools",
+]
