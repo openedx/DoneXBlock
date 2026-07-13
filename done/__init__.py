@@ -2,6 +2,11 @@
 Runtime will load the XBlock class from here.
 """
 
+from importlib.metadata import PackageNotFoundError, version
+
 from .done import DoneXBlock
 
-__version__ = '3.0.0'
+try:
+    __version__ = version("done-xblock")
+except PackageNotFoundError:
+    pass
