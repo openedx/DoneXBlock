@@ -95,6 +95,9 @@ exclude_lines = [
 [tool.coverage.html]
 directory = "htmlcov"
 
+[tool.semantic_release]
+build_command = "pip install build && SETUPTOOLS_SCM_PRETEND_VERSION=$NEW_VERSION python -m build"
+
 [tool.uv]
 package = true
 conflicts = [
