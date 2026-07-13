@@ -131,6 +131,7 @@ django42 = [
 ]
 quality = [
     {include-group = "test"},
+    "build",
     "edx-lint",
     "pylint",
     "pycodestyle",

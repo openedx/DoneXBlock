@@ -19,6 +19,7 @@ test:  ## Run the tests
 	mkdir -p var
 	rm -rf .coverage
 	python -m coverage run -m pytest
+	python -m coverage xml
 
 covreport:  ## Show the coverage results
 	python -m coverage report -m --skip-covered
