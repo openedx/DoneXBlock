@@ -24,9 +24,9 @@ beautifulsoup4==4.15.0
     # via pydata-sphinx-theme
 certifi==2026.6.17
     # via requests
-charset-normalizer==3.4.7
+charset-normalizer==3.4.9
     # via requests
-django==5.2.15
+django==5.2.16
     # via -r requirements/base.txt
 dnspython==2.8.0
     # via
@@ -145,7 +145,7 @@ webob==1.8.10
     # via
     #   -r requirements/base.txt
     #   xblock
-xblock==6.3.0
+xblock==6.3.1
     # via -r requirements/base.txt
 
 # The following packages are considered to be unsafe in a requirements file:
