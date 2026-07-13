@@ -25,6 +25,12 @@ dependencies = [
     "django>=4.2",
 ]
 
+[project.optional-dependencies]
+docs = [
+    "Sphinx",
+    "sphinx-book-theme",
+]
+
 [project.urls]
 Homepage = "https://github.com/openedx/DoneXBlock"
 
@@ -34,6 +40,7 @@ done = "done:DoneXBlock"
 [tool.setuptools_scm]
 version_scheme = "only-version"
 local_scheme = "no-local-version"
+fallback_version = "0.0.0.dev0"
 
 [tool.setuptools.packages.find]
 where = ["."]

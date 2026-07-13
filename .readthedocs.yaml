@@ -21,7 +21,10 @@ build:
   tools:
     python: "3.12"
 
-# Optionally set the version of Python and requirements required to build your docs
+# Install the package with docs extras so importlib.metadata and autodoc work
 python:
   install:
-  - requirements: requirements/docs.txt
+  - method: pip
+    path: .
+    extra_requirements:
+      - docs
