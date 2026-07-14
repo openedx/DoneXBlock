@@ -13,7 +13,7 @@
 import os
 import sys
 from datetime import datetime
-from importlib.metadata import PackageNotFoundError, version as get_version
+from importlib.metadata import version as get_version
 
 sys.path.insert(0, os.path.abspath('../..'))
 
@@ -22,10 +22,7 @@ sys.path.insert(0, os.path.abspath('../..'))
 project = 'DoneXBlock'
 current_year = datetime.utcnow().year
 copyright = f'{current_year}, Axim Collaborative'
-try:
-    version = get_version("done-xblock")
-except PackageNotFoundError:
-    version = "unknown"
+version = get_version("done-xblock")
 
 
 # -- General configuration ---------------------------------------------------
