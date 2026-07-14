@@ -6,4 +6,4 @@ from importlib.metadata import version
 
 from .done import DoneXBlock
 
-__version__ = version(__package__)
+__version__ = version("done-xblock")
