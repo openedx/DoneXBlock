@@ -13,17 +13,16 @@
 import os
 import sys
 from datetime import datetime
+from importlib.metadata import version as get_version
 
 sys.path.insert(0, os.path.abspath('../..'))
-
-import done
 
 # -- Project information -----------------------------------------------------
 
 project = 'DoneXBlock'
 current_year = datetime.utcnow().year
 copyright = f'{current_year}, Axim Collaborative'
-version = done.__version__
+version = get_version("done-xblock")
 
 
 # -- General configuration ---------------------------------------------------

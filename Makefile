@@ -10,51 +10,27 @@ help: ## display this help message
 	@echo "Please use \`make <target>' where <target> is one of"
 	@awk -F ':.*?## ' '/^[a-zA-Z]/ && NF==2 {printf "\033[36m  %-25s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST) | sort
 
-install-test:
-	pip install -q -r requirements/test.txt
-
-install-dev:
-	pip install -q -r requirements/dev.txt
-
-install: install-test
-
 quality:  ## Run the quality checks
 	pylint --rcfile=pylintrc done
-	python setup.py -q sdist
+	python -m build --sdist
 	twine check dist/*
 
 test:  ## Run the tests
 	mkdir -p var
 	rm -rf .coverage
-	python -m coverage run --rcfile=.coveragerc  -m pytest
+	python -m coverage run -m pytest
+	python -m coverage xml
 
 covreport:  ## Show the coverage results
 	python -m coverage report -m --skip-covered
 
-upgrade: export CUSTOM_COMPILE_COMMAND=make upgrade
-upgrade: ## update the requirements/*.txt files with the latest packages satisfying requirements/*.in
-	pip install -q -r requirements/pip-tools.txt
-	pip install -q -r requirements/pip.txt
-	pip-compile --upgrade --allow-unsafe -o requirements/pip.txt requirements/pip.in
-	pip-compile --upgrade -o requirements/pip-tools.txt requirements/pip-tools.in
-	pip install -q -r requirements/pip.txt
-	pip install -q -r requirements/pip-tools.txt
-	pip-compile --upgrade -o requirements/base.txt requirements/base.in
-	pip-compile --upgrade -o requirements/dev.txt requirements/dev.in
-	pip-compile --upgrade -o requirements/test.txt requirements/test.in
-	pip-compile --upgrade -o requirements/quality.txt requirements/quality.in
-	pip-compile --upgrade -o requirements/tox.txt requirements/tox.in
-	pip-compile --upgrade -o requirements/ci.txt requirements/ci.in
-	pip-compile --upgrade -o requirements/docs.txt requirements/docs.in
-	# lets tox controls the django versions.
-	sed -i.tmp '/^[d|D]jango==/d' requirements/test.txt
-	rm requirements/test.txt.tmp
+upgrade: ## update uv.lock and regenerate uv constraint-dependencies
+	uv lock --upgrade
+	uv run --with edx-lint edx_lint write_uv_constraints pyproject.toml
 
 .PHONY: requirements
 requirements: ## install development environment requirements
-	pip install -r requirements/pip.txt
-	pip install -qr requirements/pip-tools.txt
-	pip install -r requirements/dev.txt
+	uv sync --group dev
 
 dev.clean:
 	-docker rm $(DOCKER_NAME)-dev
@@ -68,7 +44,7 @@ dev.run: dev.clean dev.build ## Clean, build and run test image
 
 ## Localization targets
 
-WORKING_DIR := done
+WORKING_DIR := src/done
 EXTRACT_DIR := $(WORKING_DIR)/conf/locale/en/LC_MESSAGES
 EXTRACTED_DJANGO := $(EXTRACT_DIR)/django-partial.po
 EXTRACTED_TEXT := $(EXTRACT_DIR)/django.po
