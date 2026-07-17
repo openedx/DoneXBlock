@@ -44,7 +44,7 @@ dev.run: dev.clean dev.build ## Clean, build and run test image
 
 ## Localization targets
 
-WORKING_DIR := done
+WORKING_DIR := src/done
 EXTRACT_DIR := $(WORKING_DIR)/conf/locale/en/LC_MESSAGES
 EXTRACTED_DJANGO := $(EXTRACT_DIR)/django-partial.po
 EXTRACTED_TEXT := $(EXTRACT_DIR)/django.po
