@@ -20,13 +20,13 @@ astroid==4.0.4
     #   pylint-celery
 binaryornot==0.6.0
     # via cookiecutter
-boto3==1.43.51
+boto3==1.43.56
     # via fs-s3fs
-botocore==1.43.51
+botocore==1.43.56
     # via
     #   boto3
     #   s3transfer
-certifi==2026.6.17
+certifi==2026.7.22
     # via requests
 charset-normalizer==3.4.9
     # via requests
@@ -101,7 +101,7 @@ mccabe==0.7.0
     # via pylint
 mdurl==0.1.2
     # via markdown-it-py
-platformdirs==4.10.1
+platformdirs==4.11.0
     # via pylint
 pycodestyle==2.14.0
     # via -r requirements/quality.in
@@ -138,7 +138,7 @@ python-slugify==8.0.4
     # via
     #   code-annotations
     #   cookiecutter
-pytz==2026.2
+pytz==2026.3.post1
     # via
     #   -r requirements/base.txt
     #   xblock
@@ -154,7 +154,7 @@ requests==2.34.2
     #   xblock-sdk
 rich==15.0.0
     # via cookiecutter
-s3transfer==0.19.1
+s3transfer==0.19.2
     # via boto3
 simplejson==4.1.1
     # via
