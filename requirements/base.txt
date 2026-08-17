@@ -40,7 +40,7 @@ six==1.17.0
     # via
     #   fs
     #   python-dateutil
-sqlparse==0.5.5
+sqlparse==0.6.0
     # via django
 stevedore==5.9.0
     # via edx-opaque-keys
