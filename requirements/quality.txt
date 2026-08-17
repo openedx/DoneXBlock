@@ -20,15 +20,15 @@ astroid==4.0.4
     #   pylint-celery
 binaryornot==0.6.0
     # via cookiecutter
-boto3==1.43.69
+boto3==1.43.72
     # via fs-s3fs
-botocore==1.43.69
+botocore==1.43.72
     # via
     #   boto3
     #   s3transfer
 certifi==2026.7.22
     # via requests
-charset-normalizer==3.4.9
+charset-normalizer==3.5.1
     # via requests
 click==8.4.2
     # via
@@ -101,7 +101,7 @@ mccabe==0.7.0
     # via pylint
 mdurl==0.1.2
     # via markdown-it-py
-platformdirs==4.11.2
+platformdirs==4.11.3
     # via pylint
 pycodestyle==2.14.0
     # via -r requirements/quality.in
@@ -168,7 +168,7 @@ six==1.17.0
     #   fs
     #   fs-s3fs
     #   python-dateutil
-sqlparse==0.5.5
+sqlparse==0.6.0
     # via
     #   -r requirements/base.txt
     #   django
