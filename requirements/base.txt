@@ -34,7 +34,7 @@ pytz==2026.3.post1
     # via xblock
 pyyaml==6.0.3
     # via xblock
-simplejson==4.1.1
+simplejson==4.1.2
     # via xblock
 six==1.17.0
     # via

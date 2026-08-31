@@ -46,7 +46,7 @@ fs==2.4.16
     #   xblock
 idna==3.19
     # via requests
-imagesize==2.0.0
+imagesize==2.0.1
     # via sphinx
 jinja2==3.1.6
     # via
@@ -97,7 +97,7 @@ requests==2.34.2
     #   sphinx
 roman-numerals==4.1.0
     # via sphinx
-simplejson==4.1.1
+simplejson==4.1.2
     # via
     #   -r requirements/base.txt
     #   xblock
