@@ -1,4 +1,9 @@
-include requirements/base.in
 include NOTICE
-include LICENSE
-include requirements/constraints.txt
+
+prune .github
+prune docs
+prune htmlcov
+exclude coverage.xml
+exclude .coverage
+exclude uv.lock
+exclude tox.ini
