@@ -21,7 +21,10 @@ build:
   tools:
     python: "3.12"
 
-# Optionally set the version of Python and requirements required to build your docs
+# Install doc dependencies from uv.lock using the doc dependency group
 python:
   install:
-  - requirements: requirements/docs.txt
+  - method: uv
+    command: sync
+    groups:
+      - doc

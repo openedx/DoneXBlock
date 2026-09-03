@@ -1,0 +1,95 @@
+name: Semantic Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  run_tests:
+    uses: ./.github/workflows/ci.yml
+    secrets: inherit
+    permissions:
+      contents: read
+
+  release:
+    needs: run_tests
+    if: github.ref_name == 'master'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-release
+      cancel-in-progress: false
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Reset to triggered commit
+        run: git reset --hard ${{ github.sha }}
+
+      - name: Python Semantic Release
+        id: release
+        uses: python-semantic-release/python-semantic-release@9a026e9303981c866c3425723009becb2437c757 # v10.6.2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          git_committer_name: "github-actions[bot]"
+          git_committer_email: "github-actions[bot]@users.noreply.github.com"
+          changelog: "false"
+          # Commit, tag, push and build, but don't create the GitHub release.
+          # We create it ourselves below so that the distributions are attached
+          # before the release is published (immutable releases require this ordering).
+          vcs_release: "false"
+
+      # This repo has immutable releases enabled, which freezes a release's assets
+      # the moment it is published, so assets cannot be attached afterwards.
+      # Everything we want on the release must be built first and passed to this
+      # one command, which creates the release as a draft, uploads the assets,
+      # and only then publishes it.
+      - name: Create GitHub Release with Assets
+        if: steps.release.outputs.released == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_NOTES: ${{ steps.release.outputs.release_notes }}
+          TAG: ${{ steps.release.outputs.tag }}
+        run: |
+          printf '%s' "$RELEASE_NOTES" > "$RUNNER_TEMP/release_notes.md"
+          gh release create "$TAG" \
+            --verify-tag --title "$TAG" \
+            --notes-file "$RUNNER_TEMP/release_notes.md" \
+            dist/*
+
+      - name: Upload dist artifacts
+        if: steps.release.outputs.released == 'true'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: dist
+          path: dist/
+          if-no-files-found: error
+
+    outputs:
+      released: ${{ steps.release.outputs.released }}
+      version: ${{ steps.release.outputs.version }}
+
+  publish_to_pypi:
+    needs: release
+    if: needs.release.outputs.released == 'true'
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Download dist artifacts
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: dist
+          path: dist/
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@dc37677b2e1c63e2034f94d8a5b11f265b73ba33 # v1.14.2
