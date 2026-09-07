@@ -94,6 +94,15 @@ conflicts = [
 # [tool.uv.constraint-dependencies] is machine-managed — do not edit directly.
 # Run `make upgrade` to regenerate it via edx_lint write_uv_constraints.
 
+#  DO NOT EDIT constraint-dependencies DIRECTLY.
+#  This list is managed by `edx_lint write_uv_constraints`
+#  and will be overwritten the next time `make upgrade` is run.
+#  - GLOBAL constraints: edit edx_lint/files/common_constraints.txt
+#  - REPO-SPECIFIC constraints: edit [tool.edx_lint].uv_constraints in this file
+constraint-dependencies = [
+    "Django<6.0",
+    "elasticsearch<7.14.0",
+]
 [tool.edx_lint]
 uv_constraints = []
 
